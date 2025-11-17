@@ -83,6 +83,7 @@
 					id: "tinker_rapier:rapier_tic"
 					Count: 1b
 					tag: {
+						tic_persistent: { }
 						tic_stats: {
 							"tconstruct:attack_speed": 2.75f
 							"tconstruct:mining_speed": 9.75f
@@ -116,7 +117,7 @@
 							"tconstruct:wood"
 						]
 						Damage: 0
-						tic_persistent_data: {
+						tic_volatile_data: {
 							abilities: 1
 							upgrades: 2
 						}

@@ -1,7 +1,6 @@
 {
   "replace": true,
   "values": [
-    "ragnamod_seven:portal_activator",
-    "undergarden:catalyst"
+    "ragnamod_seven:portal_activator"
   ]
 }

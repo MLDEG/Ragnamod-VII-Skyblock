@@ -92,6 +92,20 @@ onEvent('recipes', e => {
         ]
     })
 
+    //Pebbles
+    function pebble(block, output, chance) { e.custom({ "type": "lychee:block_interacting", "contextual": [{ "type": "is_sneaking" }], "item_in": { "item": "air" }, "block_in": block, "post": [{ "type": "drop_item", "item": output, "contextual": { "type": "chance", "chance": chance } }] }) }
+    //Blackstone
+    pebble('minecraft:blackstone', 'ragnamod_seven:blackstone_pebble', 0.8)
+    pebble('minecraft:andesite', 'ragnamod_seven:andesite_pebble', 0.8)
+    pebble('minecraft:tuff', 'ragnamod_seven:tuff_pebble', 0.8)
+    pebble('minecraft:granite', 'ragnamod_seven:granite_pebble', 0.8)
+    pebble('minecraft:dripstone_block', 'ragnamod_seven:dripstone_pebble', 0.8)
+    pebble('minecraft:diorite', 'ragnamod_seven:diorite_pebble', 0.8)
+    pebble('minecraft:stone', 'ragnamod_seven:stone_pebble', 0.8)
+    pebble('minecraft:calcite', 'ragnamod_seven:calcite_pebble', 0.8)
+    pebble('minecraft:basalt', 'ragnamod_seven:basalt_pebble', 0.8)
+    pebble('minecraft:deepslate', 'ragnamod_seven:deepslate_pebble', 0.8)
 
+    e.custom({ "type": "lychee:block_interacting", "contextual": [{ "type": "is_sneaking" }], "item_in": { "item": "air" }, "block_in": '#minecraft:dirt', "post": [{ "type": "drop_item", "item": 'ragnamod_seven:stone_pebble', "contextual": { "type": "chance", "chance": 0.8 } }, { "type": "drop_item", "item": 'ragnamod_seven:andesite_pebble', "contextual": { "type": "chance", "chance": 0.8 } }, { "type": "drop_item", "item": 'ragnamod_seven:granite_pebble', "contextual": { "type": "chance", "chance": 0.8 } }, { "type": "drop_item", "item": 'ragnamod_seven:diorite_pebble', "contextual": { "type": "chance", "chance": 0.8 } }] })
 
 })
