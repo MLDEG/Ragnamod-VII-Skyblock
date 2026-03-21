@@ -2490,5 +2490,19 @@
     "spawn_type": "NONE",
     "parent_1": "",
     "parent_2": ""
+  },
+  "chickens:antimatter_chicken": {
+    "name": "antimatter_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "mekanism:pellet_antimatter"
+    },
+    "drop_item": {
+      "itemID": "mekanism:pellet_antimatter"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
   }
 }

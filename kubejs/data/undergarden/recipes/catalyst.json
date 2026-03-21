@@ -1,12 +1,123 @@
 {
-  "type": "naturesaura:offering",
-  "input": {
-    "item": "beyond_earth:raw_desh"
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:iron_block"
   },
-  "start_item": {
-    "item": "naturesaura:calling_spirit"
+  "transitionalItem": {
+    "item": "ragnamod_seven:incomplete_catalyst"
   },
-  "output": {
-    "item": "undergarden:catalyst"
-  }
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "ragnamod_seven:incomplete_catalyst"
+        }
+      ],
+      "results": [
+        {
+          "item": "ragnamod_seven:incomplete_catalyst"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ragnamod_seven:incomplete_catalyst"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "ragnamod_seven:incomplete_catalyst"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ragnamod_seven:incomplete_catalyst"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "ragnamod_seven:incomplete_catalyst"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ragnamod_seven:incomplete_catalyst"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "ragnamod_seven:incomplete_catalyst"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ragnamod_seven:incomplete_catalyst"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "ragnamod_seven:incomplete_catalyst"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ragnamod_seven:incomplete_catalyst"
+        },
+        {
+          "item": "malum:crushed_brilliance"
+        }
+      ],
+      "results": [
+        {
+          "item": "ragnamod_seven:incomplete_catalyst"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "undergarden:catalyst",
+      "chance": 90.0
+    },
+    {
+      "item": "minecraft:gold_nugget",
+      "chance": 1.0
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "chance": 1.0
+    },
+    {
+      "item": "compressium:diamond_1",
+      "chance": 0.1
+    }
+  ],
+  "loops": 1
 }

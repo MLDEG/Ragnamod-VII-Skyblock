@@ -122,6 +122,8 @@
 			description: [
 				"Get a Warden Data Model."
 				"Simply right-click the mob."
+				""
+				"You can find Wardens naturally in Lost City by searching for an Ancient City."
 			]
 			dependencies: [
 				"0C53882CCAF972DC"

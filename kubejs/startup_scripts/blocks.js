@@ -21,5 +21,8 @@ onEvent('block.registry', e => {
     e.create('ragnamod_seven:psi_stabilizer').displayName('PSI Stabilizer').material('stone').hardness(5.0).tagBlock('minecraft:mineable/pickaxe').notSolid().renderType('cutout').defaultTranslucent().redstoneConductor(false).waterlogged()
     e.create('ragnamod_seven:castle_block').displayName('Castle Block').material('stone').hardness(5.0).tagBlock('minecraft:mineable/pickaxe')
 
+    //Skyblock
+    e.create('ragnamod_seven:condensed_block').displayName('Condensed Block').material('metal').hardness(9.0).tagBlock('minecraft:mineable/pickaxe')
+    e.create('ragnamod_seven:antimatter_pellet_block').displayName('§dAntimatter Pellet Block').material('amethyst').hardness(9.0).tagBlock('minecraft:mineable/pickaxe')
 
 })

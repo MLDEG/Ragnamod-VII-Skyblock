@@ -3286,6 +3286,60 @@
 				random_bonus: 2
 			}]
 		}
+		{
+			x: 12.5d
+			y: -3.0d
+			shape: "square"
+			description: ["Using the Painting Machine, color an Antimatter Pellet blue."]
+			dependencies: ["6E8B8B1CA176AADC"]
+			id: "426C0992BA0BA3E5"
+			tasks: [{
+				id: "6B2DE161A9D29F5A"
+				type: "item"
+				item: "ragnamod_seven:blue_antimatter_pellet"
+			}]
+			rewards: [{
+				id: "41BF3D3DC6AB0D99"
+				type: "item"
+				item: "ragnamod_seven:blue_antimatter_pellet"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -3.0d
+			shape: "square"
+			description: ["Using the Painting Machine, color an Antimatter Pellet green."]
+			dependencies: ["6E8B8B1CA176AADC"]
+			id: "1CE8370495500B01"
+			tasks: [{
+				id: "0038D3C6E62F84B9"
+				type: "item"
+				item: "ragnamod_seven:green_antimatter_pellet"
+			}]
+			rewards: [{
+				id: "6E8A23846E036802"
+				type: "item"
+				item: "ragnamod_seven:green_antimatter_pellet"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -3.0d
+			shape: "square"
+			description: ["Using the Painting Machine, color an Antimatter Pellet red."]
+			dependencies: ["6E8B8B1CA176AADC"]
+			id: "2B10B5C3821AE79B"
+			tasks: [{
+				id: "38876E8B0E2B612A"
+				type: "item"
+				item: "ragnamod_seven:red_antimatter_pellet"
+			}]
+			rewards: [{
+				id: "1729CD427C80C5D7"
+				type: "item"
+				item: "ragnamod_seven:red_antimatter_pellet"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

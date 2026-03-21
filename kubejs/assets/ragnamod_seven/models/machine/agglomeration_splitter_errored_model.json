@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "ragnamod_seven:block/agglomeration_splitter_errored",
+    "side": "ragnamod_seven:block/agglomeration_splitter",
+    "top": "ragnamod_seven:block/agglomeration_splitter"
+  }
+}

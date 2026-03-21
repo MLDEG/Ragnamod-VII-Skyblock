@@ -2567,10 +2567,7 @@
 			y: -5.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_utheric.png width:150 height:100 align:1}"]
-			dependencies: [
-				"366106157FB5459C"
-				"4C886CE89FF0AF52"
-			]
+			dependencies: ["4C886CE89FF0AF52"]
 			id: "62852F371DB133CD"
 			tasks: [{
 				id: "67554B9CE509B17B"
@@ -2813,10 +2810,7 @@
 			y: -4.0d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_steel.png width:150 height:100 align:1}"]
-			dependencies: [
-				"3C884020904C1B6C"
-				"4C886CE89FF0AF52"
-			]
+			dependencies: ["4C886CE89FF0AF52"]
 			id: "5FE99DF499F401FC"
 			tasks: [{
 				id: "77C3281B2B0FFF23"
@@ -4452,10 +4446,7 @@
 			y: 5.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_ironwood.png width:150 height:100 align:1}"]
-			dependencies: [
-				"29582A190DD0E266"
-				"4C886CE89FF0AF52"
-			]
+			dependencies: ["4C886CE89FF0AF52"]
 			id: "5BF11814F0FE74C9"
 			tasks: [{
 				id: "2404608FEF197B7A"
@@ -5914,6 +5905,34 @@
 				id: "1A2C1096660DD9F0"
 				type: "item"
 				item: "tinkers_reforged:blazing_copper_block"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 0.0d
+			y: -12.0d
+			shape: "hexagon"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_antimatter_pellet.png width:150 height:100 align:1}"]
+			dependencies: ["0000000000000946"]
+			size: 2.0d
+			id: "369C17BDDA5E0716"
+			tasks: [{
+				id: "0F65C8AF394A3B17"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:antimatter_chicken"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2FC1E6EFBE0C5FA5"
+				type: "item"
+				item: "ragnamod_seven:antimatter_pellet_block"
 				random_bonus: 7
 			}]
 		}

@@ -89,4 +89,9 @@ onEvent('item.tooltip', tooltip => {
 	tooltip.addAdvanced('bloodmagic:dawnscribetool', (item, advanced, text) => {
 		text.add(1, Text.of('§7The writing is on the wall...'))
 	})
+	//Diamond Crook
+	tooltip.addAdvanced('exnihilosequentia:diamond_crook', (item, advanced, text) => {
+		text.add(1, Text.of('§5§oOne of a kind'))
+		text.add(2, Text.of('§4Don\'t break me :('))
+	})
 })

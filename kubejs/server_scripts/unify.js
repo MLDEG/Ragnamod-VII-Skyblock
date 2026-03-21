@@ -72,7 +72,7 @@ onEvent('recipes', function (e) {
     ['#forge:ingots/electrum', 'immersiveengineering:ingot_electrum', 'createaddition:electrum_ingot'].forEach(I => { replaceIO(I, 'thermal:electrum_ingot') });
     ['#forge:ingots/cobalt', 'chemlib:cobalt_ingot'].forEach(I => { replaceIO(I, 'tconstruct:cobalt_ingot') });
     /**********************Nuggets*************************/
-    ['#forge:nuggets/copper', 'tconstruct:copper_nugget', 'thermal:copper_nugget', 'immersiveengineering:nugget_copper', 'ftbic:copper_nugget'].forEach(I => { replaceIO(I, 'create:copper_nugget') });
+    ['#forge:nuggets/copper', 'tconstruct:copper_nugget', 'thermal:copper_nugget', 'immersiveengineering:nugget_copper', 'ftbic:copper_nugget', 'malum:copper_nugget'].forEach(I => { replaceIO(I, 'create:copper_nugget') });
     ['#forge:nuggets/lead', 'chemlib:lead_nugget', 'ftbic:lead_nugget', 'mekanism:nugget_lead', 'immersiveengineering:nugget_lead'].forEach(I => { replaceIO(I, 'thermal:lead_nugget') });
     ['#forge:nuggets/lead', 'chemlib:lead_nugget', 'ftbic:lead_nugget', 'mekanism:nugget_lead', 'immersiveengineering:nugget_lead'].forEach(I => { replaceIO(I, 'thermal:lead_nugget') });
     ['#forge:nuggets/aluminum', 'ftbic:aluminum_nugget', 'chemlib:aluminum_nugget', 'immersiveengineering:nugget_aluminum'].forEach(I => { replaceIO(I, 'tinkers_reforged:aluminum_nugget') });

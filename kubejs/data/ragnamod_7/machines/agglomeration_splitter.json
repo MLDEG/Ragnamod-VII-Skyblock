@@ -1,0 +1,200 @@
+{
+  "name": "Agglomeration Splitter",
+  "appearance": {
+    "block": "ragnamod_seven:machine/agglomeration_splitter_idle_model",
+    "item": "ragnamod_seven:machine/agglomeration_splitter_idle_model",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:netherite_block",
+    "light": 15,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "running": {
+      "block": "ragnamod_seven:machine/agglomeration_splitter_running_model",
+      "light": 10
+    },
+    "errored": {
+      "block": "ragnamod_seven:machine/agglomeration_splitter_errored_model"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 1000000,
+      "maxInput": 1000000,
+      "maxOutput": 1000000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "agglomeration_splitter_input",
+      "mode": "input",
+      "filter": [
+        "ragnamod_seven:agglomerate_matter_minecraft1",
+        "ragnamod_seven:agglomerate_matter_minecraft2",
+        "ragnamod_seven:agglomerate_matter_minecraft3",
+        "ragnamod_seven:agglomerate_matter_twilight",
+        "ragnamod_seven:agglomerate_matter_blood_magic",
+        "ragnamod_seven:agglomerate_matter_create",
+        "ragnamod_seven:agglomerate_matter_mekanism",
+        "ragnamod_seven:agglomerate_matter_powah",
+        "ragnamod_seven:agglomerate_matter_botania",
+        "ragnamod_seven:agglomerate_matter_blue_skies",
+        "ragnamod_seven:agglomerate_matter_space",
+        "ragnamod_seven:agglomerate_matter_blocky",
+        "ragnamod_seven:agglomerate_matter_mobs",
+        "ragnamod_seven:agglomerate_matter_psi",
+        "ragnamod_seven:agglomerate_matter_thermal",
+        "ragnamod_seven:agglomerate_matter_evil_craft",
+        "ragnamod_seven:agglomerate_matter_ae2",
+        "ragnamod_seven:agglomerate_matter_forbidden_arcanus",
+        "ragnamod_seven:agglomerate_matter_undergarden",
+        "ragnamod_seven:agglomerate_matter_ftbic",
+        "ragnamod_seven:agglomerate_matter_tconstruct",
+        "ragnamod_seven:agglomerate_matter_ars",
+        "ragnamod_seven:agglomerate_matter_pneumaticcraft",
+        "ragnamod_seven:agglomerate_matter_tech"
+      ],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:gas",
+      "capacity": 10000,
+      "id": "superheated_sodium",
+      "maxInput": 1000,
+      "maxOutput": 1000,
+      "filter": "mekanism:superheated_sodium",
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "agglomeration_splitter_output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "ragnamod_seven:textures/gui/agglomeration_splitter_gui.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 222,
+      "y": 12
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 47,
+      "y": 80
+    },
+    {
+      "id": "agglomeration_splitter_input",
+      "x": 65,
+      "y": 30,
+      "type": "custommachinery:slot",
+      "ghost": [
+        "ragnamod_seven:agglomerate_matter_minecraft1",
+        "ragnamod_seven:agglomerate_matter_minecraft2",
+        "ragnamod_seven:agglomerate_matter_minecraft3",
+        "ragnamod_seven:agglomerate_matter_twilight",
+        "ragnamod_seven:agglomerate_matter_blood_magic",
+        "ragnamod_seven:agglomerate_matter_create",
+        "ragnamod_seven:agglomerate_matter_mekanism",
+        "ragnamod_seven:agglomerate_matter_powah",
+        "ragnamod_seven:agglomerate_matter_botania",
+        "ragnamod_seven:agglomerate_matter_blue_skies",
+        "ragnamod_seven:agglomerate_matter_space",
+        "ragnamod_seven:agglomerate_matter_blocky",
+        "ragnamod_seven:agglomerate_matter_mobs",
+        "ragnamod_seven:agglomerate_matter_psi",
+        "ragnamod_seven:agglomerate_matter_thermal",
+        "ragnamod_seven:agglomerate_matter_evil_craft",
+        "ragnamod_seven:agglomerate_matter_ae2",
+        "ragnamod_seven:agglomerate_matter_forbidden_arcanus",
+        "ragnamod_seven:agglomerate_matter_undergarden",
+        "ragnamod_seven:agglomerate_matter_ftbic",
+        "ragnamod_seven:agglomerate_matter_tconstruct",
+        "ragnamod_seven:agglomerate_matter_ars",
+        "ragnamod_seven:agglomerate_matter_pneumaticcraft",
+        "ragnamod_seven:agglomerate_matter_tech"
+      ]
+    },
+    {
+      "type": "custommachinery:progress",
+      "emptytexture": "ragnamod_seven:textures/gui/agglomeration_splitter_progress_empty.png",
+      "filledtexture": "ragnamod_seven:textures/gui/agglomeration_splitter_progress_full.png",
+      "x": 89,
+      "y": 33,
+      "direction": "right"
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "agglomeration_splitter_output",
+      "x": 173,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:gas",
+      "texture": "ragnamod_seven:textures/gui/agglo_split_fluid_storage.png",
+      "id": "superheated_sodium",
+      "x": 222,
+      "y": 80
+    },
+    {
+      "type": "custommachinery:energy",
+      "emptytexture": "ragnamod_seven:textures/gui/base_energy_storage_empty_ftp.png",
+      "filledtexture": "ragnamod_seven:textures/gui/base_energy_storage_filled_ftp.png",
+      "x": 16,
+      "y": 80
+    }
+  ],
+  "jei": [
+    {
+      "id": "agglomeration_splitter_input",
+      "x": 4,
+      "y": 4,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "superheated_sodium",
+      "x": 22,
+      "y": 4,
+      "texture": "ragnamod_seven:textures/gui/base_fluid_storage_jei.png",
+      "type": "custommachinery:gas"
+    },
+    {
+      "x": 40,
+      "y": 4,
+      "type": "custommachinery:energy",
+      "emptytexture": "ragnamod_seven:textures/gui/base_energy_jei.png",
+      "filledtexture": "ragnamod_seven:textures/gui/base_energy_jei.png"
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 58,
+      "y": 5,
+      "direction": "right"
+    },
+    {
+      "id": "agglomeration_splitter_output",
+      "x": 84,
+      "y": 4,
+      "type": "custommachinery:slot"
+    }
+  ],
+  "catalysts": []
+}

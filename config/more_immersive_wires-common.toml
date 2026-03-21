@@ -6,16 +6,3 @@
 #This may appear confusing to many of you, but it is a new sensible way to handle configuration, because the server configuration is synced when playing multiplayer.
 importantInfo = true
 
-["FTBIC TOP"]
-	#How to display FTBIC Zaps: 0 = do not show, 1 = show in a bar, 2 = show as text
-	#Range: 0 ~ 2
-	showZaps = 1
-	#Format for displaying Zaps
-	zapFormat = "COMPACT"
-	#Color for the Zap bar
-	zapbarFilledColor = "ffdd0000"
-	#Alternate color for the Zap bar
-	zapbarAlternateFilledColor = "ff430000"
-	#Color for the Zap bar border
-	zapbarBorderColor = "ff555555"
-

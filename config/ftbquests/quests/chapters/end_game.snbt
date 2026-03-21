@@ -1729,7 +1729,7 @@
 			x: -0.5d
 			y: -4.0d
 			shape: "diamond"
-			description: ["Use the Hephaestus Forge to craft this gem, it will require a nugget of the infinity Ingot tho."]
+			description: ["Use the Hephaestus Forge to craft this gem, it will require an Infinity Nugget tho."]
 			dependencies: ["1ACEEE78E66C87E1"]
 			id: "0D3E9B1E44049147"
 			tasks: [{
@@ -1747,7 +1747,7 @@
 			x: 0.0d
 			y: -3.5d
 			shape: "diamond"
-			description: ["Use the Hephaestus Forge to craft this gem, it will require a nugget of the infinity Ingot tho."]
+			description: ["Use the Hephaestus Forge to craft this gem, it will require an Infinity Nugget tho."]
 			dependencies: ["1ACEEE78E66C87E1"]
 			id: "3351005693BBE8EA"
 			tasks: [{
@@ -1765,7 +1765,7 @@
 			x: -0.5d
 			y: -3.0d
 			shape: "diamond"
-			description: ["Use the Hephaestus Forge to craft this gem, it will require a nugget of the infinity Ingot tho."]
+			description: ["Use the Hephaestus Forge to craft this gem, it will require an Infinity Nugget tho."]
 			dependencies: ["1ACEEE78E66C87E1"]
 			id: "799E84A83056DFFD"
 			tasks: [{
@@ -1783,7 +1783,7 @@
 			x: -1.0d
 			y: -2.5d
 			shape: "diamond"
-			description: ["Use the Hephaestus Forge to craft this gem, it will require a nugget of the infinity Ingot tho."]
+			description: ["Use the Hephaestus Forge to craft this gem, it will require an Infinity Nugget tho."]
 			dependencies: ["1ACEEE78E66C87E1"]
 			id: "3FC3221BB17D7FD0"
 			tasks: [{
@@ -1801,7 +1801,7 @@
 			x: -1.5d
 			y: -3.0d
 			shape: "diamond"
-			description: ["Use the Hephaestus Forge to craft this gem, it will require a nugget of the infinity Ingot tho."]
+			description: ["Use the Hephaestus Forge to craft this gem, it will require an Infinity Nugget tho."]
 			dependencies: ["1ACEEE78E66C87E1"]
 			id: "4A5D8EBD2CA0A09B"
 			tasks: [{
@@ -1819,7 +1819,7 @@
 			x: -2.0d
 			y: -3.5d
 			shape: "diamond"
-			description: ["Use the Hephaestus Forge to craft this gem, it will require a nugget of the infinity Ingot tho."]
+			description: ["Use the Hephaestus Forge to craft this gem, it will require an Infinity Nugget tho."]
 			dependencies: ["1ACEEE78E66C87E1"]
 			id: "07A845EA0BAF969C"
 			tasks: [{
@@ -1837,7 +1837,7 @@
 			x: -1.5d
 			y: -4.0d
 			shape: "diamond"
-			description: ["Use the Hephaestus Forge to craft this gem, it will require a nugget of the infinity Ingot tho."]
+			description: ["Use the Hephaestus Forge to craft this gem, it will require an Infinity Nugget tho."]
 			dependencies: ["1ACEEE78E66C87E1"]
 			id: "119286C25530DA48"
 			tasks: [{
@@ -1849,6 +1849,214 @@
 				id: "0689790F0950AF90"
 				type: "item"
 				item: "ragnamod_seven:white_gem"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			shape: "gear"
+			description: [
+				"The FTP logo is required in the crafting recipes for replenishing tiny agglomerates."
+				""
+				"If you manage to automate this logo, you will greatly facilitate the automation of Infinity Catalysts, which require all the agglomerates to be built!"
+			]
+			dependencies: [
+				"45CF0E1D29CC8F9A"
+				"5D49C0C2D46876CA"
+				"45E4E00F3327AD03"
+			]
+			size: 3.0d
+			id: "1C3DF330AE431A9A"
+			tasks: [{
+				id: "0249F291C92F52A4"
+				type: "item"
+				item: "ragnamod_seven:ftp"
+			}]
+			rewards: [{
+				id: "69F02B070BF6011F"
+				type: "item"
+				item: "ragnamod_seven:ftp"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			shape: "gear"
+			description: [
+				"To create the letter F in FTP, you'll need to build a gigantic multiblock that will require over 8,000 blocks."
+				"{image:ftbquests:textures/quests/f_multiblock.png width:150 height:100 align:1}"
+				"Don't worry, you can find this multiblock in the Create schematics, categorized by color."
+				""
+				"Note, however, that this multiblock must function in orbit above Glacio, and you can stack other multiblocks on top of each other for the other letters, thanks to the elevators required within the multiblock."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4A5D8EBD2CA0A09B"]
+			size: 2.0d
+			id: "45CF0E1D29CC8F9A"
+			tasks: [{
+				id: "1A07D3131D93EB96"
+				type: "item"
+				item: "ragnamod_seven:f"
+			}]
+			rewards: [{
+				id: "31A24784E58569E3"
+				type: "item"
+				item: "ragnamod_seven:f"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			shape: "gear"
+			description: [
+				"To create the letter T in FTP, you'll need to build a gigantic multiblock that will require over 8,000 blocks."
+				"{image:ftbquests:textures/quests/t_multiblock.png width:150 height:100 align:1}"
+				"Don't worry, you can find this multiblock in the Create schematics, categorized by color."
+				""
+				"Note, however, that this multiblock must function in orbit above Glacio, and you can stack other multiblocks on top of each other for the other letters, thanks to the elevators required within the multiblock."
+			]
+			hide_dependency_lines: true
+			dependencies: ["799E84A83056DFFD"]
+			size: 2.0d
+			id: "5D49C0C2D46876CA"
+			tasks: [{
+				id: "470806D567CDA6B9"
+				type: "item"
+				item: "ragnamod_seven:t"
+			}]
+			rewards: [{
+				id: "58F3441BD087B547"
+				type: "item"
+				item: "ragnamod_seven:t"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			shape: "gear"
+			description: [
+				"To create the letter P in FTP, you'll need to build a gigantic multiblock that will require over 8,000 blocks."
+				"{image:ftbquests:textures/quests/p_multiblock.png width:150 height:100 align:1}"
+				"Don't worry, you can find this multiblock in the Create schematics, categorized by color."
+				""
+				"Note, however, that this multiblock must function in orbit above Glacio, and you can stack other multiblocks on top of each other for the other letters, thanks to the elevators required within the multiblock."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0D3E9B1E44049147"]
+			size: 2.0d
+			id: "45E4E00F3327AD03"
+			tasks: [{
+				id: "3EBBA852F43D78A9"
+				type: "item"
+				item: "ragnamod_seven:p"
+			}]
+			rewards: [{
+				id: "37410FBFA508E4C2"
+				type: "item"
+				item: "ragnamod_seven:p"
+			}]
+		}
+		{
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "ragnamod_7:agglomeration_splitter"
+				}
+			}
+			x: 16.0d
+			y: 0.0d
+			shape: "diamond"
+			description: [
+				"The agglomeration splitter allows you to split your Agglomerate Matter into two, receiving tiny versions of themselves."
+				""
+				"This is a multiblock that operates EXCLUSIVELY in the storage dimension of Applied Energistics 2 and will require Superheated Sodium to function (in addition to some RF)."
+				"{image:ftbquests:textures/quests/agglomeration_splitter.png width:150 height:100 align:1}"
+				"In the multiblock there are Entangled Blocks, you can use them to easily automate this multiblock"
+				""
+				"To see how to build this multiblock, simply put your block where you want it and check in JEI what recipe it can do."
+				"{image:ftbquests:textures/quests/multiblock_icon.png width:26 height:29 align:1}"
+			]
+			dependencies: ["38512A09C28B8098"]
+			size: 2.0d
+			id: "51EBA85CAABCCA41"
+			tasks: [
+				{
+					id: "635F9974975A2FBC"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "ragnamod_7:agglomeration_splitter"
+						}
+					}
+				}
+				{
+					id: "1DA177D293219090"
+					type: "item"
+					item: "architects_palette:hadaline_lamp"
+					count: 24L
+				}
+				{
+					id: "4F82341BC9389E0F"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+					count: 5L
+				}
+				{
+					id: "6EFA1419515580A9"
+					type: "item"
+					item: "draconicevolution:reactor_injector"
+					count: 6L
+				}
+				{
+					id: "1CC10B617C6D0C45"
+					type: "item"
+					item: {
+						id: "draconicevolution:reactor_core"
+						Count: 1b
+						tag: {
+							bc_tile_data: {
+								bc_managed_data: {
+									converted_fuel: 0.0d
+									reactable_fuel: 0.0d
+								}
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Any Tiny Agglomerate"
+			x: 17.5d
+			y: 0.0d
+			shape: "gear"
+			description: ["With Tiny Agglomerate you can rebuild Agglomerate Matter using the FTP logo and the items requested in the first place to create the Agglomerate Matter."]
+			dependencies: ["51EBA85CAABCCA41"]
+			id: "41DF777AFF867AE1"
+			tasks: [{
+				id: "1F3B439999F1588C"
+				type: "item"
+				title: "Any #ragnamod_seven:tiny_agglomerate"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ragnamod_seven:tiny_agglomerate"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1DA89DC8B8C14A49"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3194330634747080832L
 			}]
 		}
 	]

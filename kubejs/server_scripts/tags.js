@@ -3,6 +3,7 @@ onEvent('tags.items', e => {
     //Remove Ingots
     e.remove('forge:ingots/steel', ['mekanism:ingot_steel', 'immersiveengineering:ingot_steel'])
     e.remove('forge:ingots/osmium', 'chemlib:osmium_ingot')
+    e.remove('forge:ingots/platinum', 'exnihilosequentia:platinum_ingot')
     e.remove('forge:ingots/enderium', 'ftbic:enderium_ingot')
     e.remove('forge:ingots/iridium', 'chemlib:iridium_ingot')
     e.remove('forge:ingots/cobalt', 'chemlib:cobalt_ingot')
@@ -26,7 +27,7 @@ onEvent('tags.items', e => {
     e.remove('forge:nuggets/iridium', 'chemlib:iridium_nugget')
     e.remove('forge:nuggets/enderium', 'ftbic:enderium_nugget')
     e.remove('forge:nuggets/cobalt', 'chemlib:cobalt_nugget')
-    e.remove('forge:nuggets/copper', ['tconstruct:copper_nugget', 'thermal:copper_nugget', 'immersiveengineering:nugget_copper', 'ftbic:copper_nugget'])
+    e.remove('forge:nuggets/copper', ['tconstruct:copper_nugget', 'thermal:copper_nugget', 'immersiveengineering:nugget_copper', 'ftbic:copper_nugget', 'malum:copper_nugget'])
     e.remove('forge:nuggets/uranium', ['chemlib:uranium_nugget', 'ftbic:uranium_nugget', 'immersiveengineering:nugget_uranium'])
     e.remove('forge:nuggets/tin', ['chemlib:tin_nugget', 'ftbic:tin_nugget', 'mekanism:nugget_tin'])
     e.remove('forge:nuggets/silver', ['chemlib:silver_nugget', 'immersiveengineering:nugget_silver', 'occultism:silver_nugget'])
@@ -127,6 +128,7 @@ onEvent('tags.items', e => {
     e.remove('forge:ores/lead', ['ftbic:deepslate_lead_ore', 'ftbic:lead_ore', 'mekanism:deepslate_lead_ore', 'mekanism:lead_ore', 'immersiveengineering:deepslate_ore_lead', 'immersiveengineering:ore_lead'])
     e.remove('forge:ores/aluminum', ['ftbic:deepslate_aluminum_ore', 'ftbic:aluminum_ore', 'immersiveengineering:deepslate_ore_aluminum', 'immersiveengineering:ore_aluminum'])
     e.remove('forge:ores/silver', ['darkerdepths:silver_ore', 'immersiveengineering:deepslate_ore_silver', 'immersiveengineering:ore_silver', 'occultism:silver_ore_deepslate', 'occultism:silver_ore'])
+    e.remove('forge:ores/platinum', ['exnihilosequentia:raw_platinum'])
 
     //Remove Raw Materials Blocks
     e.remove('forge:storage_blocks/raw_silver', ['darkerdepths:raw_silver_block', 'immersiveengineering:raw_block_silver'])
@@ -333,8 +335,18 @@ onEvent('tags.items', e => {
 
     //Workbenches
     e.add('forge:workbenches', ['blue_skies:cherry_crafting_table', 'blue_skies:dusk_crafting_table', 'blue_skies:frostbright_crafting_table', 'blue_skies:bluebright_crafting_table', 'blue_skies:maple_crafting_table', 'blue_skies:lunar_crafting_table', 'blue_skies:starlit_crafting_table'])
+
+    //Scythe
+    e.add('malum:scythe', 'ragnamod_seven:golden_scythe')
+    e.add('malum:soul_hunter_weapon', 'ragnamod_seven:golden_scythe')
+
+    e.add('create:upright_on_belt', ['ragnamod_seven:cake_mold', 'ragnamod_seven:cake_mold_filled', 'ragnamod_seven:cake_mold_baked', 'tconstruct:ender_cake', 'tconstruct:earth_cake', 'tconstruct:sky_cake', 'tconstruct:blood_cake', 'tconstruct:magma_cake', 'telepastries:nether_cake', 'telepastries:end_cake', 'telepastries:overworld_cake', 'telepastries:twilight_cake', 'ragnamod_seven:ender_cake_mold_baked', 'ragnamod_seven:earth_cake_mold_baked', 'ragnamod_seven:sky_cake_mold_baked', 'ragnamod_seven:blood_cake_mold_baked', 'ragnamod_seven:magma_cake_mold_baked', 'ragnamod_seven:nether_cake_mold_baked', 'ragnamod_seven:end_cake_mold_baked', 'ragnamod_seven:overworld_cake_mold_baked', 'ragnamod_seven:twilight_cake_mold_baked', 'ragnamod_seven:city_cake_mold_baked', 'ragnamod_seven:undergarden_cake_mold_baked', 'ragnamod_seven:ender_cake_base_baked', 'ragnamod_seven:earth_cake_base_baked', 'ragnamod_seven:sky_cake_base_baked', 'ragnamod_seven:blood_cake_base_baked', 'ragnamod_seven:magma_cake_base_baked', 'ragnamod_seven:nether_cake_base_baked', 'ragnamod_seven:end_cake_base_baked', 'ragnamod_seven:overworld_cake_base_baked', 'ragnamod_seven:twilight_cake_base_baked', 'ragnamod_seven:city_cake_base_baked', 'ragnamod_seven:undergarden_cake_base_baked', 'telepastries:custom_cake', 'telepastries:lost_city_cake', 'ragnamod_seven:sky_cake_mold_filled', 'ragnamod_seven:blood_cake_mold_filled', 'ragnamod_seven:magma_cake_mold_filled', 'ragnamod_seven:nether_cake_mold_filled', 'ragnamod_seven:end_cake_mold_filled', 'ragnamod_seven:overworld_cake_mold_filled', 'ragnamod_seven:twilight_cake_mold_filled', 'ragnamod_seven:city_cake_mold_filled', 'ragnamod_seven:undergarden_cake_mold_filled', 'ragnamod_seven:ender_cake_mold_filled', 'ragnamod_seven:earth_cake_mold_filled'])
+    e.add('ragnamod_seven:tiny_agglomerate', [/ragnamod_seven:tiny/])
 })
 onEvent('tags.blocks', e => {
+
+    //Dirt Tag
+    e.add('minecraft:dirt', 'malum:blighted_earth')
 
     //Workbenches
     e.add('forge:workbenches', ['blue_skies:cherry_crafting_table', 'blue_skies:dusk_crafting_table', 'blue_skies:frostbright_crafting_table', 'blue_skies:bluebright_crafting_table', 'blue_skies:maple_crafting_table', 'blue_skies:lunar_crafting_table', 'blue_skies:starlit_crafting_table'])

@@ -45,39 +45,39 @@ onEvent('recipes', e => {
   e.custom({
     "type": "hexerei:mixingcauldron",
     "liquid": {
-      "fluid": "minecraft:lava"
+      "fluid": "undergarden:virulent_mix_source"
     },
     "ingredients": [
       {
-        "type": "forge:nbt", "item": "naturesaura:aura_bottle", "count": 1, "nbt": "{stored_type:\"naturesaura:end\"}"
+        "type": "forge:nbt", "item": "naturesaura:aura_bottle", "count": 1, "nbt": "{stored_type:\"naturesaura:nether\"}"
       },
       {
-        "item": "twilightforest:naga_scale"
+        "item": "malum:cthonic_gold"
       },
       {
-        "item": "twilightforest:magic_map_focus"
+        "item": "minecraft:diamond"
       },
       {
-        "item": "twilightdelight:raw_insect"
+        "item": "undergarden:forgotten_nugget"
       },
       {
-        "item": "twilightforest:borer_essence"
+        "item": "undergarden:depthrock"
       },
       {
-        "item": "twilightforest:arctic_fur"
+        "item": "undergarden:goo_ball"
       },
       {
-        "item": "twilightforest:raw_ironwood"
+        "item": "create:precision_mechanism"
       },
       {
-        "item": "forbidden_arcanus:arcane_crystal"
+        "item": "undergarden:regalium_crystal"
       }
     ],
     "output": {
       "item": "ragnamod_seven:portal_activator"
     },
     "liquidOutput": {
-      "fluid": "minecraft:lava"
+      "fluid": "undergarden:virulent_mix_source"
     },
     "fluidLevelsConsumed": 1500
   })

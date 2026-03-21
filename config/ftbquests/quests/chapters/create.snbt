@@ -1994,7 +1994,6 @@
 			subtitle: "The age of Brass"
 			description: ["You can get Brass Ingot using the Mixer."]
 			dependencies: [
-				"5B7594939BB7C888"
 				"5262697B2954997E"
 				"4BC7D64DB4ACB7A5"
 				"3DB4CDB19FD3915F"
@@ -2107,7 +2106,6 @@
 				"The Mechanical Arm can take or deposit items from various blocks within a 5 block radius of where it is placed. The order it does this in is determined by its behavior as well as the order the blocks were selected in during placement. A placed Mechanical Arm's selected blocks can be viewed by hovering over it with a Wrench. "
 			]
 			dependencies: [
-				"5836EBA421A25364"
 				"013250199EBFD737"
 				"298A3F9171009D45"
 			]

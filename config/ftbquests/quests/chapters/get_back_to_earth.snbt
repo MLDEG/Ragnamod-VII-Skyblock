@@ -3,9 +3,9 @@
 	group: ""
 	order_index: 2
 	filename: "get_back_to_earth"
-	title: " Get Back To Earth"
-	icon: "beyond_earth:earth_globe"
-	subtitle: ["Escape this Twilight world"]
+	title: " Destination Moon"
+	icon: "beyond_earth:moon_globe"
+	subtitle: ["To the Moon !"]
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	quests: [
@@ -14,13 +14,15 @@
 			x: 3.0d
 			y: 1.5d
 			shape: "octagon"
-			subtitle: "Your goal is to leave the Twilight with a rocket to return to Earth and truly begin your adventure!"
+			subtitle: "Your objective is to go to the Twilight Forest to gather the resources necessary for your journey to the Moon and finally begin your adventure!"
 			description: [
+				"Unlike the classic version of Ragnamod VII, you don't start in the Twilight Forest, but your objective remains the same."
+				""
+				"You must craft a portal activator to access the Twilight Forest, via the Undergarden, collect the last parts needed to build your rocket, and set off for the Moon."
+				""
 				"In this pack, the classic progression of the Twilight Forest is disabled, so you can go wherever you want."
 				""
-				"You have to craft a Portal Activator in order to go in the Undergarden to grab the last pieces to build your rocket."
-				""
-				"Tips: You can find vanilla ores in hills."
+				"For the reward, I give you a choice, you are free to take the path of ease, tranquility, or normality."
 			]
 			dependencies: ["375F4C25F6B07F8C"]
 			size: 1.5d
@@ -30,348 +32,1366 @@
 				type: "checkmark"
 				title: "Introduction"
 			}]
-		}
-		{
-			x: 3.0d
-			y: -5.5d
-			description: [
-				"The NASA Workbench combines all the technologies you have created!"
-				"Use Utherium Crystals, Steel and Robot Arms to get it and start rocket designing!"
-			]
-			dependencies: [
-				"366106157FB5459C"
-				"3C884020904C1B6C"
-				"6013E9708A7B59E9"
-			]
-			id: "2FE44372B1A4621B"
-			tasks: [{
-				id: "2B0FC2ADEF8C5A73"
-				type: "item"
-				item: "beyond_earth:nasa_workbench"
-			}]
 			rewards: [{
-				id: "3112CFE6B2F0278A"
-				type: "item"
-				item: "farmersdelight:honey_glazed_ham"
+				id: "484EA0E7961A3297"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5678690904059825676L
 			}]
 		}
 		{
-			title: "Naga Fight"
-			icon: "twilightforest:naga_trophy"
-			x: 1.5d
-			y: -0.5d
-			subtitle: "First fight!"
-			description: ["You need to beat the Naga to get some Naga Scales."]
+			title: "Shift Right Click"
+			x: 4.5d
+			y: 1.5d
+			description: ["By shift right-clicking on dirt you can obtain pebbles, a classic of skyblocks, but you will also obtain powdered dirt to allow you to craft more dirt and also Blighted Earth."]
 			dependencies: ["7DCDDC6CA278A7C5"]
-			id: "5CFDD2C9BF21A177"
+			id: "4ABE211EABAC1FBE"
 			tasks: [
 				{
-					id: "5EC9CCB7901BFE35"
+					id: "32B3E5BF735E0E5B"
 					type: "item"
-					item: "twilightforest:naga_trophy"
+					item: "ragnamod_seven:stone_pebble"
 				}
 				{
-					id: "56F520CEDDB00B10"
+					id: "1FDE67F7EF2B9646"
 					type: "item"
-					item: "twilightforest:naga_scale"
+					item: "ragnamod_seven:diorite_pebble"
+				}
+				{
+					id: "1C528E58CB1A6B1F"
+					type: "item"
+					item: "ragnamod_seven:granite_pebble"
+				}
+				{
+					id: "47BA04F92FB07EB0"
+					type: "item"
+					item: "ragnamod_seven:andesite_pebble"
+				}
+				{
+					id: "1D0681158D42E9FC"
+					type: "item"
+					item: "ragnamod_seven:powdered_dirt"
 				}
 			]
 			rewards: [{
-				id: "290D04A786CC5269"
+				id: "084B0A8C83A3E1AE"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 8
+			}]
+		}
+		{
+			title: "Blighted Gunk"
+			x: 4.0d
+			y: 3.0d
+			description: [
+				"You can obtain this Blighted Gunk by breaking Blighted Soil or Blighted Earth!"
+				""
+				"Later, you can obtain it by smelting Runewood Sapling."
+			]
+			dependencies: ["7DCDDC6CA278A7C5"]
+			id: "4ED9EADEDB0319A2"
+			tasks: [{
+				id: "1CDE9FCE94C945E7"
+				type: "item"
+				item: "malum:blighted_gunk"
+				count: 4L
+			}]
+			rewards: [{
+				id: "78CFD39ABFD7AC69"
+				type: "item"
+				item: "malum:blighted_gunk"
+				count: 8
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			description: ["By using stone pebbles, you can make a Stone Crook, which is important for collecting silkworms and more loot with your leaves."]
+			dependencies: ["4ABE211EABAC1FBE"]
+			id: "10B4AFB5CD0531C7"
+			tasks: [{
+				id: "68C9E9D93CE9C246"
 				type: "item"
 				item: {
-					id: "tinker_rapier:rapier_tic"
+					id: "exnihilosequentia:stone_crook"
 					Count: 1b
 					tag: {
-						tic_persistent: { }
-						tic_stats: {
-							"tconstruct:attack_speed": 2.75f
-							"tconstruct:mining_speed": 9.75f
-							"tconstruct:attack_damage": 3.5f
-							"tconstruct:harvest_tier": "minecraft:stone"
-							"tconstruct:durability": 461.0f
-						}
-						tic_broken: 0b
-						tic_modifiers: [
-							{
-								name: "twilightforest:twilit"
-								level: 2s
-							}
-							{
-								name: "twilightforest:precipitate"
-								level: 2s
-							}
-							{
-								name: "tconstruct:cultivated"
-								level: 2s
-							}
-							{
-								name: "tconstruct:silky_shears"
-								level: 1s
-							}
-						]
-						tic_materials: [
-							"twilightforest:nagascale"
-							"twilightforest:nagascale"
-							"tconstruct:wood"
-							"tconstruct:wood"
-						]
 						Damage: 0
-						tic_volatile_data: {
-							abilities: 1
-							upgrades: 2
-						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "243E4A91AA080A98"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:diamond_crook"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
 			}]
 		}
 		{
 			x: 4.0d
-			y: -3.5d
-			description: ["The Mixing Cauldron is simply a cauldron from Hexerei."]
-			dependencies: ["608B0D64957C2EC8"]
-			id: "3D70617228B5BE1A"
+			y: 0.0d
+			description: ["Get some logs punching your first tree."]
+			dependencies: ["7DCDDC6CA278A7C5"]
+			id: "2F160AF5A10DED2E"
 			tasks: [{
-				id: "30BEAED1C0B3D177"
+				id: "5B30E4F115D29C74"
 				type: "item"
-				item: "hexerei:mixing_cauldron"
+				item: "minecraft:oak_log"
 			}]
 			rewards: [{
-				id: "4B3FE0AB11C117B6"
+				id: "6AEDE8DDEFDCEF46"
+				type: "item"
+				item: "minecraft:oak_sapling"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: ["Use this rack on dirt to obtain sapling seeds."]
+			dependencies: [
+				"2F160AF5A10DED2E"
+				"4ABE211EABAC1FBE"
+			]
+			id: "08D60D629A9C2F54"
+			tasks: [{
+				id: "3BD0D6C6DBCE4262"
+				type: "item"
+				item: {
+					id: "ragnamod_seven:rack"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1C7FFDE9403E556E"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 4
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			description: ["Plant a runewood seed to obtain a runewood sapling."]
+			dependencies: ["08D60D629A9C2F54"]
+			id: "78AF0EF69D74E872"
+			tasks: [{
+				id: "64380A3120E0FC6E"
+				type: "item"
+				item: "malum:runewood_sapling"
+			}]
+			rewards: [{
+				id: "2A2D14B21A149D6C"
+				type: "item"
+				item: "ragnamod_seven:runewood_seed"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			description: ["Simply break some Runewood Log."]
+			dependencies: ["78AF0EF69D74E872"]
+			id: "7A2F9454BC1F8312"
+			tasks: [{
+				id: "2623EB855A7673FE"
+				type: "item"
+				item: "malum:runewood_log"
+			}]
+			rewards: [{
+				id: "742DAFE3B32B1932"
+				type: "item"
+				item: "malum:runewood_log"
+				count: 16
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			description: ["Stone alloy is primarily used to obtain cogwheels before andesite alloy can be crafted."]
+			dependencies: ["4ABE211EABAC1FBE"]
+			id: "1719718AFE1D5153"
+			tasks: [{
+				id: "0A5F25E253021A44"
+				type: "item"
+				item: "ragnamod_seven:stone_alloy"
+			}]
+			rewards: [{
+				id: "7C2A23192107370B"
+				type: "item"
+				item: "ragnamod_seven:stone_alloy"
+				count: 4
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			description: ["By using your crook on leaves you can collect silkworms."]
+			dependencies: ["10B4AFB5CD0531C7"]
+			id: "2AFEEB75389D0C76"
+			tasks: [{
+				id: "35C5AEEA90084A6F"
+				type: "item"
+				item: "exnihilosequentia:silkworm"
+			}]
+			rewards: [{
+				id: "4AA008989A73B29E"
+				type: "item"
+				item: "exnihilosequentia:cooked_silkworm"
+				count: 4
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			description: [
+				"On this pack, infested leaves transform very quickly, no time to wait!"
+				""
+				"As soon as the leaves are well infested, use your crook to obtain strings."
+			]
+			dependencies: ["2AFEEB75389D0C76"]
+			id: "5AEBB738CFD63195"
+			tasks: [{
+				id: "5E1A5BB0A1B55F94"
+				type: "item"
+				item: "minecraft:string"
+			}]
+			rewards: [{
+				id: "618228CAF4B20DF0"
+				type: "item"
+				item: "chipped:cobweb_9"
+				count: 4
+			}]
+		}
+		{
+			icon: "createsifter:sifter"
+			x: 8.5d
+			y: 1.5d
+			description: [
+				"The Sifter, as its name suggests, allows you to sift blocks to obtain resources."
+				""
+				"You can automate it later."
+			]
+			dependencies: [
+				"7A2F9454BC1F8312"
+				"4A7CB973DA150A98"
+				"5AEBB738CFD63195"
+			]
+			id: "6436DFF2609D244F"
+			tasks: [
+				{
+					id: "7FA60D56BABC5AAE"
+					type: "item"
+					item: "createsifter:sifter"
+				}
+				{
+					id: "32C06E8BC69D444F"
+					type: "item"
+					item: {
+						id: "createsifter:string_mesh"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "1273FFBAE382C42A"
+				type: "item"
+				item: "malum:runewood_planks"
+				count: 16
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			description: ["The cogwheel is the basics for transferring RPM with Create."]
+			dependencies: ["1719718AFE1D5153"]
+			id: "4A7CB973DA150A98"
+			tasks: [{
+				id: "1C62D4C592F4ECD5"
+				type: "item"
+				item: "create:cogwheel"
+			}]
+			rewards: [{
+				id: "29DAEECB3B8481D8"
+				type: "item"
+				item: "createcasing:crimson_cogwheel"
+				count: 4
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			description: ["Craft Blighted Soil using the Gunk, this block will need to be placed in the sieve to start collecting your first resources."]
+			dependencies: ["4ED9EADEDB0319A2"]
+			id: "2DF14F31F9536AF2"
+			tasks: [{
+				id: "479970951FBB07DD"
+				type: "item"
+				item: "malum:blighted_soil"
+			}]
+			rewards: [{
+				id: "22CFA83E4B3B2A3A"
+				type: "item"
+				item: "malum:blighted_soil"
+				count: 4
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			description: ["Use your sieve to pass through some Blighted Soil and obtain Gold and Processed Soulstone."]
+			dependencies: [
+				"6436DFF2609D244F"
+				"2DF14F31F9536AF2"
+			]
+			id: "137C207F5861BFBA"
+			tasks: [
+				{
+					id: "6232A9957EC2B22B"
+					type: "item"
+					item: "malum:processed_soulstone"
+				}
+				{
+					id: "0882C3F6D578FC73"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+			]
+			rewards: [{
+				id: "2A050CE7A27C18EA"
+				type: "item"
+				item: "minecraft:gold_nugget"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			icon: "malum:spirit_altar"
+			x: 9.5d
+			y: 1.5d
+			description: [
+				"The Spirit Altar is a structure that allows you to craft magic stuff using spirits."
+				""
+				"Crafting with this is very simple."
+				""
+				"First, place your spirits on the altar (displayed on the left in the JEI crafting menu)."
+				""
+				"Then, place your desired items on the pedestals (displayed on the right in the JEI crafting menu)."
+				""
+				"Finally, place the item you want to transform on the altar (displayed in the center in the JEI crafting menu)."
+			]
+			dependencies: [
+				"137C207F5861BFBA"
+				"7A2F9454BC1F8312"
+			]
+			id: "0FAEF3429EF17898"
+			tasks: [
+				{
+					id: "615653B36445F28C"
+					type: "item"
+					item: "malum:spirit_altar"
+				}
+				{
+					id: "0DAC898917875C4F"
+					type: "item"
+					item: "malum:runewood_item_pedestal"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "0A578FD1EC0B3F9C"
+				type: "item"
+				item: "malum:runewood_item_pedestal"
+				count: 4
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.0d
+			description: ["This Scythe only has 64 durability so you will probably have to craft a few of them, it will allow you to farm spirits by killing certain mobs!"]
+			dependencies: ["137C207F5861BFBA"]
+			id: "60471750488D226D"
+			tasks: [{
+				id: "41106837BF843992"
+				type: "item"
+				item: {
+					id: "ragnamod_seven:golden_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7E908058FCCBA204"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.5d
+			description: [
+				"By using your Golden Scythe on mobs, you can obtain Spirits!"
+				""
+				"It might take a while at the beginning, but once you've accumulated enough, it will go much faster afterward, don't worry!"
+				""
+				"Here is a list of simple mobs to kill to obtain the spirits needed to progress."
+				""
+				"Skeleton = 1 Wicked / 2 Arcane"
+				"Zombie = 1 Wicked / 1 Earthen"
+				"Creeper = 1 Arcane / 2 Infernal / 1 Wicked"
+				"Chicken = 1 Aerial / 1 Arcane"
+				"Drowned = 1 Aqueous / 1 Wicked"
+				"Enderman = 2 Arcane / 1 Eldritch"
+			]
+			dependencies: ["60471750488D226D"]
+			id: "301BD03108683007"
+			tasks: [
+				{
+					id: "4EF3B0990EFE484D"
+					type: "item"
+					item: "malum:earthen_spirit"
+				}
+				{
+					id: "56A2DCC230D76FD2"
+					type: "item"
+					item: "malum:arcane_spirit"
+				}
+				{
+					id: "5B833E78594F533F"
+					type: "item"
+					item: "malum:infernal_spirit"
+				}
+				{
+					id: "446FEA5ED87A04AC"
+					type: "item"
+					item: "malum:wicked_spirit"
+				}
+				{
+					id: "31018F4051A74CCC"
+					type: "item"
+					item: "malum:eldritch_spirit"
+				}
+				{
+					id: "4CAEF4E0D2B3F71E"
+					type: "item"
+					item: "malum:aqueous_spirit"
+				}
+				{
+					id: "1A7ED5F9C612FEFC"
+					type: "item"
+					item: "malum:aerial_spirit"
+				}
+			]
+			rewards: [{
+				id: "4431946D773143BE"
+				type: "item"
+				item: {
+					id: "thermal:satchel"
+					Count: 1b
+					tag: {
+						ItemInv: {
+							ItemInv: [
+								{
+									Slot: 0b
+									id: "malum:earthen_spirit"
+									Count: 6b
+								}
+								{
+									Slot: 1b
+									id: "malum:arcane_spirit"
+									Count: 6b
+								}
+								{
+									Slot: 2b
+									id: "malum:infernal_spirit"
+									Count: 6b
+								}
+								{
+									Slot: 3b
+									id: "malum:wicked_spirit"
+									Count: 6b
+								}
+								{
+									Slot: 4b
+									id: "malum:eldritch_spirit"
+									Count: 6b
+								}
+								{
+									Slot: 5b
+									id: "malum:aqueous_spirit"
+									Count: 6b
+								}
+								{
+									Slot: 6b
+									id: "malum:aerial_spirit"
+									Count: 6b
+								}
+							]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "malum:runewood_totem_base"
+			x: 11.0d
+			y: 0.0d
+			description: [
+				"Using the Spirit Altar, craft the Runewood Totem Base."
+				""
+				"This is used for very specific crafting and rituals, you can learn more by reading the Arcana Encyclopedia (usually obtained by killing your first mobs)."
+			]
+			dependencies: [
+				"7A2F9454BC1F8312"
+				"2F539C96F06C9C6B"
+				"301BD03108683007"
+			]
+			id: "130A668EA052CDD8"
+			tasks: [
+				{
+					id: "2B86F551E5343F16"
+					type: "item"
+					item: "malum:runewood_totem_base"
+				}
+				{
+					id: "286C4757D706FBAA"
+					type: "item"
+					item: "malum:runewood_log"
+					count: 5L
+				}
+			]
+			rewards: [{
+				id: "30817279ADE8F338"
+				type: "item"
+				item: "malum:arcane_spirit"
+				count: 5
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.5d
+			description: ["Now that you know how to craft with the Spirit Altar, make some Hex Ash!"]
+			dependencies: ["0FAEF3429EF17898"]
+			id: "2F539C96F06C9C6B"
+			tasks: [{
+				id: "06DBDC9BD39921A1"
+				type: "item"
+				item: "malum:hex_ash"
+			}]
+			rewards: [{
+				id: "7B96AFB34979FFC2"
+				type: "item"
+				item: "malum:hex_ash"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.0d
+			description: [
+				"In the previous quest, you obtained 5 Arcane Spirits in reward."
+				"Use them to place them on the logs positioned above the totem, next, click on the base to activate the ritual. (as shown in the image below)."
+				"{image:ftbquests:textures/quests/totem_base.png width:150 height:100 align:1}"
+			]
+			dependencies: ["130A668EA052CDD8"]
+			id: "14ACB2CB324C4ED8"
+			tasks: [{
+				id: "7F8E469A1A66ECCA"
+				type: "observation"
+				icon: "malum:soulwood_totem_base"
+				timer: 0L
+				observe_type: 0
+				to_observe: "malum:soulwood_totem_base"
+			}]
+			rewards: [{
+				id: "6CD4DC031E9AE6A0"
+				type: "item"
+				item: "malum:runewood_totem_base"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.5d
+			description: [
+				"To obtain Gravel (as well as Sand, Dust, and Blighted Soil), simply place cobblestones near the activated soulwood totem, 5 blocks away on either side, and especially on Blighted Soil or Blighted Earth."
+				""
+				"The image below shows you how it works."
+				"{image:ftbquests:textures/quests/cobble_to_gravel.png width:150 height:100 align:1}"
+				"Tips: Use cobblestone on your off hand and place it with a wand to then excavate with a shovel."
+			]
+			dependencies: ["14ACB2CB324C4ED8"]
+			id: "48177EB56F042170"
+			tasks: [{
+				id: "7820F677247301F2"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+			rewards: [{
+				id: "1F141556310E6E3F"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			x: 14.0d
+			y: 2.0d
+			description: [
+				"By processing Gravel in Flint Mesh, you'll finally be able to obtain iron!"
+				""
+				"But that's not all, you can also obtain zinc, copper, lapis, and coal."
+			]
+			dependencies: ["3191E8B4759E71B4"]
+			id: "231C193E7FCEDD34"
+			tasks: [{
+				id: "126B979D0412A14D"
+				type: "item"
+				item: "minecraft:iron_nugget"
+			}]
+			rewards: [{
+				id: "2732DDB4185A2516"
+				type: "item"
+				item: "minecraft:iron_nugget"
+				count: 2
+				random_bonus: 6
+			}]
+		}
+		{
+			x: 13.0d
+			y: 1.0d
+			description: ["With the iron obtained from the Flint Mesh, you will be able to make the original Andesite Alloy, you can also use zinc."]
+			dependencies: ["231C193E7FCEDD34"]
+			id: "5F3DD567A0FEE256"
+			tasks: [{
+				id: "239CB40E6884BF75"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [{
+				id: "6FF1E96524AC3A38"
+				type: "item"
+				item: "create:andesite_alloy"
+				random_bonus: 5
+			}]
+		}
+		{
+			x: 12.5d
+			y: -0.5d
+			description: [
+				"Thanks to the andesite alloy you will be able to make Andesite Casing and unlock most of the basic blocks in Create."
+				""
+				"This millstone will be extremely useful for crafting gravel, sand and dust."
+			]
+			dependencies: ["5F3DD567A0FEE256"]
+			id: "7AB1CDBDA9654B7A"
+			tasks: [{
+				id: "17AE93EB1746C816"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [{
+				id: "0FED165118E8DF77"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 3.0d
+			description: ["Craft the Flint Mesh to obtain new items through the sieve."]
+			dependencies: ["419597B4624CA3C4"]
+			id: "3191E8B4759E71B4"
+			tasks: [{
+				id: "58A5D933C3169041"
+				type: "item"
+				item: {
+					id: "createsifter:andesite_mesh"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "65CD2EB4130E55B7"
+				type: "item"
+				item: "supplementaries:flint_block"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 3.0d
+			description: ["Use Tinker's Construct to craft Flint Tool Binding which will be used for the rest of the Mesh."]
+			dependencies: ["48177EB56F042170"]
+			id: "419597B4624CA3C4"
+			tasks: [{
+				id: "77D1DEEC8BF34FBE"
+				type: "item"
+				item: {
+					id: "tconstruct:tool_binding"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:flint"
+					}
+				}
+			}]
+			rewards: [{
+				id: "05CEFA0823DE9A79"
+				type: "item"
+				item: "supplementaries:flint_block"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -1.0d
+			description: ["Iron Mesh will allow you to infinitely farm Malum's spirits, but will also increase the drop rates of the blocks you can sift."]
+			dependencies: ["2329AFB486CD04C9"]
+			id: "7E8EB2EB3A3C2ED4"
+			tasks: [{
+				id: "0E0F4F1AD3885C11"
+				type: "item"
+				item: {
+					id: "createsifter:zinc_mesh"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4B9916C5E08B6CA5"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -0.5d
+			description: ["Use your Rolling Mill to make your first Iron Wire!"]
+			dependencies: [
+				"6803988A0FBBBABF"
+				"0EE9FA80A279CFBD"
+			]
+			id: "2329AFB486CD04C9"
+			tasks: [{
+				id: "59CCD44A8BD772E5"
+				type: "item"
+				item: "createaddition:iron_wire"
+			}]
+			rewards: [{
+				id: "6F7A78101E11DEA1"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 0.0d
+			description: ["The press will allow you to compress ingots to obtain plates."]
+			dependencies: [
+				"231C193E7FCEDD34"
+				"5F3DD567A0FEE256"
+			]
+			id: "1ACF99950ED70A6E"
+			tasks: [{
+				id: "4AC2A0414E687095"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [{
+				id: "09972022CE6290F0"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 1.0d
+			description: ["Simply press an iron ingot."]
+			dependencies: [
+				"1ACF99950ED70A6E"
+				"231C193E7FCEDD34"
+			]
+			id: "0EE9FA80A279CFBD"
+			tasks: [{
+				id: "336ABF702610D5A9"
+				type: "item"
+				item: "ftbic:iron_plate"
+			}]
+			rewards: [{
+				id: "6F041F985A068401"
+				type: "item"
+				item: "ftbic:iron_plate"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 0.5d
+			description: ["The rolling mill will transform your plates into wires and your ingots into rods."]
+			dependencies: ["0EE9FA80A279CFBD"]
+			id: "6803988A0FBBBABF"
+			tasks: [{
+				id: "06641146833460DA"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+			rewards: [{
+				id: "616F4A12DE953F2A"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -2.0d
+			description: ["The Gold Mesh will allow you to farm certain resources to progress in your adventure."]
+			dependencies: [
+				"7E8EB2EB3A3C2ED4"
+				"276D047010EC817B"
+			]
+			id: "5526AA2A11967B80"
+			tasks: [{
+				id: "5C92F3CB01E3C3CF"
+				type: "item"
+				item: {
+					id: "createsifter:brass_mesh"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "70C27AEA10A5576C"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.0d
+			description: [
+				"By baking Runewood logs in a furnace you will obtain Arcane Charcoal."
+				""
+				"The block will be useful later for automating the acquisition of Spirits."
+			]
+			dependencies: ["7A2F9454BC1F8312"]
+			id: "2DC5DA1CD3C7513D"
+			tasks: [{
+				id: "2DF0C612AB598F14"
+				type: "item"
+				item: "malum:block_of_arcane_charcoal"
+			}]
+			rewards: [{
+				id: "27976DCD8D6F3920"
+				type: "item"
+				item: "malum:arcane_charcoal"
+				count: 4
+				random_bonus: 8
+			}]
+		}
+		{
+			x: 16.5d
+			y: -3.5d
+			description: ["You will need to use Blighted Soil through your Gold mesh to get Crushed Brilliance."]
+			dependencies: ["5526AA2A11967B80"]
+			id: "20F427082A2F935A"
+			tasks: [{
+				id: "16B44E053660AFE6"
+				type: "item"
+				item: "malum:crushed_brilliance"
+			}]
+			rewards: [{
+				id: "7814D1FC5FAFE45D"
+				type: "item"
+				item: "malum:chunk_of_brilliance"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "Spirits"
+			x: 11.0d
+			y: -1.5d
+			description: ["Use your blocks of arcane charcoal to obtain all types of Spirits."]
+			dependencies: [
+				"2DC5DA1CD3C7513D"
+				"7E8EB2EB3A3C2ED4"
+			]
+			id: "4B776F8C8F6F5A5F"
+			tasks: [
+				{
+					id: "13408A50693FB4C5"
+					type: "item"
+					item: "malum:sacred_spirit"
+				}
+				{
+					id: "34A0AAE7CF0B6CCE"
+					type: "item"
+					item: "malum:wicked_spirit"
+				}
+				{
+					id: "40618CFAC72A2FE5"
+					type: "item"
+					item: "malum:arcane_spirit"
+				}
+				{
+					id: "6A85AEA3EFEF1B48"
+					type: "item"
+					item: "malum:eldritch_spirit"
+				}
+				{
+					id: "14E99B96766F1CF9"
+					type: "item"
+					item: "malum:earthen_spirit"
+				}
+				{
+					id: "1FEA421D2A4425DD"
+					type: "item"
+					item: "malum:infernal_spirit"
+				}
+				{
+					id: "37E784CFA2BC5CB9"
+					type: "item"
+					item: "malum:aerial_spirit"
+				}
+				{
+					id: "08C2EFAE30E1CDFF"
+					type: "item"
+					item: "malum:aqueous_spirit"
+				}
+			]
+			rewards: [{
+				id: "33045A7BFB74E008"
+				type: "item"
+				item: "malum:block_of_arcane_charcoal"
+				count: 2
+				random_bonus: 6
+			}]
+		}
+		{
+			x: 16.0d
+			y: -1.0d
+			description: ["Use your Rolling Mill to make your first Gold Wire!"]
+			dependencies: ["6803988A0FBBBABF"]
+			id: "276D047010EC817B"
+			tasks: [{
+				id: "4EF8851F32878023"
+				type: "item"
+				item: "ftbic:gold_wire"
+			}]
+			rewards: [{
+				id: "36662A4DABE47BB9"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -4.5d
+			description: [
+				"Your first Sequenced Assembly craft is the one that will allow you to open the gates of the Undergarden."
+				""
+				"You have 5 Deployers to craft (or you can have only one and craft it from a depot)."
+				"If you're one of the lucky ones with the 2% failure rate, well... you're lucky."
+			]
+			dependencies: [
+				"20F427082A2F935A"
+				"159FDA56F8F1DA70"
+			]
+			id: "64A503A8D5DB4627"
+			tasks: [{
+				id: "20DB683F0A8E29D7"
+				type: "item"
+				item: "undergarden:catalyst"
+			}]
+			rewards: [{
+				id: "2887019A6DA1281D"
+				type: "item"
+				item: "minecraft:stone_bricks"
+				count: 14
+			}]
+		}
+		{
+			x: 15.0d
+			y: -3.5d
+			description: ["Sifting dust to obtain fluorite."]
+			dependencies: ["5526AA2A11967B80"]
+			id: "5A6AA3F4CE6EAFB9"
+			tasks: [{
+				id: "4EEA5D187889D4BF"
+				type: "item"
+				item: "mekanism:fluorite_gem"
+			}]
+			rewards: [{
+				id: "3C10868F5FD0B8F8"
+				type: "item"
+				item: "mekanism:fluorite_gem"
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "Kiln"
+			icon: "immersiveengineering:alloy_smelter"
+			x: 12.5d
+			y: -2.0d
+			description: [
+				"The kiln is a multiblock from Immersive that will allow you to obtain alloys such as brass!"
+				""
+				"To form the multiblock, you will need to form it by right-clicking with an engineering hammer."
+				""
+				"You can obtain clay by passing sand through a Fan with Water."
+			]
+			dependencies: ["7AB1CDBDA9654B7A"]
+			id: "07A68CFFCA839F27"
+			tasks: [{
+				id: "5EF3FBF237AA199D"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+			rewards: [{
+				id: "0F836224082A9AF0"
+				type: "item"
+				item: "minecraft:coal_block"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -3.0d
+			description: ["Simply mix Copper and Zinc in the Kiln."]
+			dependencies: ["07A68CFFCA839F27"]
+			id: "14836DD9231231B3"
+			tasks: [{
+				id: "4E0C7D7866E76098"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+			rewards: [{
+				id: "6A7B458738F1CCE0"
+				type: "item"
+				item: "create:brass_ingot"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 13.0d
+			y: -4.5d
+			description: ["The deployer is a very powerful block with Create because it will allow you to automate quite a few setups."]
+			dependencies: [
+				"14836DD9231231B3"
+				"452BF5717C51656B"
+			]
+			id: "159FDA56F8F1DA70"
+			tasks: [{
+				id: "2DC66EDD508FE10A"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [{
+				id: "593B49A29518E928"
+				type: "item"
+				item: "create:brass_hand"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -3.5d
+			description: [
+				"The Electron Tube is made with Fluorite and redstone to create Rose Quartz."
+				""
+				"This is then ground with Sandpaper to obtain Polished Rose Quartz."
+				""
+				"All you have to do is mount it with an Iron Plate."
+			]
+			dependencies: ["5A6AA3F4CE6EAFB9"]
+			id: "452BF5717C51656B"
+			tasks: [{
+				id: "7C12F1D1AD93AE3C"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+			rewards: [{
+				id: "03289522A2A69A94"
+				type: "item"
+				item: "create:rose_quartz"
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "UNDERGARDEN"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "undergarden:textures/block/carved_gloomgourd.png"
+				}
+			}
+			x: 19.0d
+			y: -4.5d
+			shape: "hexagon"
+			description: ["To visit the Undergarden you must create a portal, like the one to the Nether, using Stone Bricks and right-click with your catalyst!"]
+			dependencies: ["64A503A8D5DB4627"]
+			size: 2.0d
+			id: "5343C67CDE16FF10"
+			tasks: [{
+				id: "43F224C6E252967F"
+				type: "dimension"
+				dimension: "undergarden:undergarden"
+			}]
+			rewards: [{
+				id: "6FCF64C9170D31F6"
 				type: "item"
 				item: "minecraft:bucket"
 			}]
 		}
 		{
-			title: "Blast Furnace"
-			icon: "immersiveengineering:blast_furnace"
-			x: 4.0d
-			y: -4.5d
-			subtitle: "The steel road."
+			x: 29.5d
+			y: -2.0d
+			description: ["Compress a Desh block with the Create press to obtain a cake mold."]
+			dependencies: ["4D2B6F86D1915D23"]
+			id: "7DD000F2FDCD2711"
+			tasks: [{
+				id: "4DA172D54231C875"
+				type: "item"
+				item: "ragnamod_seven:cake_mold"
+			}]
+			rewards: [{
+				id: "2F22FA2483973FFB"
+				type: "item"
+				item: "beyond_earth:raw_desh"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 18.0d
+			y: -2.0d
 			description: [
-				"To get Steel, you're going to need to make a Blast Furnace."
+				"You'll find your first diamonds in the heights of the undergarden."
 				""
-				"It's a 3x3x3 multiblock that alloys Ironwood (in this pack) with Charcoal, Coal Coke or Pet Coke to produce Steel."
-				""
-				"You can use a Hexerei Cauldron to get one in the Twilight Forest."
+				"Between layers 236 and 255."
 			]
-			dependencies: ["3D70617228B5BE1A"]
-			id: "1EF95835215D60E0"
+			dependencies: ["5343C67CDE16FF10"]
+			id: "478F15E64BB22888"
 			tasks: [{
-				id: "67D43460FF6C2547"
+				id: "2CBB9D7DC88E6CFB"
 				type: "item"
-				item: "immersiveengineering:blastbrick"
-				count: 27L
+				item: "minecraft:diamond"
 			}]
 			rewards: [{
-				id: "6AF1E067B8EF1C5D"
+				id: "5C3E191EA7A4B4DD"
 				type: "item"
-				item: "minecraft:charcoal"
-				count: 64
+				item: "undergarden:depthrock_diamond_ore"
 			}]
 		}
 		{
-			x: 2.0d
-			y: -5.5d
-			description: ["For now you may need to use your Mechanical Arm only in the craft of the Nasa Workbench, but it can be useful in automation of Create devices!"]
-			dependencies: ["5836EBA421A25364"]
-			id: "6013E9708A7B59E9"
+			x: 17.0d
+			y: -1.0d
+			description: ["With all the diamond you have mined, you will be able to make the Diamond Mesh, which will allow you to have diamond with gravel."]
+			dependencies: ["478F15E64BB22888"]
+			id: "5D826B6F5AEB76E2"
 			tasks: [{
-				id: "478CE551CDB598E1"
-				type: "item"
-				item: "create:mechanical_arm"
-			}]
-			rewards: [{
-				id: "217EC9A55E00D994"
-				type: "item"
-				item: "create:brass_casing"
-			}]
-		}
-		{
-			x: 3.0d
-			y: -4.5d
-			description: [
-				"The Utherium Crystal is used to craft the NASA Workbench."
-				"You can find it in the form of ore or get shards by killing rotten mobs."
-			]
-			dependencies: ["769AFAB1B0F353E0"]
-			id: "366106157FB5459C"
-			tasks: [{
-				id: "7C86DD3FAFEA242D"
-				type: "item"
-				item: "undergarden:utherium_crystal"
-			}]
-			rewards: [{
-				id: "534EE72D049560AF"
-				type: "item"
-				item: "undergarden:shard_torch"
-				count: 16
-			}]
-		}
-		{
-			x: 3.0d
-			y: -2.5d
-			description: ["The Portal Activator is needed to open a Twilight portal. Simply make a small 2x2 basin of water surrounded by flowers or mushrooms and throw it in. This will will open up a new dimension portal for you, which will be The Undergarden on this pack."]
-			dependencies: [
-				"5CFDD2C9BF21A177"
-				"22556496826ED6BF"
-				"572A921A6E34907B"
-				"731DC23E85B1A666"
-				"7750BE582D815E25"
-				"15459E52419C1267"
-				"03912F8EED303C9E"
-				"29582A190DD0E266"
-				"3D70617228B5BE1A"
-				"5A7AE75E4AF0003F"
-			]
-			id: "0A1BC75F350F8C54"
-			tasks: [{
-				id: "39E7E8F2DCB9F5EB"
-				type: "item"
-				item: "ragnamod_seven:portal_activator"
-			}]
-			rewards: [{
-				id: "0F251640BA15EF7E"
+				id: "0F354ACEAAF57A3C"
 				type: "item"
 				item: {
-					id: "minecraft:diamond"
+					id: "createsifter:custom_mesh"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "05A6126389B68CC0"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: 19.0d
+			y: 0.0d
+			description: ["You will need to pass Blighted Soil through Diamond Mesh to obtain Chthonic Gold."]
+			dependencies: ["5D826B6F5AEB76E2"]
+			id: "159D0E1A34A40505"
+			tasks: [{
+				id: "7D0FCC87556AF7F9"
+				type: "item"
+				item: "malum:cthonic_gold"
+			}]
+			rewards: [{
+				id: "4D8130C72C543687"
+				type: "item"
+				item: "malum:cthonic_gold"
+			}]
+		}
+		{
+			x: 20.0d
+			y: -1.0d
+			description: ["The Forgotten Nuigget is dropped by powerful guardians in the Undergarden labyrinths."]
+			dependencies: ["5343C67CDE16FF10"]
+			id: "762AFA20FF94248D"
+			tasks: [{
+				id: "75AA183DEADD3CE7"
+				type: "item"
+				item: "undergarden:forgotten_nugget"
+			}]
+			rewards: [{
+				id: "783A6360846D14E5"
+				type: "item"
+				item: {
+					id: "gateways:gate_pearl"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"An old activator portal\"}"
-						}
+						gateway: "gateways:forgotten_guardian_gate_small"
 					}
 				}
 			}]
 		}
 		{
-			title: "The Undergarden"
-			x: 3.0d
-			y: -3.5d
-			description: ["Simply visit The Undergarden."]
-			dependencies: ["0A1BC75F350F8C54"]
-			id: "769AFAB1B0F353E0"
+			x: 18.0d
+			y: -1.0d
+			description: ["You just have to break blocks in the Underground, it's not too hard."]
+			dependencies: ["5343C67CDE16FF10"]
+			id: "42ADC9414771A1B6"
 			tasks: [{
-				id: "73ED122E36E42D7D"
-				type: "dimension"
-				dimension: "undergarden:undergarden"
+				id: "2B5727ADEF3F7B23"
+				type: "item"
+				item: "undergarden:depthrock"
 			}]
 			rewards: [{
-				id: "12AB01A258C7B2DE"
+				id: "55B9A3AA19000BAF"
 				type: "item"
-				item: {
-					id: "undergarden:masticated_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							lvl: 5s
-							id: "minecraft:thorns"
-						}]
-					}
-				}
+				item: "undergarden:depthrock"
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
-			x: 3.5d
-			y: -0.5d
-			subtitle: "You can use it to make a map to guide you through the Twilight Forest."
+			x: 20.0d
+			y: -2.0d
 			description: [
-				"You'll have to kill a crow to get its feathers."
-				"Once obtained, you must combine it with glowstone (obtainable in large hollow hills) and torcheberries (obtainable by killing a Skeleton Druid or finding them in caves)."
+				"In the Undergarden, you'll find slugs called \"Scintlings\" that leave behind a slimy substance."
+				""
+				"You can collect Goo Balls with your pelt or by killing these Scintlings."
 			]
-			dependencies: ["7DCDDC6CA278A7C5"]
-			id: "572A921A6E34907B"
+			dependencies: ["5343C67CDE16FF10"]
+			id: "5D6EE10E5CC71A7E"
 			tasks: [{
-				id: "7270D4E775853181"
+				id: "0454DA5C845E6201"
 				type: "item"
-				item: "twilightforest:magic_map_focus"
+				item: "undergarden:goo_ball"
 			}]
 			rewards: [{
-				id: "36480523B0B55FFE"
+				id: "787CD8DBB2D17C4E"
 				type: "item"
-				item: "twilightforest:magic_map"
+				item: "undergarden:goo_block"
 			}]
 		}
 		{
-			x: -0.5d
-			y: -0.5d
-			subtitle: "Borer Essence can be found in the Ur-Ghast's tower."
-			description: ["You can either collect some from the top of the tower or kill Towerwood Borers which are hidden in Infested Towerwood blocks, like Silverfishes."]
-			dependencies: ["7DCDDC6CA278A7C5"]
-			id: "22556496826ED6BF"
+			x: 20.0d
+			y: 0.0d
+			description: [
+				"Your second crafting recipe in Sequence Assembly."
+				""
+				"This one is extremely useful for more advanced Create blocks, such as Mechanical Arms."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1ACF99950ED70A6E"]
+			id: "2666DBCDB3471BEB"
 			tasks: [{
-				id: "5483417CE5FB5317"
+				id: "3F038A2BE4F20BA7"
 				type: "item"
-				item: "twilightforest:borer_essence"
+				item: "create:precision_mechanism"
 			}]
 			rewards: [{
-				id: "5ECE23B1890F4170"
+				id: "3B30427BA6D89A09"
 				type: "item"
-				item: "twilightforest:borer_essence"
-				count: 16
+				item: "create:precision_mechanism"
 			}]
 		}
 		{
-			x: 2.5d
-			y: -0.5d
-			description: ["To get your Bottled Darkness you need to right-click in the air with a Bottle and Cork."]
-			dependencies: ["7DCDDC6CA278A7C5"]
-			id: "731DC23E85B1A666"
+			x: 18.0d
+			y: 0.0d
+			description: [
+				"You have several methods to obtain Regalium."
+				""
+				"You can go mining, it's quite rare, so you'll need to be patient."
+				""
+				"You can go mining diamonds to make your diamond mesh and sift Deepsoil. Again, the drop rate is low, so you'll need to be patient."
+				""
+				"Finally, you can try to find a Stoneborn and trade with them."
+			]
+			dependencies: ["5343C67CDE16FF10"]
+			id: "73C2E36D7C21677F"
 			tasks: [{
-				id: "5C0A1D10C9375810"
+				id: "60C338633E48AFB3"
+				type: "item"
+				item: "undergarden:regalium_crystal"
+			}]
+			rewards: [{
+				id: "057E58E9E790E24B"
+				type: "item"
+				item: "undergarden:depthrock_regalium_ore"
+			}]
+		}
+		{
+			x: 19.0d
+			y: -1.0d
+			description: [
+				"The Undergarden is considered a \"Ghost\" dimension for Nature Aura, just like the Nether."
+				""
+				"Therefore, you simply need to use a Bottle and Cork in the Undergarden to obtain Bottled Ghosts."
+			]
+			dependencies: ["5343C67CDE16FF10"]
+			id: "0175F1870AE11B37"
+			tasks: [{
+				id: "556E906E47D6B48E"
 				type: "item"
 				item: {
 					id: "naturesaura:aura_bottle"
 					Count: 1b
 					tag: {
-						stored_type: "naturesaura:end"
+						stored_type: "naturesaura:nether"
 					}
 				}
 			}]
 			rewards: [{
-				id: "232CD3789B7F9936"
+				id: "22A41B3389B34BD3"
 				type: "item"
-				item: "croptopia:milk_bottle"
+				item: "naturesaura:bottle_two_the_rebottling"
+				random_bonus: 5
 			}]
 		}
 		{
-			title: "Raw Insect"
-			x: 0.5d
-			y: -0.5d
-			subtitle: "Chop Chop!"
-			description: ["You just have to cut some insects with a knife on a cutting board."]
-			dependencies: ["7DCDDC6CA278A7C5"]
-			id: "7750BE582D815E25"
+			x: 19.0d
+			y: 2.0d
+			description: ["Use the Hexerei Cauldron to mix all the ingredients previously farmed in the Undergarden with Virulent Mix to obtain the Portal Activator!"]
+			dependencies: [
+				"73C2E36D7C21677F"
+				"478F15E64BB22888"
+				"762AFA20FF94248D"
+				"0175F1870AE11B37"
+				"159D0E1A34A40505"
+				"2666DBCDB3471BEB"
+				"5D6EE10E5CC71A7E"
+				"42ADC9414771A1B6"
+				"624518A8746CBE52"
+				"62A1EBC2009E43EC"
+			]
+			id: "0E1AF287C0661458"
 			tasks: [{
-				id: "63E2B2082AE32BAD"
+				id: "54E87A3D64E5A743"
 				type: "item"
-				item: "twilightdelight:raw_insect"
-				count: 2L
+				item: "ragnamod_seven:portal_activator"
 			}]
 			rewards: [{
-				id: "61AFBD924C99A798"
-				type: "item"
-				item: "twilightdelight:fried_insect"
-			}]
-		}
-		{
-			x: 6.5d
-			y: -0.5d
-			subtitle: "Great at keeping you warm."
-			description: ["To get Arctic Furs, you need to go to the Snowy Forest and kill Yetis or Winter Wolfes."]
-			dependencies: ["7DCDDC6CA278A7C5"]
-			id: "15459E52419C1267"
-			tasks: [{
-				id: "36783FA28795DC7D"
-				type: "item"
-				item: "twilightforest:arctic_fur"
-			}]
-			rewards: [{
-				id: "19DC611C405AEB0A"
+				id: "634C9C2B15FD2EDC"
 				type: "item"
 				item: {
-					id: "twilightforest:arctic_helmet"
+					id: "gemsnjewels:jeweled_solid_diamond_sword"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -380,82 +1400,231 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -0.5d
-			subtitle: "A shiny magic crystal."
-			description: ["You can find them in caves."]
-			dependencies: ["7DCDDC6CA278A7C5"]
-			id: "03912F8EED303C9E"
+			x: 19.0d
+			y: -2.0d
+			description: ["The virulent Mix is usually found in the depths of the Undergarden, but you can sometimes find it a little higher up."]
+			dependencies: ["5343C67CDE16FF10"]
+			id: "624518A8746CBE52"
 			tasks: [{
-				id: "2FA8CB62E927395D"
+				id: "3778B86E23B87659"
 				type: "item"
-				item: "forbidden_arcanus:arcane_crystal"
+				item: "undergarden:virulent_mix_bucket"
 			}]
 			rewards: [{
-				id: "47EFDB022CA016F6"
+				id: "0E8F0318D9D891B8"
 				type: "item"
-				item: "forbidden_arcanus:arcane_crystal_block"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "undergarden:virulent_resistance"
+					}
+				}
 			}]
 		}
 		{
-			x: 5.5d
-			y: -0.5d
-			subtitle: "Great for an early armor and tool set."
-			description: ["You can amalgamate a Raw Iron, a Gold Nugget and a Liveroot to obtain a ball of Raw Ironwood."]
-			dependencies: ["7DCDDC6CA278A7C5"]
-			id: "29582A190DD0E266"
+			x: 16.0d
+			y: 2.0d
+			description: ["With the iron you obtain, you will be able to craft a Mixing Cauldron of Hexerei, this is an important block for accessing the next dimension."]
+			dependencies: ["231C193E7FCEDD34"]
+			id: "62A1EBC2009E43EC"
 			tasks: [{
-				id: "006D82236FD066D5"
+				id: "14A12AFF2F6C5F08"
+				type: "item"
+				item: "hexerei:mixing_cauldron"
+			}]
+			rewards: [{
+				id: "5771EED6C3CD1E00"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 2
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "TWILIGHT FOREST"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "twilightforest:textures/block/thorn_rose.png"
+				}
+			}
+			x: 23.0d
+			y: 2.0d
+			shape: "hexagon"
+			description: [
+				"To explore the Twilight Forest, you'll need to go through the Undergarden."
+				""
+				"Create a 2x2 area of water surrounded by flowers/mushrooms, a classic portal for the Twilight Forest, and throw your Portal Activator INTO the Undergarden to open the portal, this portal don't work in the Overworld."
+			]
+			dependencies: ["0E1AF287C0661458"]
+			size: 2.0d
+			id: "41F79D68475C9846"
+			tasks: [{
+				id: "64C26F098506E841"
+				type: "dimension"
+				dimension: "twilightforest:twilight_forest"
+			}]
+			rewards: [{
+				id: "22AE006EC721513A"
+				type: "item"
+				item: {
+					id: "gemsnjewels:jeweled_solid_garnet_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 23.0d
+			y: 0.0d
+			description: ["In the ground of the Twilight Forest you can find Liveroot, you will need it to make Ironwood!"]
+			dependencies: ["41F79D68475C9846"]
+			id: "489FCD7D788ACEB8"
+			tasks: [{
+				id: "7A24D5CD487F292C"
+				type: "item"
+				item: "twilightforest:liveroot"
+			}]
+			rewards: [{
+				id: "01C0E22554F7CE3A"
 				type: "item"
 				item: "twilightforest:raw_ironwood"
 			}]
-			rewards: [{
-				id: "32661F6DD4C3D978"
+		}
+		{
+			icon: "immersiveengineering:blast_furnace"
+			x: 24.5d
+			y: 2.0d
+			description: [
+				"The Blast Furnace is created using a 3x3x3 multiblock of Blast Bricks."
+				""
+				"Note that in JEI you have two crafting recipes available for Blast Bricks: the first is vanilla, and the second is in the Mixing Cauldron in Hexerei."
+				""
+				"To find lava, you will need to go to the Hydra area."
+				"Around this area, you should find the Minotaur Maze, this is where you will find Mazestone Bricks."
+			]
+			dependencies: ["62A1EBC2009E43EC"]
+			id: "75C843D6D56D0617"
+			tasks: [{
+				id: "267AED56098799C9"
 				type: "item"
-				item: {
-					id: "twilightforest:ironwood_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							id: "minecraft:efficiency"
-							lvl: 1s
-						}]
-					}
-				}
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "2D8809BAC491756E"
+				type: "item"
+				item: "minecraft:coal_block"
 			}]
 		}
 		{
-			x: 4.0d
-			y: -5.5d
-			description: ["You need to put Ironwood in the Blast Furnace to obtain Steel."]
-			dependencies: ["1EF95835215D60E0"]
-			id: "3C884020904C1B6C"
+			x: 24.5d
+			y: 0.0d
+			description: ["Steel is initially obtained only with Ironwood in a Blast Furnace, later you will be able to make it more easily with Mekanism."]
+			dependencies: [
+				"489FCD7D788ACEB8"
+				"75C843D6D56D0617"
+			]
+			id: "4347C442CFBA1A95"
 			tasks: [{
-				id: "01469A72E9B27D2B"
+				id: "6CD3DD0E5C887835"
 				type: "item"
 				item: "beyond_earth:steel_ingot"
 			}]
 			rewards: [{
-				id: "18700D2FD3E51451"
+				id: "1F5D5909021064AA"
 				type: "item"
-				item: "twilightforest:ironwood_block"
+				item: "beyond_earth:steel_ingot"
 			}]
 		}
 		{
-			x: 3.0d
-			y: -6.5d
-			subtitle: "Liftoff!"
-			description: [
-				"With your NASA Workbench, you can now make your first rocket."
-				"This will allow you to go to the Overworld and therefore have access to the Nether and to The End!"
-				""
-				"Be careful, if you go to the Moon straight away, remember to take Rocket Launch Pads with you as well as Fuel to come back from the Moon!"
-			]
-			dependencies: ["2FE44372B1A4621B"]
-			id: "6F5B1AE2E73664A7"
+			x: 21.5d
+			y: 0.0d
+			dependencies: ["2666DBCDB3471BEB"]
+			id: "326DA326DC53BCE2"
 			tasks: [{
-				id: "133486B7D579DD33"
+				id: "72A2DC5A010BE3CB"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+		}
+		{
+			x: 23.0d
+			y: -4.5d
+			description: [
+				"To obtain this Crystal, you will need to farm Shards hunting Rotbeast, Rotling, or Rotwalker."
+				""
+				"You can also mine it."
+			]
+			dependencies: ["5343C67CDE16FF10"]
+			id: "3B7B2B96822FF597"
+			tasks: [{
+				id: "60AAD8EE06F00203"
+				type: "item"
+				item: "undergarden:utherium_crystal"
+			}]
+			rewards: [{
+				id: "7A084A4C4301DB20"
+				type: "item"
+				item: "undergarden:utheric_shard"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 23.0d
+			y: -2.0d
+			shape: "gear"
+			dependencies: [
+				"3B7B2B96822FF597"
+				"4347C442CFBA1A95"
+				"326DA326DC53BCE2"
+			]
+			size: 2.0d
+			id: "6469741343613BF5"
+			tasks: [{
+				id: "56FD18FEE9E8EB5F"
+				type: "item"
+				item: "beyond_earth:nasa_workbench"
+			}]
+		}
+		{
+			title: "Launch Pad"
+			x: 26.0d
+			y: 0.0d
+			description: ["The Launch Pad is used to place your rocket and take off with it!"]
+			dependencies: ["4347C442CFBA1A95"]
+			id: "2AFE8067DDE4B309"
+			tasks: [{
+				id: "147FFB325803C1C8"
+				type: "item"
+				item: "beyond_earth:rocket_launch_pad"
+				count: 9L
+			}]
+			rewards: [{
+				id: "47BBE70DCDA37CFB"
+				type: "item"
+				item: "beyond_earth:steel_ingot"
+			}]
+		}
+		{
+			x: 25.5d
+			y: -2.0d
+			shape: "octagon"
+			description: [
+				"Finally, you have your rocket!"
+				""
+				"Blaze off towards the moon to unlock the rest of the modpack."
+			]
+			dependencies: ["6469741343613BF5"]
+			size: 1.5d
+			id: "532C2C05E3B25087"
+			tasks: [{
+				id: "3AFDA848544C9145"
 				type: "item"
 				item: {
 					id: "beyond_earth:rocket_t1"
@@ -464,266 +1633,453 @@
 				}
 			}]
 			rewards: [{
-				id: "7ABC86292AFEC53D"
+				id: "286ECB180E75BB6B"
 				type: "item"
 				item: "beyond_earth:earth_globe"
 			}]
 		}
 		{
-			title: "Overworld"
-			icon: "beyond_earth:earth_globe"
-			x: 3.0d
-			y: -9.0d
-			shape: "octagon"
-			subtitle: "The adventure begins!"
-			description: ["Land safely on Earth."]
-			dependencies: ["6F5B1AE2E73664A7"]
-			size: 2.0d
-			id: "4543AD330BD0A901"
-			tasks: [{
-				id: "4CFAB8DD6282CDBF"
-				type: "dimension"
-				dimension: "minecraft:overworld"
-			}]
-		}
-		{
-			x: 2.0d
-			y: -6.5d
-			subtitle: "Precision."
+			x: 26.5d
+			y: 2.0d
 			description: [
-				"The Precision Mechanism is mainly used to make Mechanical Arms or Rotation Speed Controllers."
-				""
-				"Be careful though because the craft has a 20% miss chance and giving you a junk item."
-			]
-			dependencies: ["6234A8C99DAEDBF1"]
-			id: "5836EBA421A25364"
-			tasks: [{
-				id: "1A21FB994515127B"
-				type: "item"
-				item: "create:precision_mechanism"
-			}]
-			rewards: [{
-				id: "2240DD7A50FB0623"
-				type: "item"
-				item: "create_sa:brass_cube"
-			}]
-		}
-		{
-			x: 1.0d
-			y: -5.5d
-			subtitle: "Autoclicker."
-			description: ["The deployer will be useful for making assembly crafts."]
-			dependencies: [
-				"4C6AA93A91E04FBB"
-				"27709AD99F715F2C"
-			]
-			id: "6234A8C99DAEDBF1"
-			tasks: [{
-				id: "2AF8E0DF89B6C9C8"
-				type: "item"
-				item: "create:deployer"
-			}]
-			rewards: [{
-				id: "763A1822C74D46CD"
-				type: "item"
-				item: "create:brass_hand"
-			}]
-		}
-		{
-			x: 1.0d
-			y: -6.5d
-			description: [
-				"To make Rose Quartz in this pack you will need Fluorite and Redstone."
-				"There will be a way to make Rose Quartz with Quartz later."
-			]
-			dependencies: ["608B0D64957C2EC8"]
-			id: "4C6AA93A91E04FBB"
-			tasks: [{
-				id: "4B40F178460395FD"
-				type: "item"
-				item: "create:rose_quartz"
-			}]
-			rewards: [{
-				id: "27E7CAA68021E444"
-				type: "item"
-				item: {
-					id: "create:red_sand_paper"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 1.0d
-			y: -4.5d
-			subtitle: "The age of Brass."
-			description: ["With your Alloy Kiln, make Brass ingots to enter the age of brass with Create!"]
-			dependencies: ["5B7594939BB7C888"]
-			id: "27709AD99F715F2C"
-			tasks: [{
-				id: "5CA38B103AB4469B"
-				type: "item"
-				item: "create:brass_ingot"
-			}]
-			rewards: [{
-				id: "047E11044BEFEF0E"
-				type: "item"
-				item: {
-					id: "create_sa:brass_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			title: "Alloy Kiln"
-			icon: "immersiveengineering:alloy_smelter"
-			x: 2.0d
-			y: -4.5d
-			subtitle: "A primitive alloy smelter"
-			description: ["The alloy kiln is a simple way to make your first alloys!"]
-			dependencies: ["608B0D64957C2EC8"]
-			id: "5B7594939BB7C888"
-			tasks: [{
-				id: "187782A76A7FD770"
-				type: "item"
-				item: "immersiveengineering:alloybrick"
-				count: 8L
-			}]
-			rewards: [{
-				id: "4A87AA178181DC1D"
-				type: "item"
-				item: "minecraft:coal_block"
-			}]
-		}
-		{
-			title: "How to return in The Undergarden and Twilight Forest"
-			x: 3.0d
-			y: -11.0d
-			shape: "circle"
-			description: [
-				"With this Catalyst you can return, from the Overworld, to The Undergarden, by making a new portal like the image below, and therefore by definition to the Twilight Forest by making a twilight portal (the one with flower, or mushrooms, around a 2x2 pool of water) and using this same Catalyst to open it."
-				"{image:ftbquests:textures/quests/undergarden_portal.png width:150 height:100 align:1}"
-				"After that, I recommend you to craft a Tempad to easily travel through any dimension."
-			]
-			dependencies: ["4543AD330BD0A901"]
-			id: "13B3A667FA99741C"
-			tasks: [{
-				id: "774111107EC390B8"
-				type: "item"
-				item: "undergarden:catalyst"
-			}]
-			rewards: [{
-				id: "2D4FA487219B7095"
-				type: "item"
-				item: "undergarden:catalyst"
-			}]
-		}
-		{
-			x: 5.0d
-			y: -4.5d
-			shape: "square"
-			description: [
-				"In order to make fuel for your rocket, you need to find some Crude Oil, like this oil well."
+				"Crude Oil can be found in the Twilight Forest, keep your eyes peeled, sometimes it's well hidden!"
 				"{image:ftbquests:textures/quests/ip_crudeoil.png width:150 height:100 align:1}"
 			]
-			hide_dependency_lines: true
-			dependencies: ["7DCDDC6CA278A7C5"]
-			id: "713A56F9D9036CC6"
+			dependencies: ["41F79D68475C9846"]
+			id: "167AD5CDF6185A9E"
 			tasks: [{
-				id: "673BA3E5C155C8A5"
+				id: "4B57B0EDD3378851"
 				type: "item"
 				item: "immersivepetroleum:crudeoil_bucket"
 			}]
 			rewards: [{
-				id: "6446CE2EFABB8310"
+				id: "3AC64C972DF736B3"
 				type: "item"
-				item: "immersivepetroleum:crudeoil_bucket"
+				item: "croptopia:banana_cream_pie"
+				count: 4
 			}]
 		}
 		{
-			x: 5.0d
-			y: -6.5d
-			shape: "square"
-			description: ["Process your Crude Oil in the Fuel Refinery to obtain Fuel for your rocket."]
-			dependencies: ["1E65C40447A8DAC9"]
-			id: "37E18CFB7E512A82"
+			x: 25.5d
+			y: 1.0d
+			description: ["The Fuel Refinery is used to refine Crude Oil into Fuel for your rocket."]
+			dependencies: ["4347C442CFBA1A95"]
+			id: "29FFDBCAA13FFFCB"
 			tasks: [{
-				id: "511ED3FE7C5B9AE1"
-				type: "item"
-				item: "beyond_earth:fuel_bucket"
-			}]
-			rewards: [{
-				id: "1DE056748A95830D"
-				type: "item"
-				item: "beyond_earth:fuel_bucket"
-			}]
-		}
-		{
-			x: 5.0d
-			y: -5.5d
-			description: [
-				"A Fuel Refinery can convert Oil into Fuel."
-				"By sneak+right-clicking on your rocket you can fill it with your recently obtain fuel."
-			]
-			dependencies: [
-				"3C884020904C1B6C"
-				"713A56F9D9036CC6"
-			]
-			id: "1E65C40447A8DAC9"
-			tasks: [{
-				id: "207FF5F35A77FCE9"
+				id: "3B67C4A73DBBA742"
 				type: "item"
 				item: "beyond_earth:fuel_refinery"
 			}]
 			rewards: [{
-				id: "2ACD56ECB2D0776D"
+				id: "72DFC4FECFF6338E"
 				type: "item"
 				item: "beyond_earth:steel_ingot"
+			}]
+		}
+		{
+			x: 26.5d
+			y: 1.0d
+			description: ["Fuel is used to power your Rocket, use the fuel refinery to obtain it."]
+			dependencies: [
+				"29FFDBCAA13FFFCB"
+				"167AD5CDF6185A9E"
+			]
+			id: "2EFEB2ED23AD46F2"
+			tasks: [{
+				id: "70D29D34217F48FB"
+				type: "item"
+				item: "beyond_earth:fuel_bucket"
+			}]
+			rewards: [{
+				id: "7D19C78DFD273576"
+				type: "item"
+				item: "croptopia:rhubarb_pie"
+				count: 4
+			}]
+		}
+		{
+			title: "MOON"
+			icon: "beyond_earth:moon_globe"
+			x: 28.0d
+			y: -2.0d
+			shape: "hexagon"
+			description: ["Welcome to the moon, your mission is to find Desh to allow you to make the famous cake mold that will allow you to make dimension cakes."]
+			dependencies: ["532C2C05E3B25087"]
+			size: 2.0d
+			id: "4D2B6F86D1915D23"
+			tasks: [{
+				id: "423717D44369770D"
+				type: "dimension"
+				dimension: "beyond_earth:moon"
+			}]
+			rewards: [{
+				id: "28F773C344449160"
+				type: "item"
+				item: "beyond_earth:moon_globe"
+			}]
+		}
+		{
+			title: "Oxygen Loader"
+			x: 25.5d
+			y: -4.5d
+			description: [
+				"The Coal Generator is a fairly simple block to use, it consumes coal to produce RF."
+				""
+				"With the Oxygen Loader, you can convert water and RF into oxygen to fill your spacesuit."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0EE9FA80A279CFBD"]
+			id: "7168566D7EC5BEAF"
+			tasks: [
+				{
+					id: "790BCAD550BE3688"
+					type: "item"
+					item: "beyond_earth:coal_generator"
+				}
+				{
+					id: "3EBD1C3170BBAD2F"
+					type: "item"
+					item: "beyond_earth:oxygen_loader"
+				}
+			]
+			rewards: [{
+				id: "23EE65F03EFA859B"
+				type: "item"
+				item: "beyond_earth:oxygen_tank"
+			}]
+		}
+		{
+			title: "Space Suit"
+			x: 25.5d
+			y: -3.5d
+			description: ["You'll absolutely need this Space Suit, filled with oxygen, to travel around on other planets."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0EE9FA80A279CFBD"
+				"4347C442CFBA1A95"
+			]
+			id: "5E183E3C08A6A39A"
+			tasks: [
+				{
+					id: "0B9CDF4AD6CB4CD3"
+					type: "item"
+					item: {
+						id: "beyond_earth:oxygen_mask"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0C82F20EF420EFF7"
+					type: "item"
+					item: {
+						id: "beyond_earth:space_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "04EDD0E90FF5DAD0"
+					type: "item"
+					item: {
+						id: "beyond_earth:space_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "55CA0947B79DFF6A"
+					type: "item"
+					item: {
+						id: "beyond_earth:space_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "06FFBED20E776FBA"
+				type: "item"
+				item: "beyond_earth_giselle_addon:oxygen_can"
+			}]
+		}
+		{
+			x: 29.0d
+			y: -3.5d
+			description: [
+				"The Overworld Cake allows you to teleport to the Overworld."
+				""
+				"It's useful for returning to your base if you travel to another dimension, but if you already have a way to teleport (like a Tempad, for example), it won't be very useful."
+			]
+			dependencies: ["7DD000F2FDCD2711"]
+			id: "3532DF36D3DD2E4A"
+			tasks: [{
+				id: "228106D66EB39661"
+				type: "item"
+				item: "telepastries:overworld_cake"
+			}]
+			rewards: [{
+				id: "2E96ACAA685737FD"
+				type: "item"
+				item: "telepastries:overworld_cake"
+			}]
+		}
+		{
+			x: 30.0d
+			y: -3.5d
+			description: ["As its name suggests, this cake will take you to the Nether because portals are disabled on the Skyblock."]
+			dependencies: ["7DD000F2FDCD2711"]
+			id: "016FA1DF5180A678"
+			tasks: [{
+				id: "1C78941B6767F88A"
+				type: "item"
+				item: "telepastries:nether_cake"
+			}]
+			rewards: [{
+				id: "717E1F8E8D633F8A"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+			}]
+		}
+		{
+			x: 31.0d
+			y: -2.5d
+			description: [
+				"To make the End Cake, you'll first need an End Stone Block. You can craft it using Occultism or Ars Nouveau."
+				""
+				"If you find another solution, let's go!"
+			]
+			dependencies: ["7DD000F2FDCD2711"]
+			id: "0D72112D82F6C9B7"
+			tasks: [{
+				id: "0AD18A13534C967F"
+				type: "item"
+				item: "telepastries:end_cake"
+			}]
+			rewards: [{
+				id: "2EA2C139D7D1ED25"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "goblintraders:extended_slow_falling"
+					}
+				}
+			}]
+		}
+		{
+			x: 30.0d
+			y: -0.5d
+			description: [
+				"Tired of being in Skyblock? Well, you can head to Lost City!"
+				""
+				"There you'll find structures (mostly cities), loot chests, dungeons, and even Strongholds if you don't want to go craft the End Cake."
+				""
+				"You can also find the structures for Blue Skies there, but there are other methods to access the portal, Check the Blue Skies quests."
+			]
+			dependencies: ["7DD000F2FDCD2711"]
+			id: "25F5BB89883CB4CF"
+			tasks: [{
+				id: "24AF455771DE1932"
+				type: "item"
+				item: "telepastries:lost_city_cake"
+			}]
+			rewards: [{
+				id: "402CB6962FD867D1"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_strength"
+					}
+				}
+			}]
+		}
+		{
+			x: 29.0d
+			y: -0.5d
+			description: ["Just like the undergarden, you can keep your classic portal, but you can also make yourself a very nice cake!"]
+			dependencies: ["7DD000F2FDCD2711"]
+			id: "53CB0E27314CBF60"
+			tasks: [{
+				id: "5348D699EC8C6E35"
+				type: "item"
+				item: "telepastries:twilight_cake"
+			}]
+			rewards: [{
+				id: "38E379FD67BEB9E5"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: 31.0d
+			y: -1.5d
+			description: ["You can continue to use your classic portal to go to the undergarden, but you can make a delicious cake!"]
+			dependencies: ["7DD000F2FDCD2711"]
+			id: "0429DFF3D142FDC1"
+			tasks: [{
+				id: "43E209CA04BACC6D"
+				type: "item"
+				item: "telepastries:custom_cake"
+			}]
+			rewards: [{
+				id: "3B755B3106913A67"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "undergarden:long_virulent_resistance"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			description: [
+				"The oak crucible and the wooden bucket will allow you to easily collect water by placing saplings or leaves in the crucible."
+				""
+				"To obtain leaves, you will need a kama from Tinker's Construct."
+			]
+			dependencies: ["2F160AF5A10DED2E"]
+			id: "054EF7B6A457E246"
+			tasks: [
+				{
+					id: "7BD4619767F6C85C"
+					type: "item"
+					item: "exnihilosequentia:oak_crucible"
+				}
+				{
+					id: "6E853C63EAF44C39"
+					type: "item"
+					item: {
+						id: "woodenbucket:wooden_bucket"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6C59F88253AA46F6"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 8
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			description: [
+				"Simply collect a source of water."
+				""
+				"As a reward I'll give you a Wooden Molten Iron Bucket, use it in the tinker smeltery to collect iron faster."
+				""
+				"BE CAREFUL!!"
+				"The bucket is hot and will burn you if you don't put it in a chest immediately!"
+			]
+			dependencies: ["054EF7B6A457E246"]
+			id: "629427DFC4763CD1"
+			tasks: [{
+				id: "61B1FE0E22A69A3E"
+				type: "item"
+				item: {
+					id: "woodenbucket:wooden_bucket"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Fluid: {
+							FluidName: "minecraft:water"
+							Amount: 1000
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "6FFC0E107EABBDF4"
+				type: "item"
+				item: {
+					id: "woodenbucket:wooden_bucket"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Fluid: {
+							FluidName: "tconstruct:molten_iron"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Tips"
+			icon: "botania:cosmetic_questgiver_mark"
+			x: 1.5d
+			y: 1.5d
+			shape: "octagon"
+			description: [
+				"The beginning of the pack is fairly straightforward, as explained on this quest book page, but you might get lucky and encounter a mob carrying a backpack containing interesting goodies."
+				""
+				"Some loot in the Undergarden and Twilight areas could also save you time."
+				""
+				"Some blocks/items have several different crafting recipes, take the one that allows you to go faster."
+			]
+			dependencies: ["375F4C25F6B07F8C"]
+			id: "302CEF5C41A83E94"
+			tasks: [{
+				id: "597284EFDEE913F1"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3B0AA64F567464B4"
+				type: "item"
+				item: "croptopia:banana_nut_bread"
 				random_bonus: 3
 			}]
 		}
 		{
-			title: "Launch Pad"
-			x: 4.0d
-			y: -6.5d
-			shape: "square"
-			description: ["A Rocket Launch Pad is mandatory to go on space! Put them on the floor as a 3x3 square, then put your rocket on it."]
-			dependencies: ["3C884020904C1B6C"]
-			id: "2196A221FBC8BDF3"
+			title: "Telepastries Infos"
+			icon: "botania:cosmetic_questgiver_mark"
+			x: 32.5d
+			y: -2.0d
+			shape: "octagon"
+			description: [
+				"Some information to know about the cakes in this pack with the Telepastries mod."
+				""
+				"The cakes in this pack don't require you to be hungry to eat them, and they aren't consumed when you eat them, so you have an infinite uses of your cakes."
+				""
+				"To make the Icings you will need essences from the Overworld, Nether and End, everything is explained via JEI, you will need to start by collecting aura bottles from Nature Aura, the rest is in JEI."
+			]
+			dependencies: ["7DD000F2FDCD2711"]
+			id: "2368DEDBAEC11231"
 			tasks: [{
-				id: "309581467DDCF2AB"
-				type: "item"
-				item: "beyond_earth:rocket_launch_pad"
-				count: 9L
+				id: "160CFF8FD7CC792B"
+				type: "checkmark"
 			}]
 			rewards: [{
-				id: "17AF5DF646E688E8"
+				id: "0DA287A558738DDB"
 				type: "item"
-				item: "beyond_earth:rocket_launch_pad"
-				count: 9
-			}]
-		}
-		{
-			x: 2.0d
-			y: -3.5d
-			description: ["You can find Lava in Fire Swamp, underneath Fire Jets and Smokers or in the Minoshroom's maze."]
-			hide_dependency_lines: true
-			dependencies: ["7DCDDC6CA278A7C5"]
-			id: "5A7AE75E4AF0003F"
-			tasks: [{
-				id: "3FC10B61DD89AAD1"
-				type: "item"
-				item: "minecraft:lava_bucket"
-			}]
-			rewards: [{
-				id: "0357BD43E5378D47"
-				type: "item"
-				item: "minecraft:lava_bucket"
+				item: "croptopia:fruit_cake"
 			}]
 		}
 	]

@@ -106,6 +106,75 @@ onEvent('recipes', e => {
     pebble('minecraft:basalt', 'ragnamod_seven:basalt_pebble', 0.8)
     pebble('minecraft:deepslate', 'ragnamod_seven:deepslate_pebble', 0.8)
 
-    e.custom({ "type": "lychee:block_interacting", "contextual": [{ "type": "is_sneaking" }], "item_in": { "item": "air" }, "block_in": '#minecraft:dirt', "post": [{ "type": "drop_item", "item": 'ragnamod_seven:stone_pebble', "contextual": { "type": "chance", "chance": 0.8 } }, { "type": "drop_item", "item": 'ragnamod_seven:andesite_pebble', "contextual": { "type": "chance", "chance": 0.8 } }, { "type": "drop_item", "item": 'ragnamod_seven:granite_pebble', "contextual": { "type": "chance", "chance": 0.8 } }, { "type": "drop_item", "item": 'ragnamod_seven:diorite_pebble', "contextual": { "type": "chance", "chance": 0.8 } }] })
+    e.custom({ "type": "lychee:block_interacting", "contextual": [{ "type": "is_sneaking" }], "item_in": { "item": "air" }, "block_in": '#minecraft:dirt', "post": [{ "type": "drop_item", "item": 'ragnamod_seven:stone_pebble', "contextual": { "type": "chance", "chance": 0.6 } }, { "type": "drop_item", "item": 'ragnamod_seven:andesite_pebble', "contextual": { "type": "chance", "chance": 0.6 } }, { "type": "drop_item", "item": 'ragnamod_seven:granite_pebble', "contextual": { "type": "chance", "chance": 0.6 } }, { "type": "drop_item", "item": 'ragnamod_seven:diorite_pebble', "contextual": { "type": "chance", "chance": 0.6 } }, { "type": "drop_item", "item": 'ragnamod_seven:powdered_dirt', "contextual": { "type": "chance", "chance": 0.4 } }] })
 
+    //Rack Dirt
+    e.custom({
+        "type": "lychee:block_interacting",
+        "contextual": [{ "type": "is_sneaking" }],
+        "item_in": { "item": "ragnamod_seven:rack" },
+        "block_in": '#minecraft:dirt',
+        "post": [
+            {
+                "type": "random", "rolls": { "min": 1, "max": 2 },
+                "entries": [
+                    { "type": "drop_item", "item": "ragnamod_seven:spruce_seed", "contextual": { "type": "chance", "chance": 0.1 } },
+                    { "type": "drop_item", "item": "ragnamod_seven:oak_seed", "contextual": { "type": "chance", "chance": 0.1 } },
+                    { "type": "drop_item", "item": "ragnamod_seven:jungle_seed", "contextual": { "type": "chance", "chance": 0.1 } },
+                    { "type": "drop_item", "item": "ragnamod_seven:dark_oak_seed", "contextual": { "type": "chance", "chance": 0.1 } },
+                    { "type": "drop_item", "item": "ragnamod_seven:runewood_seed", "contextual": { "type": "chance", "chance": 0.1 } },
+                    { "type": "drop_item", "item": "ragnamod_seven:birch_seed", "contextual": { "type": "chance", "chance": 0.1 } },
+                    { "type": "drop_item", "item": "ragnamod_seven:acacia_seed", "contextual": { "type": "chance", "chance": 0.1 } }
+                ]
+            },
+            { "type": "place", "block": "air", "contextual": { "type": "chance", "chance": 0.1 } }, { "type": "damage_item" }
+        ]
+    })
+
+    //Seeds
+    function seed(input, block, output, offset) { e.custom({ "type": "lychee:block_interacting", "item_in": { "item": input }, "block_in": block, "post": [{ "type": "place", "offsetY": offset, "block": output }] }) }
+    function seedWaterloged(input, output) { e.custom({ "type": "lychee:item_inside", "item_in": { "item": input }, "block_in": { "blocks": ["water"], "state": { "level": 0 } }, "post": [{ "type": "place", "block": output, "state": { "waterlogged": "true" } }] }) }
+    seed('ragnamod_seven:acacia_seed', '#minecraft:dirt', 'minecraft:acacia_sapling', 1)
+    seed('ragnamod_seven:birch_seed', '#minecraft:dirt', 'minecraft:birch_sapling', 1)
+    seed('ragnamod_seven:runewood_seed', '#minecraft:dirt', 'malum:runewood_sapling', 1)
+    seed('ragnamod_seven:dark_oak_seed', '#minecraft:dirt', 'minecraft:dark_oak_sapling', 1)
+    seed('ragnamod_seven:jungle_seed', '#minecraft:dirt', 'minecraft:jungle_sapling', 1)
+    seed('ragnamod_seven:oak_seed', '#minecraft:dirt', 'minecraft:oak_sapling', 1)
+    seed('ragnamod_seven:spruce_seed', '#minecraft:dirt', 'minecraft:spruce_sapling', 1)
+    seed('ragnamod_seven:bamboo_seeds', '#minecraft:dirt', 'minecraft:bamboo_sapling', 1)
+    seed('ragnamod_seven:sugarcane_seeds', '#forge:sand', 'minecraft:sugar_cane', 1)
+    seed('ragnamod_seven:cactus_seeds', '#forge:sand', 'minecraft:cactus', 1)
+    seed('ragnamod_seven:potato_seeds', 'minecraft:farmland', 'minecraft:potatoes', 1)
+    seed('ragnamod_seven:carrot_seeds', 'minecraft:farmland', 'minecraft:carrots', 1)
+    seedWaterloged('ragnamod_seven:kelp_seed', 'minecraft:kelp')
+    seedWaterloged('ragnamod_seven:pickle_seed', 'minecraft:sea_pickle')
+
+    //Dirt to Blighted Earth
+    e.custom({
+        "type": "lychee:block_interacting",
+        "item_in": {
+            "item": "malum:blighted_gunk"
+        },
+        "block_in": "minecraft:dirt",
+        "post": [
+            {
+                "type": "place",
+                "block": "malum:blighted_earth"
+            }
+        ]
+    })
+    //Dirt to Grass
+    e.custom({
+        "type": "lychee:block_interacting",
+        "item_in": {
+            "item": "ragnamod_seven:grass_seeds"
+        },
+        "block_in": "minecraft:dirt",
+        "post": [
+            {
+                "type": "place",
+                "block": "minecraft:grass_block"
+            }
+        ]
+    })
 })

@@ -12,7 +12,16 @@
     "tool_type": "minecraft:mineable/pickaxe",
     "mining_level": "minecraft:needs_iron_tool",
     "requires_tool": true,
-    "shape": [[0, 0, 0, 1, 1, 1]],
+    "shape": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
     "running": {
       "block": "ragnamod_seven:machine/advanced_neutron_collector_running_model",
       "light": 10
@@ -68,8 +77,8 @@
   "jei": [
     {
       "id": "output",
-      "x": 119,
-      "y": 52,
+      "x": 4,
+      "y": 4,
       "type": "custommachinery:slot"
     }
   ],

@@ -12,7 +12,16 @@
     "tool_type": "minecraft:mineable/pickaxe",
     "mining_level": "minecraft:needs_iron_tool",
     "requires_tool": true,
-    "shape": [[0, 0, 0, 1, 1, 1]],
+    "shape": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
     "running": {
       "block": "ragnamod_seven:machine/psi_stabilizer_running_model",
       "light": 10
@@ -94,14 +103,14 @@
     {
       "emptytexture": "ragnamod_seven:textures/gui/base_energy_jei.png",
       "filledtexture": "ragnamod_seven:textures/gui/base_energy_jei.png",
-      "x": 50,
-      "y": 30,
+      "x": 4,
+      "y": 4,
       "type": "custommachinery:energy"
     },
     {
       "id": "output",
-      "x": 70,
-      "y": 30,
+      "x": 30,
+      "y": 4,
       "type": "custommachinery:slot"
     }
   ],

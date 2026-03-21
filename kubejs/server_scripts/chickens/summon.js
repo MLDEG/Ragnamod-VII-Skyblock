@@ -240,5 +240,6 @@ onEvent('recipes', e => {
     summonChicken('croptopia:fajitas', 'croptopia:fajitas', 'peonlambdaa')
     summonChicken('croptopia:toast_with_jam', 'croptopia:toast_with_jam', 'samnes')
     summonChicken('croptopia:beer', 'croptopia:beer', 'mr_bidou')
+    summonChicken('ragnamod_seven:antimatter_pellet_block', 'ragnamod_seven:ftp', 'antimatter')
 
 })

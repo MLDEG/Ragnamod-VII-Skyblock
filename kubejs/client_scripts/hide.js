@@ -411,6 +411,26 @@ onEvent('jei.hide.items', e => {
         'pneumaticcraft:medium_tank',
         'pneumaticcraft:large_tank',
         'pneumaticcraft:huge_tank',
+        'telepastries:custom_cake2',
+        'telepastries:custom_cake3',
+        /exnihilosequentia:(bone|andesite|diamond|diamond|diorite|gold|granite|iron|wooden)_crook/,
+        'exnihilosequentia:beehive_frame',
+        'exnihilosequentia:end_cake',
+        /exnihilosequentia:.+_(hammer|sieve|larvae|seeds|doll|pebble|mesh)/,
+        'exnihilosequentia:mycelium_spores',
+        'exnihilosequentia:copper_nugget',
+        'exnihilosequentia:porcelain_clay',
+        'botania:pebble',
+        'malum:copper_nugget',
+        'create:crushed_raw_platinum',
+        'exnihilosequentia:platinum_ingot',
+        'ragnamod_seven:incomplete_catalyst',
+        'createaddition:cake_base',
+        'exnihilosequentia:unfired_crucible',
+        'exnihilosequentia:fired_crucible',
+        'ragnamod_seven:green_gem_show',
+        'ragnamod_seven:red_gem_show',
+        'ragnamod_seven:blue_gem_show'
     ])
 })
 //Fluids

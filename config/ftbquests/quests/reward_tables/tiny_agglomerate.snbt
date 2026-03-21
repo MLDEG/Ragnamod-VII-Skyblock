@@ -1,0 +1,33 @@
+{
+	id: "2C548AC9BB3F7080"
+	order_index: 3
+	title: "Tiny Agglomerate"
+	icon: "ragnamod_seven:tiny_agglomerate_matter_ae2"
+	loot_size: 1
+	rewards: [
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_minecraft1" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_minecraft2" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_minecraft3" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_twilight" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_blood_magic" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_create" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_mekanism" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_powah" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_botania" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_blue_skies" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_space" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_blocky" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_mobs" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_psi" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_thermal" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_evil_craft" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_ae2" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_forbidden_arcanus" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_undergarden" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_ftbic" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_tconstruct" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_ars" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_pneumaticcraft" }
+		{ item: "ragnamod_seven:tiny_agglomerate_matter_tech" }
+	]
+}

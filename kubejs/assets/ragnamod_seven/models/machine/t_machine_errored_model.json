@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "ragnamod_seven:block/t_machine",
+    "side": "ragnamod_seven:block/t_machine",
+    "bottom": "ragnamod_seven:block/t_machine",
+    "top": "ragnamod_seven:block/t_machine_errored"
+  }
+}

@@ -20,4 +20,13 @@ onEvent('recipes', e => {
             { "fluid": "bloodmagic:doubt_fluid", "amount": 50 }
         ]
     })
+
+    //Cake Mold
+    e.custom({
+        "type": "create:compacting",
+        "ingredients": [{ "item": "beyond_earth:desh_block" }],
+        "results": [
+            { "item": "ragnamod_seven:cake_mold", "count": 1 }
+        ]
+    })
 })

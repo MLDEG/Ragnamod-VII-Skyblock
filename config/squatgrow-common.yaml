@@ -1,0 +1,21 @@
+!!dev.wuffs.squatgrow.config.SquatGrowConfig
+allowAdventureTwerking: false
+chance: 0.5
+debug: false
+enableMysticalCrops: false
+ignoreList: ['minecraft:grass_block', 'minecraft:grass', 'minecraft:tall_grass', 'minecraft:netherrack',
+  'minecraft:warped_nylium', 'minecraft:crimson_nylium', 'malum:blighted_soil', 'malum:blighted_tumor',
+  'malum:blighted_weed', 'malum:blighted_earth', 'undergarden:deepturf_block', 'undergarden:deepturf',
+  'undergarden:shimmerweed', 'minecraft:moss_block', 'byg:lush_grass_block', 'botania:infused_grass',
+  'botania:scorched_grass', 'botania:vivid_grass', 'botania:golden_grass', 'botania:dry_grass',
+  'blue_skies:lunar_cherry_grass_block', 'blue_skies:turquoise_cherry_grass_block',
+  'blue_skies:lunar_grass_block', 'blue_skies:turquoise_grass_block', 'tconstruct:ender_ichor_slime_grass',
+  'tconstruct:sky_ichor_slime_grass', 'tconstruct:earth_ichor_slime_grass', 'tconstruct:ender_ender_slime_grass',
+  'tconstruct:sky_ender_slime_grass', 'tconstruct:earth_ender_slime_grass', 'tconstruct:ender_sky_slime_grass',
+  'tconstruct:sky_sky_slime_grass', 'tconstruct:earth_sky_slime_grass', 'tconstruct:ender_earth_slime_grass',
+  'tconstruct:sky_earth_slime_grass', 'tconstruct:earth_earth_slime_grass', 'tconstruct:ender_vanilla_slime_grass',
+  'tconstruct:sky_vanilla_slime_grass', 'tconstruct:earth_vanilla_slime_grass', 'naturesaura:nether_grass',
+  'botania:mutated_grass', 'twilightforest:mayapple', 'twilightforest:mushgloom',
+  'twilightforest:moss_patch']
+range: 3
+useWhitelist: false

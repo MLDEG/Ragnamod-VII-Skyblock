@@ -1,0 +1,91 @@
+{
+	id: "4ECEC34A4DBA4E0C"
+	order_index: 2
+	title: "Beginning"
+	icon: {
+		id: "malum:spirit_pouch"
+		Count: 1b
+		tag: { }
+	}
+	loot_size: 1
+	rewards: [
+		{ item: "miniutilities:angel_ring" }
+		{ item: "tempad:he_who_remains_tempad" }
+		{
+			item: {
+				id: "sophisticatedbackpacks:netherite_backpack"
+				Count: 1b
+				tag: {
+					inventorySlots: 120
+					upgradeSlots: 7
+					renderInfo: {
+						upgradeItems: [
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+					contentsUuid: [I;
+						-1543677204
+						-1654436151
+						-2116204422
+						467388954
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "tiab:time_in_a_bottle"
+				Count: 1b
+				tag: { }
+			}
+		}
+	]
+}

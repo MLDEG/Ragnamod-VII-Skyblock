@@ -118,5 +118,8 @@ onEvent('item.registry', e => {
     completePrediction("winter_wolf", "Winter Wolf", "#AFB8C3")
     completePrediction("wraith", "Wraith", "#111010")
     completePrediction("yeti", "Yeti", "#4570B6")
+    completePrediction("ignis", "Ignis", "#cf7700")
+    completePrediction("nether_monstrosity", "Nether Monstrosity", "#2c2c2c")
+    completePrediction("ender_guardian", "Ender Guardian", "#dd28fc")
 
 })

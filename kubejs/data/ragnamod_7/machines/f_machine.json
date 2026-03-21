@@ -1,0 +1,299 @@
+{
+  "name": "F Machine",
+  "appearance": {
+    "block": "ragnamod_seven:machine/f_machine_idle_model",
+    "item": "ragnamod_seven:machine/f_machine_idle_model",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:netherite_block",
+    "light": 15,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "running": {
+      "block": "ragnamod_seven:machine/f_machine_running_model",
+      "light": 10
+    },
+    "errored": {
+      "block": "ragnamod_seven:machine/f_machine_errored_model"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 1000000,
+      "maxInput": 1000000,
+      "maxOutput": 1000000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "f_input_0",
+      "mode": "input",
+      "filter": [
+        "ragnamod_seven:vivid_opinium_core"
+      ],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "f_input_1",
+      "mode": "input",
+      "filter": [
+        "ragnamod_seven:blue_gem"
+      ],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "f_input_2",
+      "mode": "input",
+      "filter": [
+        "ragnamod_seven:blue_antimatter_pellet"
+      ],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "f_input_3",
+      "mode": "input",
+      "filter": [
+        "bloodmagic:waterritualstone"
+      ],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "f_input_4",
+      "mode": "input",
+      "filter": [
+        "chemlib:vanadium_metal_block"
+      ],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "f_input_5",
+      "mode": "input",
+      "filter": [
+        "quark:blue_rune"
+      ],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "f_input_6",
+      "mode": "input",
+      "filter": [
+        "vtones:azur_block_9"
+      ],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "f_input_7",
+      "mode": "input",
+      "filter": [
+        "ars_elemental:lesser_water_focus"
+      ],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "f_input_8",
+      "mode": "input",
+      "filter": [
+        "malum:aqueous_spirit"
+      ],
+      "whitelist": true
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "f_output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "ragnamod_seven:textures/gui/f_machine_gui.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 222,
+      "y": 12
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 47,
+      "y": 173
+    },
+    {
+      "id": "f_input_0",
+      "x": 119,
+      "y": 79,
+      "type": "custommachinery:slot",
+      "ghost": "ragnamod_seven:vivid_opinium_core"
+    },
+    {
+      "id": "f_input_1",
+      "x": 119,
+      "y": 23,
+      "type": "custommachinery:slot",
+      "ghost": "ragnamod_seven:blue_gem_show"
+    },
+    {
+      "id": "f_input_2",
+      "x": 157,
+      "y": 41,
+      "type": "custommachinery:slot",
+      "ghost": "ragnamod_seven:blue_antimatter_pellet"
+    },
+    {
+      "id": "f_input_3",
+      "x": 175,
+      "y": 79,
+      "type": "custommachinery:slot",
+      "ghost": "bloodmagic:waterritualstone"
+    },
+    {
+      "id": "f_input_4",
+      "x": 157,
+      "y": 117,
+      "type": "custommachinery:slot",
+      "ghost": "chemlib:vanadium_metal_block"
+    },
+    {
+      "id": "f_input_5",
+      "x": 119,
+      "y": 135,
+      "type": "custommachinery:slot",
+      "ghost": "quark:blank_rune"
+    },
+    {
+      "id": "f_input_6",
+      "x": 81,
+      "y": 117,
+      "type": "custommachinery:slot",
+      "ghost": "vtones:azur_block_9"
+    },
+    {
+      "id": "f_input_7",
+      "x": 63,
+      "y": 79,
+      "type": "custommachinery:slot",
+      "ghost": "ars_elemental:lesser_water_focus"
+    },
+    {
+      "id": "f_input_8",
+      "x": 81,
+      "y": 41,
+      "type": "custommachinery:slot",
+      "ghost": "malum:aqueous_spirit"
+    },
+    {
+      "id": "f_output",
+      "x": 222,
+      "y": 135,
+      "type": "custommachinery:slot"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/ftp_progression_bar.png",
+      "filledtexture": "ragnamod_seven:textures/gui/f_progression_bar.png",
+      "x": 180,
+      "y": 136,
+      "direction": "right",
+      "type": "custommachinery:progress"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/base_energy_storage_empty_ftp.png",
+      "filledtexture": "ragnamod_seven:textures/gui/base_energy_storage_filled_ftp.png",
+      "x": 222,
+      "y": 173,
+      "type": "custommachinery:energy"
+    }
+  ],
+  "jei": [
+    {
+      "id": "f_input_0",
+      "x": 4,
+      "y": 4,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "f_input_1",
+      "x": 22,
+      "y": 4,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "f_input_2",
+      "x": 40,
+      "y": 4,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "f_input_3",
+      "x": 58,
+      "y": 4,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "f_input_4",
+      "x": 76,
+      "y": 4,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "f_input_5",
+      "x": 94,
+      "y": 4,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "f_input_6",
+      "x": 112,
+      "y": 4,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "f_input_7",
+      "x": 130,
+      "y": 4,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "f_input_8",
+      "x": 148,
+      "y": 4,
+      "type": "custommachinery:slot"
+    },
+    {
+      "emptytexture": "ragnamod_seven:textures/gui/ftp_energy_jei.png",
+      "filledtexture": "ragnamod_seven:textures/gui/ftp_energy_jei.png",
+      "x": 166,
+      "y": 4,
+      "type": "custommachinery:energy"
+    },
+    {
+      "id": "f_output",
+      "x": 170,
+      "y": 4,
+      "type": "custommachinery:slot"
+    }
+  ],
+  "catalysts": []
+}

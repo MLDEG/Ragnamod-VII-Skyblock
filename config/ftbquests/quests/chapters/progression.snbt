@@ -32,32 +32,6 @@
 	subtitle: ["What I have to do!"]
 	default_quest_shape: "gear"
 	default_hide_dependency_lines: false
-	images: [
-		{
-			x: 12.5d
-			y: 2.5d
-			width: 7.0d
-			height: 8.0d
-			rotation: 0.0d
-			image: "ftbquests:textures/flowchartquests.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 12.5d
-			y: -2.0d
-			width: 2.0d
-			height: 2.0d
-			rotation: 0.0d
-			image: "ftbquests:textures/legendflowchart.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-	]
 	quests: [
 		{
 			icon: "ftbquests:book"
@@ -75,7 +49,7 @@
 		}
 		{
 			icon: "ae2:controller"
-			x: 5.0d
+			x: 5.5d
 			y: 2.0d
 			description: ["Unlock the AE2 page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -174,7 +148,7 @@
 		}
 		{
 			icon: "bloodmagic:altar"
-			x: 1.0d
+			x: 1.5d
 			y: 2.0d
 			description: ["Unlock the Blood Magic page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -226,7 +200,7 @@
 		}
 		{
 			icon: "thermal:machine_frame"
-			x: 7.0d
+			x: 7.5d
 			y: 2.0d
 			description: ["Unlock the Thermal page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -239,7 +213,7 @@
 		}
 		{
 			icon: "spirit:crude_soul_crystal"
-			x: 2.0d
+			x: 2.5d
 			y: 2.0d
 			description: ["Unlock the Spirit page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -252,7 +226,7 @@
 		}
 		{
 			icon: "forbidden_arcanus:hephaestus_forge"
-			x: 3.0d
+			x: 3.5d
 			y: 2.0d
 			description: ["Unlock the Forbidden and Arcanus page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -300,7 +274,7 @@
 		}
 		{
 			icon: "immersiveengineering:toolbox"
-			x: 4.0d
+			x: 4.5d
 			y: 2.0d
 			description: ["Unlock the Immersive Engineering page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -391,7 +365,7 @@
 		}
 		{
 			icon: "powah:energizing_rod_nitro"
-			x: 8.0d
+			x: 8.5d
 			y: 2.0d
 			description: ["Unlock the Powah page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -417,7 +391,7 @@
 		}
 		{
 			icon: "occultism:ritual_dummy/custom_ritual"
-			x: 0.0d
+			x: 0.5d
 			y: 2.0d
 			description: ["Unlock the Occultism page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -531,7 +505,7 @@
 		{
 			title: "End of Applied Energistics 2 Quests"
 			icon: "thermal:lock"
-			x: 5.0d
+			x: 5.5d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -711,7 +685,7 @@
 		{
 			title: "End of Blood Magic Quests"
 			icon: "thermal:lock"
-			x: 1.0d
+			x: 1.5d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -831,7 +805,7 @@
 		{
 			title: "End of Thermal Quests"
 			icon: "thermal:lock"
-			x: 7.0d
+			x: 7.5d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -861,7 +835,7 @@
 		{
 			title: "End of Spirit Quests"
 			icon: "thermal:lock"
-			x: 2.0d
+			x: 2.5d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -891,7 +865,7 @@
 		{
 			title: "End of Forbidden and Arcanus Quests"
 			icon: "thermal:lock"
-			x: 3.0d
+			x: 3.5d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -981,7 +955,7 @@
 		{
 			title: "End of Immersive Engineering Quests"
 			icon: "thermal:lock"
-			x: 4.0d
+			x: 4.5d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -1191,7 +1165,7 @@
 		{
 			title: "End of Powah Quests"
 			icon: "thermal:lock"
-			x: 8.0d
+			x: 8.5d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -1251,7 +1225,7 @@
 		{
 			title: "End of Occultism Quests"
 			icon: "thermal:lock"
-			x: 0.0d
+			x: 0.5d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -1301,7 +1275,7 @@
 					}
 				}
 			}
-			x: 6.0d
+			x: 6.5d
 			y: 2.0d
 			description: ["Unlock the PSI page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -1315,7 +1289,7 @@
 		{
 			title: "End of PSI Quests"
 			icon: "thermal:lock"
-			x: 6.0d
+			x: 6.5d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [

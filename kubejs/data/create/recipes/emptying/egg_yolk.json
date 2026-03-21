@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "results": [
+    {
+      "item": "ragnamod_seven:egg_shell"
+    },
+    {
+      "fluid": "kubejs:egg_yolk",
+      "amount": 250
+    }
+  ]
+}

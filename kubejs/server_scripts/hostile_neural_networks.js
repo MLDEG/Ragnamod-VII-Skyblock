@@ -339,6 +339,9 @@ onEvent('recipes', e => {
   modelEvolution("twilightforest/wraith", 'minecraft:glowstone_dust', 'hostilenetworks:twilight_prediction')
   modelEvolution("twilightforest/yeti", 'twilightforest:arctic_fur', 'hostilenetworks:twilight_prediction')
   modelEvolution("artifacts/mimic", '#artifacts:artifacts', 'hostilenetworks:end_prediction')
+  modelEvolution("cataclysm/ignis", 'cataclysm:ignitium_block', 'hostilenetworks:nether_prediction')
+  modelEvolution("cataclysm/nether_monstrosity", 'cataclysm:witherite_block', 'hostilenetworks:nether_prediction')
+  modelEvolution("cataclysm/ender_guardian", 'cataclysm:enderite_block', 'hostilenetworks:end_prediction')
 
 
   //Complete Prediction
@@ -458,5 +461,8 @@ onEvent('recipes', e => {
   completedPrediction("twilightforest/wraith", 'wraith')
   completedPrediction("twilightforest/yeti", 'yeti')
   completedPrediction("artifacts/mimic", 'mimic')
+  completedPrediction("cataclysm/ignis", 'ignis')
+  completedPrediction("cataclysm/nether_monstrosity", 'nether_monstrosity')
+  completedPrediction("cataclysm/ender_guardian", 'ender_guardian')
 
 })

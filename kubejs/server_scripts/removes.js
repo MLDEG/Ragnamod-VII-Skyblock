@@ -877,7 +877,36 @@ onEvent('recipes', e => {
         'pneumaticcraft:huge_tank',
         'avaritia:ultimate_stew',
         'chickens:cooked_chicken_chicken',
-        'naturesaura:animal_spawner/sheep_white'
+        'naturesaura:animal_spawner/sheep_white',
+        /exnihilosequentia:(sieve|compost|fluid_item|crucible|hammer)/,
+        /exnihilosequentia:ens_.+_(hammer|sieve|crook|doll|mesh)/,
+        'exnihilosequentia:ens_end_cake',
+        'exnihilosequentia:ens_beehive_frame',
+        /minecraft:ens_/,
+        'exnihilosequentia:ens_porcelain_clay',
+        'exnihilosequentia:ens_unfired_crucible',
+        'exnihilosequentia:ens_doll_x6',
+        'exnihilosequentia:ens_doll_x4',
+        'exnihilosequentia:ens_fired_crucible_blast',
+        'exnihilosequentia:ens_fired_crucible',
+        'createsifter:sifter',
+        /createsifter:sifting/,
+        'malum:spirit_transmutation/blighted_soil',
+        'create:crushing/compat/exnihilosequentia/dust',
+        /createsifter:.+_mesh/,
+        'createaddition:smoking/cake_base_baked',
+        'createaddition:compacting/cake_base',
+        'tconstruct:gadgets/cake/ender',
+        'tconstruct:gadgets/cake/earth',
+        'tconstruct:gadgets/cake/sky',
+        'tconstruct:gadgets/cake/blood',
+        'tconstruct:gadgets/cake/magma',
+        'telepastries:nether_cake',
+        'telepastries:end_cake',
+        'telepastries:overworld_cake',
+        'telepastries:twilight_cake',
+        'create:crafting/kinetics/hand_crank'
+
     ]
     removeId.forEach(C => { r(C) })
 })
