@@ -970,12 +970,12 @@
 			tasks: [{
 				id: "311054231C14993F"
 				type: "item"
-				item: "ragnamod_seven:electrontube_singularity"
+				item: "ragnamod_seven:shadow_radiance_singularity"
 			}]
 			rewards: [{
 				id: "74E5800D72813B17"
 				type: "item"
-				item: "ragnamod_seven:electrontube_singularity"
+				item: "ragnamod_seven:shadow_radiance_singularity"
 			}]
 		}
 		{

@@ -1544,12 +1544,18 @@
 		{
 			x: 21.5d
 			y: 0.0d
+			description: ["The Mechanical Arm is used to craft the NASA Workbench."]
 			dependencies: ["2666DBCDB3471BEB"]
 			id: "326DA326DC53BCE2"
 			tasks: [{
 				id: "72A2DC5A010BE3CB"
 				type: "item"
 				item: "create:mechanical_arm"
+			}]
+			rewards: [{
+				id: "781FEA17D94C9EED"
+				type: "item"
+				item: "create:precision_mechanism"
 			}]
 		}
 		{
@@ -1579,6 +1585,7 @@
 			x: 23.0d
 			y: -2.0d
 			shape: "gear"
+			description: ["The NASA Workbench is used to construct rockets and thus go into space."]
 			dependencies: [
 				"3B7B2B96822FF597"
 				"4347C442CFBA1A95"
@@ -1590,6 +1597,11 @@
 				id: "56FD18FEE9E8EB5F"
 				type: "item"
 				item: "beyond_earth:nasa_workbench"
+			}]
+			rewards: [{
+				id: "713A9DBE46C395A0"
+				type: "item"
+				item: "beyond_earth:steel_block"
 			}]
 		}
 		{
@@ -1994,7 +2006,7 @@
 				""
 				"As a reward I'll give you a Wooden Molten Iron Bucket, use it in the tinker smeltery to collect iron faster."
 				""
-				"BE CAREFUL!!"
+				"&4BE CAREFUL!!"
 				"The bucket is hot and will burn you if you don't put it in a chest immediately!"
 			]
 			dependencies: ["054EF7B6A457E246"]

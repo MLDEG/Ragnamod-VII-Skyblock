@@ -120,5 +120,6 @@ onEvent('item.registry', e => {
     e.create('ragnamod_seven:abjuration_essence_singularity').displayName('§eAbjuration Essence Singularity')
     e.create('ragnamod_seven:programming_puzzle_singularity').displayName('§eProgramming Puzzle Singularity')
     e.create('ragnamod_seven:iron_compressed_singularity').displayName('§eCompressed Iron Singularity')
+    e.create('ragnamod_seven:shadow_radiance_singularity').displayName('§eShadow Radiance Singularity')
 
 })

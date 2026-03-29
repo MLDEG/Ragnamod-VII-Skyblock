@@ -30,6 +30,7 @@ onEvent('recipes', e => {
     Singularity('botania:pixie_dust', 'ragnamod_seven:pixie_singularity', 4269)
     Singularity('compactmachines:wall', 'ragnamod_seven:compactmachinewall_singularity', 4269)
     Singularity('create:electron_tube', 'ragnamod_seven:electrontube_singularity', 4269)
+    Singularity('createqol:shadow_radiance', 'ragnamod_seven:shadow_radiance_singularity', 4269)
     Singularity('create:precision_mechanism', 'ragnamod_seven:precisionmechanism_singularity', 4269)
     Singularity('create_sa:heat_engine', 'ragnamod_seven:heatengine_singularity', 4269)
     Singularity('create_sa:hydraulic_engine', 'ragnamod_seven:hydraulicengine_singularity', 4269)
