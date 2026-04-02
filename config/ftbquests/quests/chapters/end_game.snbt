@@ -1974,7 +1974,7 @@
 				"{image:ftbquests:textures/quests/agglomeration_splitter.png width:150 height:100 align:1}"
 				"In the multiblock there are Entangled Blocks, you can use them to easily automate this multiblock"
 				""
-				"To see how to build this multiblock, simply put your block where you want it and check in JEI what recipe it can do."
+				"&5To see how to build this multiblock, simply put your block where you want it and check in JEI what recipe it can do."
 				"{image:ftbquests:textures/quests/multiblock_icon.png width:26 height:29 align:1}"
 			]
 			dependencies: ["38512A09C28B8098"]

@@ -12,7 +12,7 @@ onEvent('tags.items', e => {
     e.remove('forge:ingots/constantan', 'immersiveengineering:ingot_constantan')
     e.remove('forge:ingots/bronze', ['ftbic:bronze_ingot', 'mekanism:ingot_bronze'])
     e.remove('forge:ingots/nickel', ['chemlib:nickel_ingot', 'immersiveengineering:ingot_nickel'])
-    e.remove('forge:ingots/aluminum', ['chemlib:aluminum_ingot', 'ftbic:aluminum_ingot', 'immersiveengineering:ingot_aluminum'])
+    e.remove('forge:ingots/aluminum', ['chemlib:aluminum_ingot', 'ftbic:aluminum_ingot', 'immersiveengineering:ingot_aluminum', 'exnihilosequentia:aluminum_ingot'])
     e.remove('forge:ingots/uranium', ['chemlib:uranium_ingot', 'ftbic:uranium_ingot', 'immersiveengineering:ingot_uranium'])
     e.remove('forge:ingots/tin', ['chemlib:tin_ingot', 'ftbic:tin_ingot', 'mekanism:ingot_tin'])
     e.remove('forge:ingots/lead', ['chemlib:lead_ingot', 'ftbic:lead_ingot', 'mekanism:ingot_lead', 'immersiveengineering:ingot_lead'])

@@ -1,22 +1,21 @@
 {
-  // The template which will be used for spawn only
-  // Example: 
-  // {
-  //     "name": "default",
-  //     "desc": "",
-  //     "file": "default.nbt",
-  //     "spawns": "default",
-  //     "direction": "south"
-  // }
   "spawn": null,
   
   "spawns": {
     "classic": [
       [ 3, 3, 1 ]
+    ],
+    "one_block": [
+      [ 3, 7, 3 ]
+    ],
+    "create_ready": [
+      [ 7, 5, 7 ]
+    ],
+    "meatball": [
+      [ 6, 6, 5 ]
     ]
   },
-  
-  // The list of templates being available. The first entry is the default template.
+
   "templates": [
     {
       "name": "Classic",
@@ -24,6 +23,27 @@
       "file": "classic.nbt",
       "spawns": "classic",
       "direction": "south"
+    },
+    {
+      "name": "One Block",
+      "desc": "Spawn on top of a tree with just one block bellow.",
+      "file": "one_block.nbt",
+      "spawns": "one_block",
+      "direction": "south"
+    },
+    {
+      "name": "Create Ready",
+      "desc": "Larger island with already Water Wheels.",
+      "file": "create_ready.nbt",
+      "spawns": "create_ready",
+      "direction": "south"
+    },
+    {
+      "name": "Meat Ball",
+      "desc": "Start in a giant Meat Ball... Gross",
+      "file": "meatball.nbt",
+      "spawns": "meatball",
+      "direction": "west"
     }
   ]
 }

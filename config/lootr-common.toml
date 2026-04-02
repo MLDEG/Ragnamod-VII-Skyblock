@@ -37,6 +37,8 @@ refresh_dimensions = []
 refresh_modids = []
 #determine whether or not loot generated is the same for all players using the provided seed, or randomised per player
 randomise_seed = true
+#allow Lootr chests to be opened in spawn protected areas
+bypass_spawn_protection = true
 #when true, custom inventories will act like trapped chests when opened
 trapped_custom = false
 #whether or not quark chests used in world generation for loot purposes should be replaced with Lootr chests
