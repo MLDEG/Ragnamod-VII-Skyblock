@@ -10,7 +10,7 @@
 	default_hide_dependency_lines: false
 	images: [{
 		x: -0.5d
-		y: -3.5d
+		y: -4.5d
 		width: 10.0d
 		height: 5.0d
 		rotation: 0.0d
@@ -42,6 +42,7 @@
 			}]
 		}
 		{
+			title: "FTB Team"
 			icon: "create_sa:steam_engine"
 			x: -2.0d
 			y: -1.0d
@@ -68,7 +69,6 @@
 			tasks: [{
 				id: "1092D040F7A11D5A"
 				type: "checkmark"
-				title: "FTB TEAM"
 			}]
 		}
 		{
@@ -145,14 +145,16 @@
 		{
 			title: "Be prepared"
 			icon: "ragnamod_seven:sculk_singularity"
-			x: 0.0d
-			y: 1.5d
+			x: -0.5d
+			y: -2.0d
 			shape: "octagon"
 			description: [
 				"In this modpack, you'll need to passively farm some resources for singularities."
 				""
 				"Take the reflex to look at the singularities by mods to see what you need to farm in advance."
 				"This way you won't have to wait for the end game."
+				""
+				"But in this version of the modpack, there are ways to create the resources needed to reach creative items much easier, enjoy discovering them!"
 			]
 			dependencies: ["2C8AB1F55FB366FF"]
 			id: "1CCB446F49264C47"
@@ -164,8 +166,8 @@
 		{
 			title: "Thanks"
 			icon: "artifacts:crystal_heart"
-			x: 1.0d
-			y: -1.0d
+			x: 0.0d
+			y: 1.5d
 			shape: "heart"
 			description: [
 				"Thanks to my beta tester."
@@ -672,6 +674,148 @@
 					}
 				}
 			}]
+		}
+		{
+			title: "FTB Essentials"
+			icon: {
+				id: "bloodmagic:upgradetome"
+				Count: 1b
+				tag: {
+					livingStats: {
+						maxPoints: 0
+						upgrades: [{
+							exp: 30.0d
+							key: "bloodmagic:physical_protect"
+						}]
+					}
+				}
+			}
+			x: 1.0d
+			y: -1.0d
+			description: [
+				"Here is the list of commands you have access to:"
+				""
+				"&2/hat &rallows you to put the item you are wearing on your head."
+				""
+				"&2/leaderboard &rlets you view stats."
+				""
+				"&2/rec &rlets you tell other players that you're recording or streaming."
+				""
+				"&2/trashcan &ropens a trash can so you can throw away any type of item."
+				""
+				"&2/sethome &rand &2/home &rlet you set your personal spawn point."
+				""
+				"&2/spawn &rlets you teleport to your world's spawn point."
+				"&5(If you're an admin, remember to redefine your world spawn point with the /setworldspawn command.)"
+				""
+				"&2/tpa [USERNAME] &rlets you send a teleportation request to another player."
+			]
+			dependencies: ["2C8AB1F55FB366FF"]
+			id: "518AA4658CB5E9CF"
+			tasks: [{
+				id: "2999795C5467EA3C"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "FTP"
+			icon: "ragnamod_seven:ftp"
+			x: -0.5d
+			y: 3.0d
+			shape: "gear"
+			description: [
+				"What does \"&9F&2T&4P&r\" mean and what does it correspond to?"
+				""
+				"&9F&2T&4P&r stands for \"&9Feed &2The &4Patrick&r\" and is inspired by the name &9F&2T&4B&r, \"&9Feed &2The &4Beast&r.\""
+				""
+				"This similarity is explained by the fact that, back then, &9Aypierre&r, &2Azenet&r, and &4HarryLafranc&r created their server on a Feed The Beast modpack on &3November 30, 2012."
+				""
+				"&6Ragnamod VII In The Sky&r is the modpack used today for the 8th season (not counting the 10th anniversary)."
+			]
+			dependencies: ["2C8AB1F55FB366FF"]
+			size: 2.0d
+			id: "531F7B0EF61119A9"
+			tasks: [{
+				id: "303553CA97595E56"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "4BD6DB79C1499B43"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1817094143
+									-1204535156
+									-1821836334
+									-1587220980
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTc3NTE1MzUzMDI0MSwKICAicHJvZmlsZUlkIiA6ICI2YzRlYTdmZmI4MzQ0MDhjOTM2OGZiZDJhMTY0ZWUwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJheXBpZXJyZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZTU4OWY0Y2M1ZGM5YmViZGE5OTdhZTQ4NGRjOGQzYzgyYjQ3ZjQxYjJmMTlkMThiNjJhZjg0ZDZiNDVjZGIzIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMmU4ZDk3ZWM3OTEwMGU5MGE3NWQzNjlkMWIzYmE4MTI3M2M0ZjgyYmMxYjczN2U5MzRlZWQ0YTg1NGJlMWI2IgogICAgfQogIH0KfQ=="
+										Signature: "DBMxnaljW8st6YQedmF9TnYluShCSqhpCnWSdwfHiQ+uvoGrZh1IUdrKuOLpVil75BBfP3uNHazOFIqwdalcnZj5NYJqLPpNMCrc1THtMc9Qu4kojjwQ1V+upBMG6sCi99krshWjyUdL6+Z3zIm9KzdNO7sVQEss81OFe6u0Pzal56fjPxM3Fvnz1wLkpIDCyz9mdXHP6O5GI15rYT9ty7CyB7TG4kV/xq9g3EWzJgXlHXBP3vpN7FzN4/7Gabno9xektzb4+jIoJBdMLGN7Ib8qVnzXu4szOiUbQkRiRJtGprowHo8nsFzKzkWqyxEfaexbn0ciSD6OEnS4JFrkGRZsHhOUvOxxvIMe0aBjbrjtCfkJLbcrR/kZUzOc0CAiECNdjE363Ln37785tqzb4cMsKSYKv5f0zsFbWqZCk5dl2S/pBs4UGxukC8ZBh2coj+og6BfiP2Ov2Z45ewG/NUV9123WrScpXNR7ftLPUuRvepUe8nElBpyMSHvcvv5oxHSkF0WaDqM8nRX+scTcDJ+h5yDhjIOtb4UX+sxlZzgA4If/ytjC6EG+ZQ10FpP3/f5OJ7ruHjD6MPcmWkdGMql+LNDhm5oqkeulICJgEoZPDCKa+pmKh5p66QYzlOdHrF9WKpy7MpHuJma4TpRZup/fOCy1ZQiA9Qd1nBjmKOI="
+									}]
+								}
+								Name: "aypierre"
+							}
+						}
+					}
+				}
+				{
+					id: "688A44978105F459"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1116626624
+									1321878795
+									-1268472535
+									1882999824
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTc3NTExOTUzMzY4NSwKICAicHJvZmlsZUlkIiA6ICJiZDcxYTE0MDRlY2E0NTBiYjQ2NGE1Mjk3MDNjNGMxMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJhemVuZXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQzOGJmNTViODk2ZGM4YmZhYmIyMzI1NmQxZTEyMjcxOGNkZjU1OGMyYTM2ZTAyNTdlNWM4YzI1OTRjMDVjNSIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJlOGQ5N2VjNzkxMDBlOTBhNzVkMzY5ZDFiM2JhODEyNzNjNGY4MmJjMWI3MzdlOTM0ZWVkNGE4NTRiZTFiNiIKICAgIH0KICB9Cn0="
+										Signature: "k/Gd0TFwVxhZ9HGpAFJdlPI1NY2tvwGqZDH1s1aBIg4zUjpOyZPwCg4xXuUVTkYODUhwdLZeZs5VGVmXutICB3dUAd2Zu5tn17aYqlzwj3caEoOZY/DJIr1u35f7JCg08VK8OCE95i6fuPzHahgEto1+N8AQQsj5m1fAaesXnDfYKY9p8SlkqRMKHXWDXFMgsERPOojKVaPWhzAwvP7+2F7U56go7DxmqmBBdRaTErKuA7pvq6VDMtU9qh8D2+LAofQbss70zuxDmpyWLXDP9W4tq5Jdgnek7kOog4TX/W6EvJ+zJuzEC8wH+9nnVfPVwoTqVDy04Yo8HP/3P31kCmH5/9/3ryzyMWBVW64+r+knoAROWwk1YSu4phg8WNxPlH7QrMeVYd7saGIGqtP4PqzbJvQ+3WMs41VTG90vfAR7gQYTA4Qvgg9OoB68/M4esNbYUamPd0fhv1gSGy/1yoAnBcb/K7i2DUYfclUYg+k1GMrbp/GNsU50/lOwsqutzM3lVbU9saNwGpRXZQqhozupK/3z2fThkm0B2lN33zzErx15BmxGfJLmuHgYhlSO5OAE7si8rPtZTgjI4X5PYtIHe699+91c+aG505FjxNQtWvU9ybWwM0mibFIVRnwft1PgPVir8DItxBXaCwVZQb75LtrYszQ96DXCNP3eJe8="
+									}]
+								}
+								Name: "azenet"
+							}
+						}
+					}
+				}
+				{
+					id: "3CB45D3C16A9E2C0"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-397650418
+									2143962192
+									-1446482272
+									695694764
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTc3NTA2MDQ2OTQyMSwKICAicHJvZmlsZUlkIiA6ICJlODRjNTYwZTdmY2E0NDUwYTljODZlYTAyOTc3NzVhYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYXJyeUxhZnJhbmMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQyMTllMmM5OGExNzUwY2JjZDhlZDIyMjg0OTU4ZmQxOTYzNGZlODc1Mzg0OTA0OWQxMjQ2NGQ5NTY2ODQxMSIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJlOGQ5N2VjNzkxMDBlOTBhNzVkMzY5ZDFiM2JhODEyNzNjNGY4MmJjMWI3MzdlOTM0ZWVkNGE4NTRiZTFiNiIKICAgIH0KICB9Cn0="
+										Signature: "Y/9qlaPqDspxc+m2Z+3/RbbJuXXJ/dQNHqNYtqT5KxAEBML0Y9ZVuPvcSB/v3U/O5qLnIG50QpXR0f1H/ybqJaH2Hk5JFYvST3EfDGtINB6UYt/Ex7PrrFLbuBlk61WWpblgwIgVORJUxPJnaGPWWJRXBfWkbl5bQ8yoj2qlAet+cPD81wly78Npd/TJjogw0Cps3UO11NLQuk+EngVY5vk+HjaNJdNYLAanW6+kLuXqDNpSkJ8dXrW1pWnOzIvVw6GXo+GA/Xm/RgE6kg7sU7wfcMd+gskgSmZEoNuf+pMbDzFPErJNS9LxdgPSGVK0W8UHvfVzxp7CoHQPYp4iBAEOWvWpswOPdlYsEVjMAIQtr1O4uW+iK0uwm/YroPfo/xveOfME36Ryl4AkzGO1HWTXAU4sSpHIu+8saGm/uNHsn9q3imG/DbmZpxXma+oFlgGWKKa11OFB/evWjej5DQ+31E2RxglKBVDBGhi3zl1pbFl2y1AJodTCzKj2cctNbI8/uTWbZq/D3OwjhTHHyH8yq+GRqAe10Nux0NaV81ClnTva6/rIcSu58QhOuCra9dx5FpfJ6UQkUkXmrzPUiN/7VlH/d7sKkQj87vnab32CGYaCaLWyzeIGqFeiptrJfS83kYmhSgWs8GA1QOTLl2IYUIQrN4SFEf3K8gLDjbI="
+									}]
+								}
+								Name: "HarryLafranc"
+							}
+						}
+					}
+				}
+			]
 		}
 	]
 	quest_links: [ ]
