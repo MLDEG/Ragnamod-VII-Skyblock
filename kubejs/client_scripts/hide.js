@@ -430,7 +430,10 @@ onEvent('jei.hide.items', e => {
         'exnihilosequentia:fired_crucible',
         'ragnamod_seven:green_gem_show',
         'ragnamod_seven:red_gem_show',
-        'ragnamod_seven:blue_gem_show'
+        'ragnamod_seven:blue_gem_show',
+        'skyblockbuilder:structure_saver',
+        Item.of('modonomicon:modonomicon', '{"modonomicon:book_id":"modonomicon:demo"}'),
+        'occultism:lighted_air'
     ])
 })
 //Fluids
