@@ -1,0 +1,13 @@
+{
+  "name": "Piroot",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "minecraft:air"
+  },
+  "color": "fc69d5",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}

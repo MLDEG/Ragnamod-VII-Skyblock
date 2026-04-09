@@ -1,0 +1,39 @@
+{
+  "inputs": [
+    {
+      "item": "reliquary:fertile_lily_pad",
+      "slot": 0
+    },
+    {
+      "item": "twilightforest:steeleaf_ingot",
+      "slot": 1
+    },
+    {
+      "item": "create_sa:heap_of_experience",
+      "slot": 2
+    },
+    {
+      "item": "mysticalagriculture:prosperity_gemstone",
+      "slot": 3
+    },
+    {
+      "item": "ars_nouveau:earth_essence",
+      "slot": 4
+    },
+    {
+      "item": "botania:spark",
+      "slot": 5
+    }
+  ],
+  "hephaestus_forge_item": "minecraft:wheat_seeds",
+  "essences": {
+    "aureal": 200,
+    "experience": 500,
+    "blood": 0,
+    "souls": 1
+  },
+  "result": {
+    "item": "mysticalagriculture:prosperity_seed_base",
+    "count": 1
+  }
+}

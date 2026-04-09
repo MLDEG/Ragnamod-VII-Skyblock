@@ -1105,6 +1105,7 @@ onEvent('recipes', e => {
       }
     ]
   })
+  advEphae("minecraft:wheat_seeds", "reliquary:fertile_lily_pad", "twilightforest:steeleaf_ingot", "create_sa:heap_of_experience", "mysticalagriculture:prosperity_gemstone", "ars_nouveau:earth_essence", "botania:spark", "mysticalagriculture:prosperity_seed_base", 25, 10, 0)
   advEphae("chickens:chicken_skin", "reliquary:phoenix_down", "twilightforest:borer_essence", "create_sa:heap_of_experience", "gemsnjewels:spinel", "ars_nouveau:manipulation_essence", "botania:spark", "chickens:chicken_shell", 10, 10, 0)
   advEphae('hostilenetworks:machine_frame', 'hostilenetworks:overworld_prediction', 'hostilenetworks:nether_prediction', 'hostilenetworks:end_prediction', 'hostilenetworks:twilight_prediction', 'hostilenetworks:blueskies_prediction', 'hostilenetworks:undergarden_prediction', 'alchemistry:machine_frame', 10, 10, 10)
   advEphae('miniutilities:stable_ingot', 'cataclysm:ignitium_ingot', 'ragnamod_seven:shub_niggurath_ingot', 'ragnamod_seven:sculk_ingot', 'ragnamod_seven:chemical_draconium_ingot', 'cataclysm:enderite_ingot', 'cataclysm:witherite_ingot', 'ragnamod_seven:condensed_ingot', 10, 10, 10)

@@ -1,0 +1,14 @@
+{
+  "name": "Chaotic",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalcustomization:6",
+  "ingredient": {
+    "item": "minecraft:air"
+  },
+  "color": "110f0f",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_quartz"
+  },
+  "crux": "ragnamod_seven:chaotic_crux"
+}

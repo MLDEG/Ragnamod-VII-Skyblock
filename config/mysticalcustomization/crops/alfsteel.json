@@ -1,0 +1,14 @@
+{
+  "name": "Alfsteel",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalcustomization:6",
+  "ingredient": {
+    "item": "minecraft:air"
+  },
+  "color": "fca400",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "ragnamod_seven:alfsteel_crux"
+}

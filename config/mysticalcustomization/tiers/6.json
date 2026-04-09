@@ -1,0 +1,8 @@
+{
+    "name": "§5Insanium",
+    "value": 6,
+    "farmland": "mysticalagradditions:insanium_farmland",
+    "essence": "mysticalagradditions:insanium_essence",
+    "fertilizable": false,
+    "secondarySeedDrop": false
+}

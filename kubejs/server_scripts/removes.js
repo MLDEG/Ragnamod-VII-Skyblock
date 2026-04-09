@@ -877,7 +877,6 @@ onEvent('recipes', e => {
         'pneumaticcraft:huge_tank',
         'avaritia:ultimate_stew',
         'chickens:cooked_chicken_chicken',
-        'naturesaura:animal_spawner/sheep_white',
         /exnihilosequentia:(sieve|compost|fluid_item|crucible|hammer)/,
         /exnihilosequentia:ens_.+_(hammer|sieve|crook|doll|mesh)/,
         'exnihilosequentia:ens_end_cake',
@@ -905,7 +904,22 @@ onEvent('recipes', e => {
         'telepastries:end_cake',
         'telepastries:overworld_cake',
         'telepastries:twilight_cake',
-        'create:crafting/kinetics/hand_crank'
+        'create:crafting/kinetics/hand_crank',
+        /mysticalagriculture:seed/,
+        /botanypots:mysticalagradditions\/crop/,
+        /botanypots:mysticalagriculture\/crop/,
+        /botanypotstiers:mysticalagradditions\/crop/,
+        /botanypotstiers:mysticalagriculture\/crop/,
+        'mysticalagriculture:prosperity_seed_base',
+        'mysticalagriculture:prosperity_shard_smelted',
+        'mysticalagradditions:end_prosperity_shard_smelted',
+        'mysticalagradditions:nether_prosperity_shard_smelted',
+        'mysticalagradditions:end_inferium_smelted',
+        'mysticalagradditions:nether_inferium_smelted',
+        'mysticalagriculture:inferium_essence_smelted',
+        'matc:crystals/master_infusion_crystal',
+        'mysticalagriculture:essence/common/rubber',
+        'mysticalagriculture:essence/common/graphite_ingot'
 
     ]
     removeId.forEach(C => { r(C) })

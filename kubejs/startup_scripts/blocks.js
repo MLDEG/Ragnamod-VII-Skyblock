@@ -24,5 +24,9 @@ onEvent('block.registry', e => {
     //Skyblock
     e.create('ragnamod_seven:condensed_block').displayName('Condensed Block').material('metal').hardness(9.0).tagBlock('minecraft:mineable/pickaxe')
     e.create('ragnamod_seven:antimatter_pellet_block').displayName('§dAntimatter Pellet Block').material('amethyst').hardness(9.0).tagBlock('minecraft:mineable/pickaxe')
+    e.create('ragnamod_seven:alfsteel_crux').displayName('Alfsteel Crux').material('metal').hardness(5.0).tagBlock('minecraft:mineable/pickaxe')
+    e.create('ragnamod_seven:chaotic_crux').displayName('Chaotic Crux').material('metal').hardness(5.0).tagBlock('minecraft:mineable/pickaxe')
+    e.create('ragnamod_seven:antimatter_crux').displayName('Antimatter Crux').material('metal').hardness(5.0).tagBlock('minecraft:mineable/pickaxe')
+    e.create('ragnamod_seven:infinity_crux').displayName('Infinity Crux').material('metal').hardness(5.0).tagBlock('minecraft:mineable/pickaxe')
 
 })

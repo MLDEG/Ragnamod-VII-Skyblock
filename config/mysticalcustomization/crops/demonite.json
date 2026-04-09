@@ -1,0 +1,13 @@
+{
+  "name": "Demonite",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "minecraft:air"
+  },
+  "color": "aee8db",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_quartz"
+  }
+}

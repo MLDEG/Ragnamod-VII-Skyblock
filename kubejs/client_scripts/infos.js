@@ -14,4 +14,5 @@ onEvent('jei.information', e => {
     e.add('farmersdelight:shepherds_pie', ['You need to place the Shepherd\'s Pie in the world and then right-click on it with a bowl.'])
     e.add('farmersdelight:stuffed_pumpkin', ['You need to place the Stuffed Pumpkin in the world and then right-click on it with a bowl.'])
     e.add('endersdelight:stuffed_shulker_bowl', ['You need to place the Stuffed Shulker in the world and then right-click on it with a bowl.'])
+    e.add('mysticalagriculture:prosperity_shard', ['Craft first with Malum then use Create to duplicate it.'])
 })

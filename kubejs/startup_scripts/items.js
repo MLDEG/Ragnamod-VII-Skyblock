@@ -188,13 +188,17 @@ onEvent('item.registry', e => {
     e.create('ragnamod_seven:tiny_agglomerate_matter_ars').displayName('§bTiny Ars Nouveau\'s Agglomerate Matter')
     e.create('ragnamod_seven:tiny_agglomerate_matter_pneumaticcraft').displayName('§bTiny Pneumaticcraft\'s Agglomerate Matter')
     e.create('ragnamod_seven:tiny_agglomerate_matter_tech').displayName('§bTiny Tech\'s Agglomerate Matter')
-
     e.create('ragnamod_seven:blue_gem_show').displayName("§9Blue Gem").maxStackSize(1)
     e.create('ragnamod_seven:green_gem_show').displayName("§2Green Gem").maxStackSize(1)
     e.create('ragnamod_seven:red_gem_show').displayName("§cRed Gem").maxStackSize(1)
-
     e.create('ragnamod_seven:overworld_essence').maxStackSize(1)
     e.create('ragnamod_seven:nether_essence').maxStackSize(1)
     e.create('ragnamod_seven:end_essence').maxStackSize(1)
-
+    e.create('ragnamod_seven:inferium_seed').displayName('§eInferium Seed Base')
+    e.create('ragnamod_seven:prudentium_seed').displayName('§2Prudentium Seed Base')
+    e.create('ragnamod_seven:tertium_seed').displayName('§6Tertium Seed Base')
+    e.create('ragnamod_seven:imperium_seed').displayName('§9Imperium Seed Base')
+    e.create('ragnamod_seven:supremium_seed').displayName('§cSupremium Seed Base')
+    e.create('ragnamod_seven:insanium_seed').displayName('§5Insanium Seed Base')
+    e.create('ragnamod_seven:prosperity_dust').displayName('Prosperity Dust')
 })

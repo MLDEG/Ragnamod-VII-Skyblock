@@ -39,18 +39,6 @@ onEvent('recipes', e => {
         "aura": 500,
         "time": 60
     })
-    //Sheep
-    e.custom({
-        "type": "naturesaura:animal_spawner",
-        "ingredients": [
-            { "item": "naturesaura:birth_spirit" },
-            { "item": "minecraft:mutton" },
-            { "tag": "forge:wool" }
-        ],
-        "entity": "minecraft:sheep",
-        "aura": 500,
-        "time": 60
-    })
     //Starbuncle
     e.custom({
         "type": "naturesaura:animal_spawner",

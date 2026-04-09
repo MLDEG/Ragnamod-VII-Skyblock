@@ -557,4 +557,27 @@ onEvent('recipes', e => {
     e.shapeless('9x mekanism:pellet_antimatter', ['ragnamod_seven:antimatter_pellet_block'])
     e.custom({ "type": "mekanism:oxidizing", "input": { "ingredient": { "item": "ragnamod_seven:antimatter_pellet_block" } }, "output": { "gas": "mekanism:antimatter", "amount": 9000 } })
 
+    //Mystical Prosperity
+    e.custom({ "type": "create:crushing", "ingredients": [{ "item": "mysticalagriculture:prosperity_shard" }], "results": [{ "item": "ragnamod_seven:prosperity_dust", "count": 2 }], "processingTime": 20 })
+    e.custom({ "type": "create:mixing", "ingredients": [{ "item": "ragnamod_seven:prosperity_dust" }, { "fluid": "kubejs:distilled_water", "amount": 50 }], "results": [{ "fluid": "kubejs:prosperity_fluid", "amount": 50 }] })
+    e.custom({ "type": "create:filling", "ingredients": [{ "tag": "quark:shards" }, { "fluid": "kubejs:prosperity_fluid", "amount": 50 }], "results": [{ "item": "mysticalagriculture:prosperity_shard" }] })
+    e.custom({ "type": "malum:spirit_infusion", "input": { "item": "warden_and_sculk:echo_shard", "count": 1 }, "output": { "item": "mysticalagriculture:prosperity_shard" }, "extra_items": [{ "item": "thaumon:mutagen", "count": 6 }, { "item": "naturesaura:birth_spirit", "count": 4 }, { "item": "occultism:spirit_attuned_crystal", "count": 2 }, { "item": "psi:psigem", "count": 2 }], "spirits": [{ "type": "sacred", "count": 64 }, { "type": "wicked", "count": 64 }, { "type": "arcane", "count": 64 }, { "type": "eldritch", "count": 64 }] })
+
+    //Seed Base
+    e.shapeless('ragnamod_seven:inferium_seed', ['mysticalagriculture:prosperity_seed_base', '2x mysticalagriculture:inferium_essence'])
+    e.shapeless('ragnamod_seven:prudentium_seed', ['ragnamod_seven:inferium_seed', '2x mysticalagriculture:prudentium_essence'])
+    e.shapeless('ragnamod_seven:tertium_seed', ['ragnamod_seven:prudentium_seed', '2x mysticalagriculture:tertium_essence'])
+    e.shapeless('ragnamod_seven:imperium_seed', ['ragnamod_seven:tertium_seed', '2x mysticalagriculture:imperium_essence'])
+    e.shapeless('ragnamod_seven:supremium_seed', ['ragnamod_seven:imperium_seed', '2x mysticalagriculture:supremium_essence'])
+    e.shapeless('ragnamod_seven:insanium_seed', ['ragnamod_seven:supremium_seed', '2x mysticalagradditions:insanium_essence'])
+
+    //Crux
+    e.shaped('ragnamod_seven:alfsteel_crux', ['ADA', 'BCB', 'ABA'], { A: 'mysticalagradditions:insanium_essence', B: 'mythicbotany:alfsteel_ingot', C: 'minecraft:diamond_block', D: 'mythicbotany:alfsteel_pylon' })
+    e.shaped('ragnamod_seven:chaotic_crux', ['ADA', 'BCB', 'ABA'], { A: 'mysticalagradditions:insanium_essence', B: 'draconicevolution:chaos_shard', C: 'minecraft:diamond_block', D: 'draconicevolution:chaotic_core' })
+    e.shaped('ragnamod_seven:antimatter_crux', ['ABA', 'BCB', 'ABA'], { A: 'mysticalagradditions:insanium_essence', B: 'mekanism:pellet_antimatter', C: 'minecraft:diamond_block' })
+    e.shaped('ragnamod_seven:infinity_crux', ['ADA', 'BCB', 'ABA'], { A: 'mysticalagradditions:insanium_essence', B: 'avaritia:infinity_ingot', C: 'minecraft:diamond_block', D: 'avaritia:infinity_catalyst' })
+
+    //Environmental Accumulator
+    e.custom({ "type": "biomancy:bio_forging", "ingredients": [{ "item": "evilcraft:blood_orb_filled", "count": 1 }, { "item": "rftoolsutility:environmental_controller", "count": 1 }, { "item": "biomancy:creator_mix", "count": 1 }, { "item": "biomancy:fertilizer", "count": 1 }, { "item": "ironfurnaces:rainbow_core", "count": 1 }], "result": { "item": "evilcraft:environmental_accumulation_core" }, "bio_forge_tab": "biomancy:blocks", "nutrientsCost": 500 })
+
 })

@@ -239,13 +239,13 @@
 #Allows to enable special events
 [special_events]
 	#Allows Halloween [false/true|default:true]
-	allow_halloween = true
+	allow_halloween = false
 	#Allows Christmas [false/true|default:true]
-	allow_christmas = true
+	allow_christmas = false
 	#Allows Easter [false/true|default:true]
-	allow_easter = true
+	allow_easter = false
 	#Allows April Fools [false/true|default:true]
-	allow_april_fools = true
+	allow_april_fools = false
 	#Allows you to set a Special Event as permanent [NONE/APRIL_FOOLS/HALLOWEEN/CHRISTMAS/EASTER|default:NONE]
 	#Allowed Values: NONE, APRIL_FOOLS, HALLOWEEN, CHRISTMAS, EASTER
 	force_special_event = "NONE"

@@ -1,0 +1,13 @@
+{
+  "name": "Flux Infused",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "minecraft:air"
+  },
+  "color": "f2c34d",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}

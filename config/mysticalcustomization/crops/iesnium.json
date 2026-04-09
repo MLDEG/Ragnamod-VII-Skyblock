@@ -1,0 +1,13 @@
+{
+  "name": "Iesnium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "minecraft:air"
+  },
+  "color": "92d1d8",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}

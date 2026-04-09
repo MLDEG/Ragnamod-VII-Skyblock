@@ -136,4 +136,16 @@ onEvent('fluid.registry', e => {
         .stillTexture('ragnamod_seven:fluid/nether_essence/still')
         .flowingTexture('ragnamod_seven:fluid/nether_essence/flowing')
         .bucketColor(0xdc4234)
+
+    e.create('distilled_water')
+        .displayName('Distilled Water')
+        .thinTexture(0x5cb8d5)
+        .bucketColor(0x5cb8d5)
+        .bucketColor(0x5cb8d5)
+
+    e.create('prosperity_fluid')
+        .displayName('Liquid Prosperity')
+        .thinTexture(0xaecccc)
+        .bucketColor(0xaecccc)
+        .bucketColor(0xaecccc)
 })

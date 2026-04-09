@@ -1,7 +1,7 @@
 {
 	id: "346297BE5BDEC10F"
 	group: ""
-	order_index: 10
+	order_index: 11
 	filename: "evilcraft"
 	title: " EvilCraft"
 	icon: "evilcraft:condensed_blood"
@@ -241,6 +241,8 @@
 				"You need to break the Environmental Accumulator in the Dark Temple like the screen below."
 				"{image:ftbquests:textures/quests/evilcraft_dark_temple.png width:150 height:100 align:1}"
 				"In the first place, the Environmental Accumulator is used to capture the weather in a Weather Container by throwing the bottle in the beam."
+				""
+				"you can also craft it using biomancy."
 			]
 			dependencies: ["48D9C1D7730F18CD"]
 			id: "249D4E899B6A93B0"

@@ -1,0 +1,17 @@
+{
+  "name": {
+    "color": "#92b000",
+    "text": "Mystical Agriculture Trophy"
+  },
+  "display": {
+    "scale": 0.13
+  },
+  "entity": {
+    "type": "twilightforest:armored_giant",
+    "nbt": "{ArmorItems: [{id: \"mysticaladaptations:insanium_boots\", Count: 1b, tag: {Damage: 0}}, {id: \"mysticaladaptations:insanium_leggings\", Count: 1b, tag: {Damage: 0}}, {id: \"mysticaladaptations:insanium_chestplate\", Count: 1b, tag: {Damage: 0}}, {id: \"mysticaladaptations:insanium_helmet\", Count: 1b, tag: {Damage: 0}}]}"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#92b000"
+  }
+}

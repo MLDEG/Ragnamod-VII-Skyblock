@@ -1,0 +1,13 @@
+{
+  "name": "Utheric",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "minecraft:air"
+  },
+  "color": "ba3d43",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_quartz"
+  }
+}

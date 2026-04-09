@@ -86,7 +86,8 @@
         "minecraft:diamond",
         "miniutilities:stable_ingot",
         "forbidden_arcanus:dark_soul",
-        "ragnamod_seven:infinity_nugget"
+        "ragnamod_seven:infinity_nugget",
+        "minecraft:wheat_seeds"
       ],
       "mode": "input"
     },
@@ -100,7 +101,8 @@
         "minecraft:diamond",
         "miniutilities:stable_ingot",
         "forbidden_arcanus:dark_soul",
-        "ragnamod_seven:infinity_nugget"
+        "ragnamod_seven:infinity_nugget",
+        "minecraft:wheat_seeds"
       ],
       "mode": "input"
     },
@@ -114,7 +116,8 @@
         "minecraft:diamond",
         "miniutilities:stable_ingot",
         "forbidden_arcanus:dark_soul",
-        "ragnamod_seven:infinity_nugget"
+        "ragnamod_seven:infinity_nugget",
+        "minecraft:wheat_seeds"
       ],
       "mode": "input"
     },
@@ -128,7 +131,8 @@
         "minecraft:diamond",
         "miniutilities:stable_ingot",
         "forbidden_arcanus:dark_soul",
-        "ragnamod_seven:infinity_nugget"
+        "ragnamod_seven:infinity_nugget",
+        "minecraft:wheat_seeds"
       ],
       "mode": "input"
     },
@@ -142,7 +146,8 @@
         "minecraft:diamond",
         "miniutilities:stable_ingot",
         "forbidden_arcanus:dark_soul",
-        "ragnamod_seven:infinity_nugget"
+        "ragnamod_seven:infinity_nugget",
+        "minecraft:wheat_seeds"
       ],
       "mode": "input"
     },
@@ -156,7 +161,8 @@
         "minecraft:diamond",
         "miniutilities:stable_ingot",
         "forbidden_arcanus:dark_soul",
-        "ragnamod_seven:infinity_nugget"
+        "ragnamod_seven:infinity_nugget",
+        "minecraft:wheat_seeds"
       ],
       "mode": "input"
     },
@@ -169,7 +175,8 @@
         "hostilenetworks:machine_frame",
         "minecraft:diamond",
         "miniutilities:stable_ingot",
-        "ragnamod_seven:infinity_nugget"
+        "ragnamod_seven:infinity_nugget",
+        "minecraft:wheat_seeds"
       ],
       "whitelist": true,
       "mode": "input"

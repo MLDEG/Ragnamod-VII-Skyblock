@@ -49,7 +49,7 @@
 		}
 		{
 			icon: "ae2:controller"
-			x: 5.5d
+			x: 6.0d
 			y: 2.0d
 			description: ["Unlock the AE2 page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -75,7 +75,7 @@
 		}
 		{
 			icon: "botania:mana_pylon"
-			x: 6.0d
+			x: 7.0d
 			y: 0.0d
 			description: ["Unlock the Botania page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -122,7 +122,7 @@
 		}
 		{
 			icon: "evilcraft:condensed_blood"
-			x: 7.0d
+			x: 8.0d
 			y: 0.0d
 			description: ["Unlock the EvilCraft page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -135,8 +135,8 @@
 		}
 		{
 			icon: "blue_skies:soul_fragment"
-			x: 9.0d
-			y: 0.0d
+			x: 0.0d
+			y: 2.0d
 			description: ["Unlock the Blue Skies page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "7AD83BC20D2742C4"
@@ -148,7 +148,7 @@
 		}
 		{
 			icon: "bloodmagic:altar"
-			x: 1.5d
+			x: 2.0d
 			y: 2.0d
 			description: ["Unlock the Blood Magic page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -161,7 +161,7 @@
 		}
 		{
 			icon: "beyond_earth:nasa_workbench"
-			x: 4.0d
+			x: 5.0d
 			y: 0.0d
 			description: ["Unlock the Beyond Earth page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -200,7 +200,7 @@
 		}
 		{
 			icon: "thermal:machine_frame"
-			x: 7.5d
+			x: 8.0d
 			y: 2.0d
 			description: ["Unlock the Thermal page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -213,7 +213,7 @@
 		}
 		{
 			icon: "spirit:crude_soul_crystal"
-			x: 2.5d
+			x: 3.0d
 			y: 2.0d
 			description: ["Unlock the Spirit page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -226,7 +226,7 @@
 		}
 		{
 			icon: "forbidden_arcanus:hephaestus_forge"
-			x: 3.5d
+			x: 4.0d
 			y: 2.0d
 			description: ["Unlock the Forbidden and Arcanus page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -248,7 +248,7 @@
 					page: 0
 				}
 			}
-			x: 8.0d
+			x: 9.0d
 			y: 0.0d
 			description: ["Unlock the Hexerei page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -274,7 +274,7 @@
 		}
 		{
 			icon: "immersiveengineering:toolbox"
-			x: 4.5d
+			x: 5.0d
 			y: 2.0d
 			description: ["Unlock the Immersive Engineering page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -313,7 +313,7 @@
 		}
 		{
 			icon: "naturesaura:gold_leaf"
-			x: 5.0d
+			x: 6.0d
 			y: 0.0d
 			description: ["Unlock the Nature's Aura page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -365,7 +365,7 @@
 		}
 		{
 			icon: "powah:energizing_rod_nitro"
-			x: 8.5d
+			x: 9.0d
 			y: 2.0d
 			description: ["Unlock the Powah page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -391,7 +391,7 @@
 		}
 		{
 			icon: "occultism:ritual_dummy/custom_ritual"
-			x: 0.5d
+			x: 1.0d
 			y: 2.0d
 			description: ["Unlock the Occultism page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -505,7 +505,7 @@
 		{
 			title: "End of Applied Energistics 2 Quests"
 			icon: "thermal:lock"
-			x: 5.5d
+			x: 6.0d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -565,7 +565,7 @@
 		{
 			title: "End of Botania Quests"
 			icon: "thermal:lock"
-			x: 6.0d
+			x: 7.0d
 			y: 1.0d
 			shape: "diamond"
 			dependencies: [
@@ -625,7 +625,7 @@
 		{
 			title: "End of EvilCraft Quests"
 			icon: "thermal:lock"
-			x: 7.0d
+			x: 8.0d
 			y: 1.0d
 			shape: "diamond"
 			dependencies: [
@@ -655,8 +655,8 @@
 		{
 			title: "End of Blue Skies Quests"
 			icon: "thermal:lock"
-			x: 9.0d
-			y: 1.0d
+			x: 0.0d
+			y: 3.0d
 			shape: "diamond"
 			dependencies: [
 				"7AD83BC20D2742C4"
@@ -685,7 +685,7 @@
 		{
 			title: "End of Blood Magic Quests"
 			icon: "thermal:lock"
-			x: 1.5d
+			x: 2.0d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -715,7 +715,7 @@
 		{
 			title: "End of Beyond Earth Quests"
 			icon: "thermal:lock"
-			x: 4.0d
+			x: 5.0d
 			y: 1.0d
 			shape: "diamond"
 			dependencies: [
@@ -805,7 +805,7 @@
 		{
 			title: "End of Thermal Quests"
 			icon: "thermal:lock"
-			x: 7.5d
+			x: 8.0d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -835,7 +835,7 @@
 		{
 			title: "End of Spirit Quests"
 			icon: "thermal:lock"
-			x: 2.5d
+			x: 3.0d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -865,7 +865,7 @@
 		{
 			title: "End of Forbidden and Arcanus Quests"
 			icon: "thermal:lock"
-			x: 3.5d
+			x: 4.0d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -895,7 +895,7 @@
 		{
 			title: "End of Hexerei Quests"
 			icon: "thermal:lock"
-			x: 8.0d
+			x: 9.0d
 			y: 1.0d
 			shape: "diamond"
 			dependencies: [
@@ -955,7 +955,7 @@
 		{
 			title: "End of Immersive Engineering Quests"
 			icon: "thermal:lock"
-			x: 4.5d
+			x: 5.0d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -1045,7 +1045,7 @@
 		{
 			title: "End of Nature's Aura Quests"
 			icon: "thermal:lock"
-			x: 5.0d
+			x: 6.0d
 			y: 1.0d
 			shape: "diamond"
 			dependencies: [
@@ -1165,7 +1165,7 @@
 		{
 			title: "End of Powah Quests"
 			icon: "thermal:lock"
-			x: 8.5d
+			x: 9.0d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -1225,7 +1225,7 @@
 		{
 			title: "End of Occultism Quests"
 			icon: "thermal:lock"
-			x: 0.5d
+			x: 1.0d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -1275,7 +1275,7 @@
 					}
 				}
 			}
-			x: 6.5d
+			x: 7.0d
 			y: 2.0d
 			description: ["Unlock the PSI page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -1289,7 +1289,7 @@
 		{
 			title: "End of PSI Quests"
 			icon: "thermal:lock"
-			x: 6.5d
+			x: 7.0d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -1354,6 +1354,46 @@
 					tag: {
 						BlockEntityTag: {
 							Trophy: "trofers:end_game"
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "mysticalagriculture:inferium_essence"
+			x: 4.0d
+			y: 0.0d
+			description: ["Unlock the Mystical Agriculture page."]
+			dependencies: ["375F4C25F6B07F8C"]
+			id: "334EEBC45B5E9A97"
+			tasks: [{
+				id: "5CB571D22A4105A5"
+				type: "checkmark"
+				title: "Mystical Agriculture Quests"
+			}]
+		}
+		{
+			title: "End of Mystical Agriculture Quests"
+			icon: "thermal:lock"
+			x: 4.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["334EEBC45B5E9A97"]
+			id: "714D13CF25401CFA"
+			tasks: [{
+				id: "240858402157D9F1"
+				type: "checkmark"
+				title: "GG"
+			}]
+			rewards: [{
+				id: "776F19DD1903776A"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:mystical_agriculture"
 						}
 					}
 				}

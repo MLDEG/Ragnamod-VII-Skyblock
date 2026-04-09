@@ -1,19 +1,22 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "CCC",
-    "CIC",
-    "CCC"
-  ],
-  "key": {
-    "C": {
-      "item": "beyond_earth:moon_stone"
+  "type": "biomancy:bio_forging",
+  "ingredients": [
+    {
+      "item": "beyond_earth:moon_stone",
+      "count": 10
     },
-    "I": {
-      "item": "evilcraft:blood_infusion_core"
+    {
+      "item": "evilcraft:blood_infusion_core",
+      "count": 1
+    },
+    {
+      "item": "tconstruct:blood_cake",
+      "count": 1
     }
-  },
+  ],
   "result": {
     "item": "evilcraft:blood_infuser"
-  }
+  },
+  "bio_forge_tab": "biomancy:blocks",
+  "nutrientsCost": 42
 }

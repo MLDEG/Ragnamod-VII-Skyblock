@@ -1,0 +1,14 @@
+{
+  "name": "Antimatter",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalcustomization:6",
+  "ingredient": {
+    "item": "minecraft:air"
+  },
+  "color": "ad6ac8",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_rock"
+  },
+  "crux": "ragnamod_seven:antimatter_crux"
+}
