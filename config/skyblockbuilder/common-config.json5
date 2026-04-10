@@ -103,7 +103,7 @@
   "Utility": {
   
     // Should players be able to create their own team? [default: false]
-    "createOwnTeam": false,
+    "createOwnTeam": true,
     
     // Should players be able to leave their team or invite others? [default: true]
     "selfManage": true,
@@ -111,7 +111,7 @@
     "Spawns": {
     
       // Should players be able to modify their spawn positions? [default: false]
-      "modifySpawns": false,
+      "modifySpawns": true,
       
       // The range from island center for possible spawns to add. [default: 50]
       "range": 50

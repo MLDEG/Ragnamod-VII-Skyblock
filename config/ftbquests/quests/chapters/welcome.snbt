@@ -817,6 +817,44 @@
 				}
 			]
 		}
+		{
+			title: "Skyblock"
+			icon: "minecraft:grass_block"
+			x: -0.5d
+			y: 4.5d
+			description: [
+				"If you are in a single player, you just need to know this command :"
+				""
+				"&3/skyblock spawn"
+				"Teleport you back to the spawn."
+				""
+				"Now if you are on a server you need to know more commands:"
+				""
+				"&3/skyblock create <name>"
+				"Create your Island with a name."
+				""
+				"&3/skyblock team <new name>"
+				"Rename your team, created at the same time as your island."
+				""
+				"&3/skyblock home"
+				"Teleport you back to your spawn Island (not the server Spawn)"
+				""
+				"&3/skyblock join <team>"
+				"Join a team."
+				""
+				"&3/skyblock leave"
+				"Leave you team (so your Island)"
+				""
+				"&3/skyblock visit <team>"
+				"Visit an Island."
+			]
+			dependencies: ["2C8AB1F55FB366FF"]
+			id: "21E2FD764C528AD0"
+			tasks: [{
+				id: "5F54E8B22AF7DDEC"
+				type: "checkmark"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
