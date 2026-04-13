@@ -324,10 +324,10 @@ onEvent('recipes', e => {
             { "item": "minecraft:flint", "chance": 0.6 },
             { "item": "minecraft:coal", "chance": 0.75 },
             { "item": "minecraft:lapis_lazuli", "chance": 0.6 },
-            { "item": "create:zinc_nugget", "chance": 0.85 },
-            { "item": "minecraft:gold_nugget", "chance": 0.85 },
-            { "item": "minecraft:iron_nugget", "chance": 0.85 },
-            { "item": "create:copper_nugget", "chance": 0.85 },
+            { "item": "create:crushed_raw_zinc", "chance": 0.65 },
+            { "item": "create:crushed_raw_gold", "chance": 0.65 },
+            { "item": "create:crushed_raw_iron", "chance": 0.65 },
+            { "item": "create:crushed_raw_copper", "chance": 0.65 },
             { "item": "minecraft:diamond", "chance": 0.2 },
             { "item": "minecraft:emerald", "chance": 0.2 }
         ],
@@ -365,7 +365,7 @@ onEvent('recipes', e => {
         "ingredients": [{ "item": "malum:blighted_soil" }, { "item": "createsifter:custom_mesh" }],
         "results": [
             { "item": "minecraft:gold_nugget", "chance": 1.0 },
-            { "item": "malum:processed_soulstone", "chance": 0.85 },
+            { "item": "malum:crushed_soulstone", "chance": 0.65 },
             { "item": "malum:crushed_brilliance", "chance": 0.5 },
             { "item": "malum:cthonic_gold", "chance": 0.25 },
         ],
@@ -579,5 +579,14 @@ onEvent('recipes', e => {
 
     //Environmental Accumulator
     e.custom({ "type": "biomancy:bio_forging", "ingredients": [{ "item": "evilcraft:blood_orb_filled", "count": 1 }, { "item": "rftoolsutility:environmental_controller", "count": 1 }, { "item": "biomancy:creator_mix", "count": 1 }, { "item": "biomancy:fertilizer", "count": 1 }, { "item": "ironfurnaces:rainbow_core", "count": 1 }], "result": { "item": "evilcraft:environmental_accumulation_core" }, "bio_forge_tab": "biomancy:blocks", "nutrientsCost": 500 })
+
+    //Washing Crushed Ore
+    e.custom({ "type": "create:splashing", "ingredients": [{ "item": "create:crushed_raw_osmium" }], "results": [{ "item": "mekanism:nugget_osmium", "count": 9 }, { "item": "thermal:apatite", "chance": 0.50 }] })
+    e.custom({ "type": "create:splashing", "ingredients": [{ "item": "create:crushed_raw_silver" }], "results": [{ "item": "thermal:silver_nugget", "count": 9 }, { "item": "minecraft:coal", "chance": 0.50 }] })
+    e.custom({ "type": "create:splashing", "ingredients": [{ "item": "create:crushed_raw_tin" }], "results": [{ "item": "thermal:tin_nugget", "count": 9 }, { "item": "minecraft:glowstone_dust", "chance": 0.25 }] })
+    e.custom({ "type": "create:splashing", "ingredients": [{ "item": "create:crushed_raw_lead" }], "results": [{ "item": "thermal:lead_nugget", "count": 9 }, { "item": "minecraft:lapis_lazuli", "chance": 0.50 }] })
+    e.custom({ "type": "create:splashing", "ingredients": [{ "item": "create:crushed_raw_aluminum" }], "results": [{ "item": "tinkers_reforged:aluminum_nugget", "count": 9 }, { "item": "thermal:niter", "chance": 0.25 }] })
+    e.custom({ "type": "create:splashing", "ingredients": [{ "item": "create:crushed_raw_uranium" }], "results": [{ "item": "mekanism:nugget_uranium", "count": 9 }, { "item": "ae2:ender_dust", "chance": 0.75 }] })
+    e.custom({ "type": "create:splashing", "ingredients": [{ "item": "create:crushed_raw_nickel" }], "results": [{ "item": "thermal:nickel_nugget", "count": 9 }, { "item": "thermal:sulfur", "chance": 0.50 }] })
 
 })

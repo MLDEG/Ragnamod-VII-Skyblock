@@ -920,7 +920,15 @@ onEvent('recipes', e => {
         'matc:crystals/master_infusion_crystal',
         'mysticalagriculture:essence/common/rubber',
         'mysticalagriculture:essence/common/graphite_ingot',
-        'jamd:mine_portal_block'
+        'jamd:mine_portal_block',
+        /exnihilosequentia:ens_raw/,
+        'create:splashing/immersiveengineering/crushed_aluminum_ore',
+        'create:splashing/mekanism/crushed_raw_uranium',
+        'create:splashing/thermal/crushed_raw_nickel',
+        'create:splashing/thermal/crushed_raw_lead',
+        'create:splashing/thermal/crushed_raw_tin',
+        'create:splashing/thermal/crushed_raw_silver',
+        'create:splashing/mekanism/crushed_raw_osmium'
 
     ]
     removeId.forEach(C => { r(C) })
