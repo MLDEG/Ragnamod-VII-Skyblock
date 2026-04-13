@@ -411,7 +411,6 @@ onEvent('jei.hide.items', e => {
         'pneumaticcraft:medium_tank',
         'pneumaticcraft:large_tank',
         'pneumaticcraft:huge_tank',
-        'telepastries:custom_cake2',
         'telepastries:custom_cake3',
         /exnihilosequentia:(bone|andesite|diamond|diamond|diorite|gold|granite|iron|wooden)_crook/,
         'exnihilosequentia:beehive_frame',
@@ -460,7 +459,8 @@ onEvent('jei.hide.items', e => {
         'mysticalagriculture:tungsten_essence',
         'mysticalagriculture:chrome_essence',
         'mysticalagriculture:graphite_seeds',
-        'mysticalagriculture:graphite_essence'
+        'mysticalagriculture:graphite_essence',
+        'jamd:mine_portal_block'
     ])
 })
 //Fluids

@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cake_slice4",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "telepastries:block/mining/cake_bottom",
+    "inside": "telepastries:block/mining/cake_inner",
+    "particle": "telepastries:block/mining/cake_side",
+    "side": "telepastries:block/mining/cake_side",
+    "top": "telepastries:block/mining/cake_top"
+  }
+}

@@ -83,6 +83,12 @@ onEvent('fluid.registry', e => {
         .flowingTexture('ragnamod_seven:fluid/city_cake_batter/flow')
         .bucketColor(0x5a9c99)
 
+    e.create('mining_cake_batter')
+        .displayName('Mining Cake Batter')
+        .stillTexture('ragnamod_seven:fluid/mining_cake_batter/still')
+        .flowingTexture('ragnamod_seven:fluid/mining_cake_batter/flow')
+        .bucketColor(0x5a9c99)
+
     e.create('undergarden_cake_batter')
         .displayName('Undergarden Cake Batter')
         .stillTexture('ragnamod_seven:fluid/undergarden_cake_batter/still')

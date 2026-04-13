@@ -22,7 +22,7 @@
 			y: 0.0d
 			shape: "square"
 			description: [
-				"To begin Blue Skies, you need to find in Lost City different houses with a Gatekeeper inside (or outside the house)."
+				"To begin Blue Skies, you need to find in the Mining World different houses with a Gatekeeper inside (or outside the house)."
 				"You can find these houses on a Mountain, a Plains or a Snowy biome."
 				"{image:ftbquests:textures/quests/bs_gatekeeper.png width:150 height:100 align:1}"
 				"You need, next, to trade with the Gatekeeper to get a Zeal Lighter and a Blue Journal."

@@ -1898,18 +1898,16 @@
 			x: 30.0d
 			y: -0.5d
 			description: [
-				"Tired of being in Skyblock? Well, you can head to Lost City!"
+				"Tired of being in Skyblock? Well, you can head to a real Overworld!"
 				""
-				"There you'll find structures (mostly cities), loot chests, dungeons, and even Strongholds if you don't want to go craft the End Cake."
-				""
-				"You can also find the structures for Blue Skies there, but there are other methods to access the portal, Check the Blue Skies quests."
+				"This overworld is similarly named Mining World, but it is literally an Overworld."
 			]
 			dependencies: ["7DD000F2FDCD2711"]
 			id: "25F5BB89883CB4CF"
 			tasks: [{
 				id: "24AF455771DE1932"
 				type: "item"
-				item: "telepastries:lost_city_cake"
+				item: "telepastries:custom_cake2"
 			}]
 			rewards: [{
 				id: "402CB6962FD867D1"

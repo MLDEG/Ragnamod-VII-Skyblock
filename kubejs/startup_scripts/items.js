@@ -150,7 +150,7 @@ onEvent('item.registry', e => {
         e.create('ragnamod_seven:' + name + '_cake_base_baked')
     }
     var nameofcake = [
-        'ender', 'earth', 'sky', 'blood', 'magma', 'nether', 'end', 'overworld', 'twilight', 'city', 'undergarden'
+        'ender', 'earth', 'sky', 'blood', 'magma', 'nether', 'end', 'overworld', 'twilight', 'city', 'undergarden', 'mining'
     ]
     nameofcake.forEach(C => { cake(C) })
     e.create('ragnamod_seven:cake_mold').maxStackSize(1)

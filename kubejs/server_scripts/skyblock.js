@@ -419,7 +419,7 @@ onEvent('recipes', e => {
         e.smoking('ragnamod_seven:' + name + '_cake_mold_baked', 'ragnamod_seven:' + name + '_cake_mold_filled')
     }
     var nameofcake = [
-        'ender', 'earth', 'sky', 'blood', 'magma', 'nether', 'end', 'overworld', 'twilight', 'city', 'undergarden'
+        'ender', 'earth', 'sky', 'blood', 'magma', 'nether', 'end', 'overworld', 'twilight', 'undergarden', 'mining'
     ]
     nameofcake.forEach(C => { unmoldCake(C) })
     e.shapeless('createaddition:cake_base_baked', ['ragnamod_seven:cake_mold_baked']).replaceIngredient('ragnamod_seven:cake_mold_baked', 'ragnamod_seven:cake_mold')
@@ -514,7 +514,7 @@ onEvent('recipes', e => {
     e.custom({ "type": "create:filling", "ingredients": [{ "item": "ragnamod_seven:end_cake_base_baked" }, { "fluid": "kubejs:end_icing", "amount": 1000 }], "results": [{ "item": "telepastries:end_cake" }] })
     e.custom({ "type": "create:filling", "ingredients": [{ "item": "ragnamod_seven:undergarden_cake_base_baked" }, { "fluid": "kubejs:undergarden_icing", "amount": 1000 }], "results": [{ "item": "telepastries:custom_cake" }] })
     e.custom({ "type": "create:sequenced_assembly", "ingredient": { "item": "ragnamod_seven:twilight_cake_base_baked" }, "transitionalItem": { "item": "ragnamod_seven:twilight_cake_base_baked" }, "sequence": [{ "type": "create:filling", "ingredients": [{ "item": "ragnamod_seven:twilight_cake_base_baked" }, { "fluid": "minecraft:water", "amount": 1000 }], "results": [{ "item": "ragnamod_seven:twilight_cake_base_baked" }] }, { "type": "create:deploying", "ingredients": [{ "item": "ragnamod_seven:twilight_cake_base_baked" }, { "item": "ragnamod_seven:portal_activator" }], "results": [{ "item": "ragnamod_seven:twilight_cake_base_baked" }] }], "results": [{ "item": "telepastries:twilight_cake", "chance": 1.0 }], "loops": 1 })
-    e.custom({ "type": "create:deploying", "ingredients": [{ "item": "ragnamod_seven:city_cake_base_baked" }, { "item": "farmersdelight:red_mushroom_colony" }], "results": [{ "item": "telepastries:lost_city_cake" }] })
+    e.custom({ "type": "create:deploying", "ingredients": [{ "item": "ragnamod_seven:mining_cake_base_baked" }, { "item": "farmersdelight:red_mushroom_colony" }], "results": [{ "item": "telepastries:custom_cake2" }] })
 
     //Zeal Lighter
     e.shapeless('blue_skies:zeal_lighter', [Item.of('tconstruct:tough_handle', '{Material:"tinkers_reforged:gausum"}'), Item.of('tconstruct:small_axe_head', '{Material:"tinkers_reforged:cyber_steel"}')])

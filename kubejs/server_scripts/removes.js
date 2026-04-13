@@ -919,7 +919,8 @@ onEvent('recipes', e => {
         'mysticalagriculture:inferium_essence_smelted',
         'matc:crystals/master_infusion_crystal',
         'mysticalagriculture:essence/common/rubber',
-        'mysticalagriculture:essence/common/graphite_ingot'
+        'mysticalagriculture:essence/common/graphite_ingot',
+        'jamd:mine_portal_block'
 
     ]
     removeId.forEach(C => { r(C) })

@@ -172,7 +172,7 @@ onEvent('recipes', e => {
     e.custom({
         "type": "create:mixing",
         "ingredients": [{ "fluid": "kubejs:cake_batter", "amount": 250 }, { "item": "minecraft:diamond_block" }],
-        "results": [{ "fluid": "kubejs:city_cake_batter", "amount": 250 }]
+        "results": [{ "fluid": "kubejs:mining_cake_batter", "amount": 250 }]
     })
     e.custom({
         "type": "create:mixing",

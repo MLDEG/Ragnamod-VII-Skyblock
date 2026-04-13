@@ -67,14 +67,14 @@
 	#Defines if the Custom Cake gets partly consumed when eaten [default: true]
 	consumeCustomCake2 = false
 	#Defines the name of the cake [default: "Another Custom"]
-	customCake2Name = "None"
+	customCake2Name = "Mining World"
 	#Defines the dimension bound to the custom cake [default: "minecraft:overworld"]
-	customCake2Dimension = "minecraft:overworld"
+	customCake2Dimension = "jamd:mining"
 	#Set the refill items used by the Custom Cake (Only change if you know what you're doing) [modid:itemname]
 	customCake2RefillItem = ["minecraft:cobblestone"]
 	#Set the minimum Y location that the cake can spawn you at [Default: 2]
 	#Range: 1 ~ 256
-	customCake2MinY = 2
+	customCake2MinY = 63
 	#Set the maximum Y location that the cake can spawn you at [Default: 2]
 	#Range: 1 ~ 256
 	customCake2MaxY = 254
