@@ -28,7 +28,7 @@
   "hephaestus_forge_item": "minecraft:wheat_seeds",
   "essences": {
     "aureal": 200,
-    "experience": 500,
+    "experience": 200,
     "blood": 0,
     "souls": 1
   },
