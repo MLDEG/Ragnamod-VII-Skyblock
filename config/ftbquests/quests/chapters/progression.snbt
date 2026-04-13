@@ -1378,7 +1378,10 @@
 			x: 4.0d
 			y: 1.0d
 			shape: "diamond"
-			dependencies: ["334EEBC45B5E9A97"]
+			dependencies: [
+				"334EEBC45B5E9A97"
+				"02A5897F4EC7AEC8"
+			]
 			id: "714D13CF25401CFA"
 			tasks: [{
 				id: "240858402157D9F1"

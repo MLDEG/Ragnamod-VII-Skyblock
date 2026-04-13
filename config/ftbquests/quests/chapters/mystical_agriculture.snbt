@@ -5,7 +5,7 @@
 	filename: "mystical_agriculture"
 	title: " Mystical Agriculture"
 	icon: "mysticalagriculture:inferium_essence"
-	subtitle: ["My little garden"]
+	subtitle: ["The Jimmy way !"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
