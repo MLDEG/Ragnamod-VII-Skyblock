@@ -589,4 +589,12 @@ onEvent('recipes', e => {
     e.custom({ "type": "create:splashing", "ingredients": [{ "item": "create:crushed_raw_uranium" }], "results": [{ "item": "mekanism:nugget_uranium", "count": 9 }, { "item": "ae2:ender_dust", "chance": 0.75 }] })
     e.custom({ "type": "create:splashing", "ingredients": [{ "item": "create:crushed_raw_nickel" }], "results": [{ "item": "thermal:nickel_nugget", "count": 9 }, { "item": "thermal:sulfur", "chance": 0.50 }] })
 
+    //Globe
+    e.shaped('beyond_earth:earth_globe', ['AA', 'AB', 'AC'], { A: 'create:brass_nugget', B: 'minecraft:grass_block', C: 'create:brass_sheet' })
+    e.shaped('beyond_earth:moon_globe', ['AA', 'AB', 'AC'], { A: 'create:brass_nugget', B: 'beyond_earth:moon_stone', C: 'create:brass_sheet' })
+    e.shaped('beyond_earth:mars_globe', ['AA', 'AB', 'AC'], { A: 'create:brass_nugget', B: 'beyond_earth:mars_stone', C: 'create:brass_sheet' })
+    e.shaped('beyond_earth:mercury_globe', ['AA', 'AB', 'AC'], { A: 'create:brass_nugget', B: 'beyond_earth:mercury_stone', C: 'create:brass_sheet' })
+    e.shaped('beyond_earth:venus_globe', ['AA', 'AB', 'AC'], { A: 'create:brass_nugget', B: 'beyond_earth:venus_stone', C: 'create:brass_sheet' })
+    e.shaped('beyond_earth:glacio_globe', ['AA', 'AB', 'AC'], { A: 'create:brass_nugget', B: 'beyond_earth:glacio_stone', C: 'create:brass_sheet' })
+
 })
