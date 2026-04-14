@@ -434,7 +434,6 @@ onEvent('jei.hide.items', e => {
         Item.of('modonomicon:modonomicon', '{"modonomicon:book_id":"modonomicon:demo"}'),
         'occultism:lighted_air',
         'mysticalagriculture:infusion_crystal',
-        'mysticalagriculture:prosperity_seed_base',
         'mysticalagriculture:prosperity_ore',
         'mysticalagriculture:deepslate_prosperity_ore',
         'mysticalagradditions:nether_prosperity_ore',
