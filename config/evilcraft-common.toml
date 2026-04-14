@@ -339,7 +339,7 @@
 		#1/X chance on getting poisoned when hit.
 		poisonChance = 20
 		#The minimum Y-level this mob can spawn at.
-		minY = 55
+		minY = 240
 
 	[mob.vengeance_spirit]
 		#The 1/X chance that an actual spirit will spawn when doing actions like mining with the Vengeance Pickaxe.
