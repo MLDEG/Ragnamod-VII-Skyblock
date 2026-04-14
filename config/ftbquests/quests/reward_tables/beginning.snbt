@@ -87,5 +87,19 @@
 				tag: { }
 			}
 		}
+		{
+			item: {
+				id: "botania:magnet_ring_greater"
+				Count: 1b
+				tag: {
+					baubleUUID: [I;
+						557787249
+						-482064039
+						-1320357175
+						1917314799
+					]
+				}
+			}
+		}
 	]
 }

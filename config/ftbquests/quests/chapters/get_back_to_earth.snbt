@@ -1645,9 +1645,9 @@
 				}
 			}]
 			rewards: [{
-				id: "286ECB180E75BB6B"
+				id: "40E2343D4D03439D"
 				type: "item"
-				item: "beyond_earth:earth_globe"
+				item: "beyond_earth:rocket_nose_cone"
 			}]
 		}
 		{
@@ -1725,9 +1725,9 @@
 				dimension: "beyond_earth:moon"
 			}]
 			rewards: [{
-				id: "28F773C344449160"
+				id: "277DC76FC51F1724"
 				type: "item"
-				item: "beyond_earth:moon_globe"
+				item: "beyond_earth:oxygen_tank"
 			}]
 		}
 		{

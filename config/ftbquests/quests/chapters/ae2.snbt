@@ -779,7 +779,7 @@
 			x: -2.5d
 			y: 0.5d
 			shape: "square"
-			description: ["1024K ME Storage Component can store 1048576 Bytes."]
+			description: ["1M MEGA Storage Component can store 1048576 Bytes."]
 			dependencies: [
 				"0235E73C94D2E5E8"
 				"0B1D5E77E82B17AB"
@@ -788,19 +788,19 @@
 			tasks: [{
 				id: "6A4E9FEDF582D208"
 				type: "item"
-				item: "ae2additions:cell_component_1024"
+				item: "megacells:cell_component_1m"
 			}]
 			rewards: [{
 				id: "56C651141C0841A3"
 				type: "item"
-				item: "ae2additions:cell_component_1024"
+				item: "megacells:cell_component_1m"
 			}]
 		}
 		{
 			x: -1.5d
 			y: 0.0d
 			shape: "square"
-			description: ["4096K ME Storage Component can store 4194304 Bytes."]
+			description: ["4M MEGA Storage Component can store 4194304 Bytes."]
 			dependencies: [
 				"6183F8C262907876"
 				"0B1D5E77E82B17AB"
@@ -809,19 +809,19 @@
 			tasks: [{
 				id: "283A8ED9F89ACDB9"
 				type: "item"
-				item: "ae2additions:cell_component_4096"
+				item: "megacells:cell_component_4m"
 			}]
 			rewards: [{
 				id: "4B92D8CB8E6CFA93"
 				type: "item"
-				item: "ae2additions:cell_component_4096"
+				item: "megacells:cell_component_4m"
 			}]
 		}
 		{
 			x: -0.5d
 			y: -0.5d
 			shape: "square"
-			description: ["16384K ME Storage Component can store 16777216 Bytes."]
+			description: ["16M MEGA Storage Component can store 16777216 Bytes."]
 			dependencies: [
 				"676BBD010B19B2D5"
 				"0B1D5E77E82B17AB"
@@ -830,19 +830,19 @@
 			tasks: [{
 				id: "6F9DDB4411BD041E"
 				type: "item"
-				item: "ae2additions:cell_component_16384"
+				item: "megacells:cell_component_16m"
 			}]
 			rewards: [{
 				id: "7BE8B0B1DC1B6632"
 				type: "item"
-				item: "ae2additions:cell_component_16384"
+				item: "megacells:cell_component_16m"
 			}]
 		}
 		{
 			x: 0.0d
 			y: -1.5d
 			shape: "square"
-			description: ["65536K ME Storage Component can store 67108864 Bytes."]
+			description: ["64M MEGA Storage Component can store 67108864 Bytes."]
 			dependencies: [
 				"4583FAB6A7671236"
 				"0B1D5E77E82B17AB"
@@ -851,12 +851,12 @@
 			tasks: [{
 				id: "6F9378730D901964"
 				type: "item"
-				item: "ae2additions:cell_component_65536"
+				item: "megacells:cell_component_64m"
 			}]
 			rewards: [{
 				id: "78ABDADAA1A59002"
 				type: "item"
-				item: "ae2additions:cell_component_65536"
+				item: "megacells:cell_component_64m"
 			}]
 		}
 		{
