@@ -212,14 +212,14 @@
 		[spawns.structures.way_sign]
 			#Average distance apart in chunks between spawn attempts. Has to be larger than minimum_distance of course
 			#Range: 0 ~ 1000
-			average_distance = 19
+			average_distance = 0
 			#Minimum distance apart in chunks between spawn attempts
 			#Range: 0 ~ 1000
-			minimum_distance = 10
+			minimum_distance = 0
 			#Entirely disables them from spawning
-			enabled = true
+			enabled = false
 			#With this option road signs will display the distance to the structure that they are pointing to
-			show_distance_text = true
+			show_distance_text = false
 
 		[spawns.structures.wild_flax]
 			enabled = true
