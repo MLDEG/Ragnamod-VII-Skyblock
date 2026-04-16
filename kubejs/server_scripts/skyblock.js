@@ -354,7 +354,8 @@ onEvent('recipes', e => {
         "results": [
             { "item": "minecraft:bone_meal", "chance": 0.75 },
             { "item": "create:crushed_raw_nickel", "chance": 0.5 },
-            { "item": "create:crushed_raw_aluminum", "chance": 0.5 }
+            { "item": "create:crushed_raw_aluminum", "chance": 0.5 },
+            { "item": "mekanism:fluorite_gem", "chance": 0.75 }
         ],
         "processingTime": 200,
         "waterlogged": false
