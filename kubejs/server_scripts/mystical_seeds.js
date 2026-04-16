@@ -83,6 +83,7 @@ onEvent('recipes', e => {
     seedCrafting('ragnamod_seven:tertium_seed', 'warden_and_sculk:sculk_block', 'mysticalagriculture:tertium_essence', 'mysticalagriculture:sculk_seeds', 100)
     seedCrafting('ragnamod_seven:tertium_seed', 'tinkers_reforged:red_beryl_gem', 'mysticalagriculture:tertium_essence', 'mysticalagriculture:red_beryl_seeds', 100)
     seedCrafting('ragnamod_seven:tertium_seed', 'tinkers_reforged:qivium_ingot', 'mysticalagriculture:tertium_essence', 'mysticalagriculture:qivium_seeds', 100)
+    seedCrafting('ragnamod_seven:tertium_seed', 'tinkers_reforged:yokel_ingot', 'mysticalagriculture:tertium_essence', 'mysticalagriculture:yokel_seeds', 100)
     seedCrafting('ragnamod_seven:tertium_seed', 'blue_skies:pyrope_gem', 'mysticalagriculture:tertium_essence', 'mysticalagriculture:pyrope_seeds', 100)
     seedCrafting('ragnamod_seven:tertium_seed', 'industrialforegoing:plastic', 'mysticalagriculture:tertium_essence', 'mysticalagriculture:plastic_seeds', 100)
     seedCrafting('ragnamod_seven:tertium_seed', 'tinkers_reforged:piroot_ingot', 'mysticalagriculture:tertium_essence', 'mysticalagriculture:piroot_seeds', 100)
@@ -174,16 +175,16 @@ onEvent('recipes', e => {
     seedCrafting('ragnamod_seven:supremium_seed', 'ragnamod_seven:solid_nuclear_waste', 'mysticalagriculture:supremium_essence', 'mysticalagriculture:decay_seeds', 200)
     seedCrafting('ragnamod_seven:supremium_seed', 'blue_skies:charoite', 'mysticalagriculture:supremium_essence', 'mysticalagriculture:charoite_seeds', 200)
     //Insanium
-    seedCrafting('ragnamod_seven:supremium_seed', 'powah:capacitor_nitro', 'mysticalagriculture:supremium_essence', 'mysticalagriculture:nitro_crystal_seeds', 300)
-    seedCrafting('ragnamod_seven:supremium_seed', 'avaritia:neutronium_block', 'mysticalagriculture:supremium_essence', 'mysticalagriculture:neutronium_seeds', 300)
-    seedCrafting('ragnamod_seven:supremium_seed', 'draconicevolution:awakened_draconium_block', 'mysticalagriculture:supremium_essence', 'mysticalagriculture:awakened_draconium_seeds', 300)
-    seedCrafting('ragnamod_seven:supremium_seed', 'botania:gaia_ingot', 'mysticalagriculture:supremium_essence', 'mysticalagriculture:gaia_spirit_seeds', 300)
-    seedCrafting('ragnamod_seven:supremium_seed', 'minecraft:dragon_egg', 'mysticalagriculture:supremium_essence', 'mysticalagriculture:dragon_egg_seeds', 300)
-    seedCrafting('ragnamod_seven:supremium_seed', 'minecraft:nether_star', 'mysticalagriculture:supremium_essence', 'mysticalagriculture:nether_star_seeds', 300)
-    seedCrafting('ragnamod_seven:supremium_seed', 'avaritia:infinity_catalyst', 'mysticalagriculture:supremium_essence', 'mysticalagriculture:infinity_seeds', 300)
-    seedCrafting('ragnamod_seven:supremium_seed', 'draconicevolution:chaos_shard', 'mysticalagriculture:supremium_essence', 'mysticalagriculture:chaotic_seeds', 300)
-    seedCrafting('ragnamod_seven:supremium_seed', 'ragnamod_seven:antimatter_pellet_block', 'mysticalagriculture:supremium_essence', 'mysticalagriculture:antimatter_seeds', 300)
-    seedCrafting('ragnamod_seven:supremium_seed', 'mythicbotany:alfsteel_block', 'mysticalagriculture:supremium_essence', 'mysticalagriculture:alfsteel_seeds', 300)
+    seedCrafting('ragnamod_seven:insanium_seed', 'powah:capacitor_nitro', 'mysticalagradditions:insanium_essence', 'mysticalagriculture:nitro_crystal_seeds', 300)
+    seedCrafting('ragnamod_seven:insanium_seed', 'avaritia:neutronium_block', 'mysticalagradditions:insanium_essence', 'mysticalagriculture:neutronium_seeds', 300)
+    seedCrafting('ragnamod_seven:insanium_seed', 'draconicevolution:awakened_draconium_block', 'mysticalagradditions:insanium_essence', 'mysticalagriculture:awakened_draconium_seeds', 300)
+    seedCrafting('ragnamod_seven:insanium_seed', 'botania:gaia_ingot', 'mysticalagradditions:insanium_essence', 'mysticalagriculture:gaia_spirit_seeds', 300)
+    seedCrafting('ragnamod_seven:insanium_seed', 'minecraft:dragon_egg', 'mysticalagradditions:insanium_essence', 'mysticalagriculture:dragon_egg_seeds', 300)
+    seedCrafting('ragnamod_seven:insanium_seed', 'minecraft:nether_star', 'mysticalagradditions:insanium_essence', 'mysticalagriculture:nether_star_seeds', 300)
+    seedCrafting('ragnamod_seven:insanium_seed', 'avaritia:infinity_catalyst', 'mysticalagradditions:insanium_essence', 'mysticalagriculture:infinity_seeds', 300)
+    seedCrafting('ragnamod_seven:insanium_seed', 'draconicevolution:chaos_shard', 'mysticalagradditions:insanium_essence', 'mysticalagriculture:chaotic_seeds', 300)
+    seedCrafting('ragnamod_seven:insanium_seed', 'ragnamod_seven:antimatter_pellet_block', 'mysticalagradditions:insanium_essence', 'mysticalagriculture:antimatter_seeds', 300)
+    seedCrafting('ragnamod_seven:insanium_seed', 'mythicbotany:alfsteel_block', 'mysticalagradditions:insanium_essence', 'mysticalagriculture:alfsteel_seeds', 300)
 
     //Craft
     e.shaped('4x ftbic:rubber', ['AAA'], { A: 'mysticalagriculture:rubber_essence' })
@@ -249,6 +250,7 @@ onEvent('recipes', e => {
     e.shaped('3x draconicevolution:medium_chaos_frag', ['AAA'], { A: 'mysticalagriculture:chaotic_essence' })
     e.shaped('mekanism:pellet_antimatter', ['AAA'], { A: 'mysticalagriculture:antimatter_essence' })
     e.shaped('mythicbotany:alfsteel_ingot', ['AAA', 'A A', 'AAA'], { A: 'mysticalagriculture:alfsteel_essence' })
+    e.shaped('4x beyond_earth:steel_ingot', ['AAA', 'A A', 'AAA'], { A: 'mysticalagriculture:steel_essence' })
 
     //GardenCloche
     e.custom({ "type": "immersiveengineering:fertilizer", "growthModifier": 20, "input": { "item": "botania:life_essence" } })
