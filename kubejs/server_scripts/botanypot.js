@@ -47,6 +47,9 @@ onEvent('recipes', e => {
     e.custom({ "type": "botanypots:soil", "input": { "item": "forbidden_arcanus:magical_farmland" }, "display": { "block": "forbidden_arcanus:magical_farmland" }, "categories": "magical_farmland", "growthModifier": 1 })
     e.custom({ "type": "botanypots:crop", "seed": { "item": "forbidden_arcanus:golden_orchid_seeds" }, "categories": ["magical_farmland"], "growthTicks": 1200, "display": { "type": "botanypots:aging", "block": "forbidden_arcanus:golden_orchid" }, "drops": [{ "chance": 1.00, "output": { "item": "forbidden_arcanus:arcane_gold_nugget" }, "minRolls": 1, "maxRolls": 3 }, { "chance": 0.15, "output": { "item": "forbidden_arcanus:arcane_gold_nugget" }, "minRolls": 1, "maxRolls": 3 }, { "chance": 0.05, "output": { "item": "forbidden_arcanus:golden_orchid_seeds" }, "minRolls": 1, "maxRolls": 2 }] })
 
+    //Flashing Archwood Sappling
+    e.custom({ "type": "botanypots:crop", "seed": { "item": "ars_elemental:yellow_archwood_sapling" }, "categories": ["dirt"], "growthTicks": 2400, "display": { "block": "ars_elemental:yellow_archwood_sapling" }, "drops": [{ "chance": 1.00, "output": { "item": "ars_elemental:yellow_archwood_log" }, "minRolls": 2, "maxRolls": 4 }, { "chance": 0.01, "output": { "item": "ars_elemental:yellow_archwood_sapling" } }] })
+
     //Botany pot Tier
     function soilPottier(block, categories, growth) {
         e.custom({ "type": "botanypotstiers:soil", "input": { "item": block }, "display": { "block": block }, "categories": categories, "growthModifier": growth })
@@ -94,6 +97,9 @@ onEvent('recipes', e => {
     e.custom({ "type": "botanypotstiers:soil", "input": { "item": "forbidden_arcanus:magical_farmland" }, "display": { "block": "forbidden_arcanus:magical_farmland" }, "categories": "magical_farmland", "growthModifier": 1 })
     e.custom({ "type": "botanypotstiers:crop", "seed": { "item": "forbidden_arcanus:golden_orchid_seeds" }, "categories": ["magical_farmland"], "growthTicks": 1200, "display": { "type": "botanypotstiers:aging", "block": "forbidden_arcanus:golden_orchid" }, "drops": [{ "chance": 1.00, "output": { "item": "forbidden_arcanus:arcane_gold_nugget" }, "minRolls": 1, "maxRolls": 3 }, { "chance": 0.15, "output": { "item": "forbidden_arcanus:arcane_gold_nugget" }, "minRolls": 1, "maxRolls": 3 }, { "chance": 0.05, "output": { "item": "forbidden_arcanus:golden_orchid_seeds" }, "minRolls": 1, "maxRolls": 2 }] })
 
+    //Flashing Archwood Sappling
+    e.custom({ "type": "botanypotstiers:crop", "seed": { "item": "ars_elemental:yellow_archwood_sapling" }, "categories": ["dirt"], "growthTicks": 2400, "display": { "block": "ars_elemental:yellow_archwood_sapling" }, "drops": [{ "chance": 1.00, "output": { "item": "ars_elemental:yellow_archwood_log" }, "minRolls": 2, "maxRolls": 4 }, { "chance": 0.01, "output": { "item": "ars_elemental:yellow_archwood_sapling" } }] })
+
     //Mystical
     function mysticalagricultureSeed(name) {
         e.custom({ "type": "botanypots:crop", "seed": { "item": "mysticalagriculture:" + name + "_seeds" }, "categories": ["dirt"], "growthTicks": 800, "display": { "type": "botanypots:aging", "block": "mysticalagriculture:" + name + "_crop" }, "drops": [{ "chance": 1, "output": { "item": "mysticalagriculture:" + name + "_essence" }, "minRolls": 2, "maxRolls": 4 }, { "chance": 0.05, "output": { "item": "mysticalagriculture:fertilized_essence" }, "minRolls": 1, "maxRolls": 2 }] })
@@ -117,4 +123,16 @@ onEvent('recipes', e => {
     mysticalagricultureSeedCrux("alfsteel", 'alfsteel_crux')
     mysticalagricultureSeedCrux("nitro_crystal", 'nitro_crystal_crux')
 
+    function botanyPotCraft(block) {
+        e.shapeless('botanypots:' + block + '_hopper_botany_pot', ['#botanypots:basic_hopper_botany_pot', 'minecraft:' + block])
+        e.shapeless('botanypotstiers:elite_' + block + '_hopper_botany_pot', ['#botanypotstiers:elite_hopper_botany_pot', 'minecraft:' + block])
+        e.shapeless('botanypotstiers:ultra_' + block + '_hopper_botany_pot', ['#botanypotstiers:ultra_hopper_botany_pot', 'minecraft:' + block])
+        e.shapeless('botanypotstiers:creative_' + block + '_hopper_botany_pot', ['#botanypotstiers:creative_hopper_botany_pot', 'minecraft:' + block])
+        e.shapeless('botanypots:' + block + '_botany_pot', ['#botanypots:basic_botany_pot', 'minecraft:' + block])
+        e.shapeless('botanypotstiers:elite_' + block + '_botany_pot', ['#botanypotstiers:elite_botany_pot', 'minecraft:' + block])
+        e.shapeless('botanypotstiers:ultra_' + block + '_botany_pot', ['#botanypotstiers:ultra_botany_pot', 'minecraft:' + block])
+        e.shapeless('botanypotstiers:creative_' + block + '_botany_pot', ['#botanypotstiers:creative_botany_pot', 'minecraft:' + block])
+    }
+    var blocksMinecraft = ['white_glazed_terracotta', 'orange_glazed_terracotta', 'magenta_glazed_terracotta', 'light_blue_glazed_terracotta', 'yellow_glazed_terracotta', 'lime_glazed_terracotta', 'pink_glazed_terracotta', 'gray_glazed_terracotta', 'light_gray_glazed_terracotta', 'cyan_glazed_terracotta', 'purple_glazed_terracotta', 'blue_glazed_terracotta', 'brown_glazed_terracotta', 'green_glazed_terracotta', 'red_glazed_terracotta', 'black_glazed_terracotta']
+    blocksMinecraft.forEach(B => { botanyPotCraft(B) })
 })
