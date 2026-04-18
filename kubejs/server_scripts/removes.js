@@ -928,8 +928,9 @@ onEvent('recipes', e => {
         'create:splashing/thermal/crushed_raw_lead',
         'create:splashing/thermal/crushed_raw_tin',
         'create:splashing/thermal/crushed_raw_silver',
-        'create:splashing/mekanism/crushed_raw_osmium'
-
+        'create:splashing/mekanism/crushed_raw_osmium',
+        'ae2additions:cells/item/disk-256-casing-mega',
+        'ae2additions:cells/item/disk-256-mega'
     ]
     removeId.forEach(C => { r(C) })
 })
