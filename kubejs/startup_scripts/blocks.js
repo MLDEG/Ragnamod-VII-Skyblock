@@ -28,5 +28,6 @@ onEvent('block.registry', e => {
     e.create('ragnamod_seven:chaotic_crux').displayName('Chaotic Crux').material('metal').hardness(5.0).tagBlock('minecraft:mineable/pickaxe')
     e.create('ragnamod_seven:antimatter_crux').displayName('Antimatter Crux').material('metal').hardness(5.0).tagBlock('minecraft:mineable/pickaxe')
     e.create('ragnamod_seven:infinity_crux').displayName('Infinity Crux').material('metal').hardness(5.0).tagBlock('minecraft:mineable/pickaxe')
+    e.create('biomancy:primal_orifice_empty').displayName('Primal Orifice Empty').tagBlock('minecraft:mineable/hoe')
 
 })
