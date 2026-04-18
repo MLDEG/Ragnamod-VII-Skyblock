@@ -598,4 +598,11 @@ onEvent('recipes', e => {
     e.shaped('beyond_earth:venus_globe', ['AA', 'AB', 'AC'], { A: 'create:brass_nugget', B: 'beyond_earth:venus_stone', C: 'create:brass_sheet' })
     e.shaped('beyond_earth:glacio_globe', ['AA', 'AB', 'AC'], { A: 'create:brass_nugget', B: 'beyond_earth:glacio_stone', C: 'create:brass_sheet' })
 
+    //Primale Membrane
+    e.custom({ "type": "biomancy:bio_forging", "ingredients": [{ "item": "biomancy:elastic_fibers", "count": 4 }, { "item": "biomancy:bile", "count": 4 }, { "item": "biomancy:malignant_flesh_veins" }], "result": { "item": "biomancy:primal_permeable_membrane" }, "bio_forge_tab": "biomancy:misc", "nutrientsCost": 1 })
+    //Primal Orifice Empty
+    e.custom({ "type": "biomancy:bio_forging", "ingredients": [{ "item": "biomancy:malignant_flesh", "count": 1 }, { "item": "biomancy:withered_mob_marrow", "count": 4 }], "result": { "item": "biomancy:primal_orifice_empty" }, "bio_forge_tab": "biomancy:misc", "nutrientsCost": 1 })
+    //Bloomlight
+    e.custom({ "type": "biomancy:bio_forging", "ingredients": [{ "item": "biomancy:bloomlight", "count": 1 }], "result": { "item": "biomancy:bloomberry", "count": 5 }, "bio_forge_tab": "biomancy:misc", "nutrientsCost": 1 })
+
 })

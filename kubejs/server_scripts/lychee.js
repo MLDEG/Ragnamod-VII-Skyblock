@@ -177,4 +177,20 @@ onEvent('recipes', e => {
             }
         ]
     })
+    //Malignant Flesh Veins
+    e.custom({
+        "type": "lychee:block_interacting",
+        "contextual": [{ "type": "is_sneaking" }],
+        "item_in": { "tag": 'forge:shears' },
+        "block_in": 'biomancy:malignant_flesh',
+        "post": [
+            {
+                "type": "random", "rolls": { "min": 1, "max": 1 },
+                "entries": [
+                    { "type": "drop_item", "item": "biomancy:malignant_flesh_veins", "contextual": { "type": "chance", "chance": 1.0 } }
+                ]
+            },
+            { "type": "place", "block": "air", "contextual": { "type": "chance", "chance": 0.05 } }, { "type": "damage_item" }
+        ]
+    })
 })
