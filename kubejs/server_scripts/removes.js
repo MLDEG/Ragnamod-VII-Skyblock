@@ -930,7 +930,9 @@ onEvent('recipes', e => {
         'create:splashing/thermal/crushed_raw_silver',
         'create:splashing/mekanism/crushed_raw_osmium',
         'ae2additions:cells/item/disk-256-casing-mega',
-        'ae2additions:cells/item/disk-256-mega'
+        'ae2additions:cells/item/disk-256-mega',
+        'mysticalagriculture:essence/common/niter',
+        'mysticalagriculture:essence/common/saltpeter'
     ]
     removeId.forEach(C => { r(C) })
 })

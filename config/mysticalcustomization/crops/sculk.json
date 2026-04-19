@@ -7,7 +7,7 @@
   },
   "color": "003953",
   "textures": {
-    "flower": "mysticalagriculture:block/flower_ingot",
-    "essence": "mysticalagriculture:item/essence_ingot"
+    "flower": "mysticalagriculture:block/flower_rock",
+    "essence": "mysticalagriculture:item/essence_rock"
   }
 }
