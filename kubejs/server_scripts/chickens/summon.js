@@ -242,4 +242,5 @@ onEvent('recipes', e => {
     summonChicken('croptopia:beer', 'croptopia:beer', 'mr_bidou')
     summonChicken('ragnamod_seven:antimatter_pellet_block', 'ragnamod_seven:ftp', 'antimatter')
 
+    e.smelting('minecraft:cooked_chicken', '#chickens:chickens')
 })
