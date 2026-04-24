@@ -2546,5 +2546,89 @@
     "spawn_type": "NONE",
     "parent_1": "",
     "parent_2": ""
+  },
+  "chickens:inferium_chicken": {
+    "name": "inferium_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "ragnamod_seven:inferium_dust_speck"
+    },
+    "drop_item": {
+      "itemID": "ragnamod_seven:inferium_dust_speck"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:prudentium_chicken": {
+    "name": "prudentium_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "ragnamod_seven:prudentium_dust_speck"
+    },
+    "drop_item": {
+      "itemID": "ragnamod_seven:prudentium_dust_speck"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:tertium_chicken": {
+    "name": "tertium_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "ragnamod_seven:tertium_dust_speck"
+    },
+    "drop_item": {
+      "itemID": "ragnamod_seven:tertium_dust_speck"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:imperium_chicken": {
+    "name": "imperium_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "ragnamod_seven:imperium_dust_speck"
+    },
+    "drop_item": {
+      "itemID": "ragnamod_seven:imperium_dust_speck"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:supremium_chicken": {
+    "name": "supremium_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "ragnamod_seven:supremium_dust_speck"
+    },
+    "drop_item": {
+      "itemID": "ragnamod_seven:supremium_dust_speck"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:insanium_chicken": {
+    "name": "insanium_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "ragnamod_seven:insanium_dust_speck"
+    },
+    "drop_item": {
+      "itemID": "ragnamod_seven:insanium_dust_speck"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
   }
 }

@@ -4765,8 +4765,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -10.5d
+			x: -2.0d
+			y: -10.0d
 			shape: "hexagon"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_neutronium.png width:150 height:100 align:1}"]
 			dependencies: [
@@ -4952,8 +4952,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -10.5d
+			x: 2.0d
+			y: -10.0d
 			shape: "hexagon"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_infinity.png width:150 height:100 align:1}"]
 			dependencies: [
@@ -5879,7 +5879,7 @@
 		}
 		{
 			x: 0.0d
-			y: -12.0d
+			y: -11.0d
 			shape: "hexagon"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_antimatter_pellet.png width:150 height:100 align:1}"]
 			dependencies: ["0000000000000946"]
@@ -6015,6 +6015,180 @@
 				type: "item"
 				item: "thermal_extra:dragonsteel_block"
 				random_bonus: 7
+			}]
+		}
+		{
+			x: -5.0d
+			y: 9.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_inferium.png width:150 height:100 align:1}"]
+			dependencies: [
+				"4C886CE89FF0AF52"
+				"4CD94542B170DD2F"
+			]
+			id: "613A60D8C625AACE"
+			tasks: [{
+				id: "638A11C90BFD2002"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:inferium_chicken"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E09A204ACCA31AE"
+				type: "item"
+				item: "mysticalagriculture:inferium_block"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 9.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_prudentium.png width:150 height:100 align:1}"]
+			dependencies: [
+				"4C886CE89FF0AF52"
+				"53CD19E347AA0BC1"
+			]
+			id: "3B70F13CA4A69F84"
+			tasks: [{
+				id: "51911E43AF0A0275"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:prudentium_chicken"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "63695F0A41A2040D"
+				type: "item"
+				item: "mysticalagriculture:prudentium_block"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 10.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_tertium.png width:150 height:100 align:1}"]
+			dependencies: [
+				"4C886CE89FF0AF52"
+				"4CDD244B5D018E24"
+			]
+			id: "38E2CDEBB6D5A424"
+			tasks: [{
+				id: "43C1CE436762DB7D"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:tertium_chicken"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "17BDA4ECDF8ECDEB"
+				type: "item"
+				item: "mysticalagriculture:tertium_block"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 10.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_imperium.png width:150 height:100 align:1}"]
+			dependencies: [
+				"4C886CE89FF0AF52"
+				"6AC0163660B14985"
+			]
+			id: "560E4B686E1BC368"
+			tasks: [{
+				id: "03C61A899A3BD8DA"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:imperium_chicken"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D722F1D64A9B75B"
+				type: "item"
+				item: "mysticalagriculture:imperium_block"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 9.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_supremium.png width:150 height:100 align:1}"]
+			dependencies: [
+				"4C886CE89FF0AF52"
+				"6696D69A9B98A733"
+			]
+			id: "1A5A58204D0C838A"
+			tasks: [{
+				id: "44C3DFBE1078ABAD"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:supremium_chicken"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "37916FA1F417BED9"
+				type: "item"
+				item: "mysticalagriculture:supremium_block"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 9.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_insanium.png width:150 height:100 align:1}"]
+			dependencies: [
+				"4C886CE89FF0AF52"
+				"3B15356AD2253D9C"
+			]
+			id: "3DF92E9AB8EF9A4B"
+			tasks: [{
+				id: "6BCC3BBB60AA579E"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:insanium_chicken"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "020E2F2102125D49"
+				type: "item"
+				item: "mysticalagradditions:insanium_block"
 			}]
 		}
 	]

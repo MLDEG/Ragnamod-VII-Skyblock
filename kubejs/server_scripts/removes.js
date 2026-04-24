@@ -933,7 +933,8 @@ onEvent('recipes', e => {
         'ae2additions:cells/item/disk-256-mega',
         'mysticalagriculture:essence/common/niter',
         'mysticalagriculture:essence/common/saltpeter',
-        'create:crafting/tree_fertilizer'
+        'create:crafting/tree_fertilizer',
+        'mysticalagriculture:soulium_seed_base'
     ]
     removeId.forEach(C => { r(C) })
 })

@@ -471,4 +471,14 @@ onEvent('recipes', e => {
     e.shaped('3x tinkers_reforged:raw_aluminum', ['AAA', 'ABA', 'AAA'], { A: 'mysticalagriculture:aluminum_essence', B: 'minecraft:clay_ball' })
     e.shaped('3x tinkers_reforged:raw_kepu', ['AAA', 'ABA', 'AAA'], { A: 'mysticalagriculture:kepu_essence', B: 'minecraft:clay_ball' })
 
+    //Speck Mystical
+    function speckCrafting(essence) {
+        e.shapeless('9x ragnamod_seven:' + essence + '_dust_speck', 'mysticalagriculture:' + essence + '_essence')
+        e.shapeless('mysticalagriculture:' + essence + '_essence', '9x ragnamod_seven:' + essence + '_dust_speck')
+    }
+    var name = ["inferium", "prudentium", "tertium", "imperium", "supremium"]
+    name.forEach(C => { speckCrafting(C) })
+    e.shapeless('9x ragnamod_seven:insanium_dust_speck', 'mysticalagradditions:insanium_essence')
+    e.shapeless('mysticalagradditions:insanium_essence', '9x ragnamod_seven:insanium_dust_speck')
+
 })

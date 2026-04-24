@@ -459,7 +459,8 @@ onEvent('jei.hide.items', e => {
         'mysticalagriculture:chrome_essence',
         'mysticalagriculture:graphite_seeds',
         'mysticalagriculture:graphite_essence',
-        'jamd:mine_portal_block'
+        'jamd:mine_portal_block',
+        'mysticalagriculture:soulium_seed_base'
     ])
 })
 //Fluids
