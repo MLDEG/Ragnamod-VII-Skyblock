@@ -934,7 +934,8 @@ onEvent('recipes', e => {
         'mysticalagriculture:essence/common/niter',
         'mysticalagriculture:essence/common/saltpeter',
         'create:crafting/tree_fertilizer',
-        'mysticalagriculture:soulium_seed_base'
+        'mysticalagriculture:soulium_seed_base',
+        'mysticalagriculture:essence/common/platinum_ingot'
     ]
     removeId.forEach(C => { r(C) })
 })
