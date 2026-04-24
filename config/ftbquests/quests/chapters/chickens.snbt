@@ -4922,37 +4922,6 @@
 		}
 		{
 			x: -1.5d
-			y: 9.0d
-			shape: "square"
-			description: ["{image:ftbquests:textures/chickens/rm7_chicken_dragonsteel.png width:150 height:100 align:1}"]
-			dependencies: [
-				"76F6A2093D86A169"
-				"4C886CE89FF0AF52"
-			]
-			id: "68B4879A07E938DE"
-			tasks: [{
-				id: "32F4C2A28930121C"
-				type: "item"
-				item: {
-					id: "chickens:chicken_item"
-					Count: 1b
-					tag: {
-						ChickenType: {
-							id: "chickens:dragonsteel_chicken"
-						}
-					}
-				}
-				weak_nbt_match: true
-			}]
-			rewards: [{
-				id: "660541DD6CA2F359"
-				type: "item"
-				item: "thermal_extra:dragonsteel_block"
-				random_bonus: 7
-			}]
-		}
-		{
-			x: -1.5d
 			y: -8.5d
 			shape: "square"
 			description: ["{image:ftbquests:textures/chickens/rm7_chicken_draconium.png width:150 height:100 align:1}"]
@@ -5933,6 +5902,118 @@
 				id: "2FC1E6EFBE0C5FA5"
 				type: "item"
 				item: "ragnamod_seven:antimatter_pellet_block"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: -1.0d
+			y: 10.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_basalz.png width:150 height:100 align:1}"]
+			dependencies: ["4C886CE89FF0AF52"]
+			id: "6A6E622DBF903AE0"
+			tasks: [{
+				id: "0B47DEF10A717818"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:basalz_chicken"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B2FB24E658C6205"
+				type: "item"
+				item: "thermal:basalz_rod"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_blizz.png width:150 height:100 align:1}"]
+			dependencies: ["4C886CE89FF0AF52"]
+			id: "17A80ED6E333DA02"
+			tasks: [{
+				id: "1A08B29C44406CDD"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:blizz_chicken"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "12142F35A60A524E"
+				type: "item"
+				item: "thermal:blizz_rod"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 1.0d
+			y: 10.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_blitz.png width:150 height:100 align:1}"]
+			dependencies: ["4C886CE89FF0AF52"]
+			id: "6E8B56D21145E4A9"
+			tasks: [{
+				id: "73968F0B5968F062"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:blitz_chicken"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7F229BF31C258156"
+				type: "item"
+				item: "thermal:blitz_rod"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: -1.5d
+			y: 9.0d
+			shape: "square"
+			description: ["{image:ftbquests:textures/chickens/rm7_chicken_dragonsteel.png width:150 height:100 align:1}"]
+			dependencies: [
+				"76F6A2093D86A169"
+				"4C886CE89FF0AF52"
+			]
+			id: "68B4879A07E938DE"
+			tasks: [{
+				id: "32F4C2A28930121C"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:dragonsteel_chicken"
+						}
+					}
+				}
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "660541DD6CA2F359"
+				type: "item"
+				item: "thermal_extra:dragonsteel_block"
 				random_bonus: 7
 			}]
 		}

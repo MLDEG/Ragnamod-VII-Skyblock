@@ -2504,5 +2504,47 @@
     "spawn_type": "NONE",
     "parent_1": "",
     "parent_2": ""
+  },
+  "chickens:blizz_chicken": {
+    "name": "blizz_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "thermal:blizz_rod"
+    },
+    "drop_item": {
+      "itemID": "thermal:blizz_rod"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:basalz_chicken": {
+    "name": "basalz_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "thermal:basalz_rod"
+    },
+    "drop_item": {
+      "itemID": "thermal:basalz_rod"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:blitz_chicken": {
+    "name": "blitz_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "thermal:blitz_rod"
+    },
+    "drop_item": {
+      "itemID": "thermal:blitz_rod"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
   }
 }

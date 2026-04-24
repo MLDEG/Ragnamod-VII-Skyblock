@@ -241,6 +241,8 @@ onEvent('recipes', e => {
     summonChicken('croptopia:toast_with_jam', 'croptopia:toast_with_jam', 'samnes')
     summonChicken('croptopia:beer', 'croptopia:beer', 'mr_bidou')
     summonChicken('ragnamod_seven:antimatter_pellet_block', 'ragnamod_seven:ftp', 'antimatter')
-
+    summonChicken('thermal:blitz_rod', 'thermal:lightning_tnt', 'blitz')
+    summonChicken('thermal:blizz_rod', 'thermal:ice_tnt', 'blizz')
+    summonChicken('thermal:basalz_rod', 'thermal:earth_tnt', 'basalz')
     e.smelting('minecraft:cooked_chicken', '#chickens:chickens')
 })
