@@ -133,6 +133,14 @@ onEvent('recipes', e => {
         e.shapeless('botanypotstiers:ultra_' + block + '_botany_pot', ['#botanypotstiers:ultra_botany_pot', 'minecraft:' + block])
         e.shapeless('botanypotstiers:creative_' + block + '_botany_pot', ['#botanypotstiers:creative_botany_pot', 'minecraft:' + block])
     }
-    var blocksMinecraft = ['white_glazed_terracotta', 'orange_glazed_terracotta', 'magenta_glazed_terracotta', 'light_blue_glazed_terracotta', 'yellow_glazed_terracotta', 'lime_glazed_terracotta', 'pink_glazed_terracotta', 'gray_glazed_terracotta', 'light_gray_glazed_terracotta', 'cyan_glazed_terracotta', 'purple_glazed_terracotta', 'blue_glazed_terracotta', 'brown_glazed_terracotta', 'green_glazed_terracotta', 'red_glazed_terracotta', 'black_glazed_terracotta']
+    var blocksMinecraft = ['white_glazed_terracotta', 'orange_glazed_terracotta', 'magenta_glazed_terracotta', 'light_blue_glazed_terracotta', 'yellow_glazed_terracotta', 'lime_glazed_terracotta', 'pink_glazed_terracotta', 'gray_glazed_terracotta', 'light_gray_glazed_terracotta', 'cyan_glazed_terracotta', 'purple_glazed_terracotta', 'blue_glazed_terracotta', 'brown_glazed_terracotta', 'green_glazed_terracotta', 'red_glazed_terracotta', 'black_glazed_terracotta', 'white_concrete', 'orange_concrete', 'magenta_concrete', 'light_blue_concrete', 'yellow_concrete', 'lime_concrete', 'pink_concrete', 'gray_concrete', 'black_terracotta', 'red_terracotta', 'green_terracotta', 'brown_terracotta', 'blue_terracotta', 'purple_terracotta', 'cyan_terracotta', 'light_gray_terracotta', 'white_terracotta', 'orange_terracotta', 'magenta_terracotta', 'light_blue_terracotta', 'yellow_terracotta', 'lime_terracotta', 'pink_terracotta', 'gray_terracotta', 'black_concrete', 'red_concrete', 'green_concrete', 'brown_concrete', 'blue_concrete', 'purple_concrete', 'cyan_concrete', 'light_gray_concrete']
     blocksMinecraft.forEach(B => { botanyPotCraft(B) })
+    e.shapeless('botanypots:terracotta_hopper_botany_pot', ['#botanypots:basic_hopper_botany_pot', 'minecraft:terracotta'])
+    e.shapeless('botanypotstiers:elite_terracotta_hopper_botany_pot', ['#botanypotstiers:elite_hopper_botany_pot', 'minecraft:terracotta'])
+    e.shapeless('botanypotstiers:ultra_terracotta_hopper_botany_pot', ['#botanypotstiers:ultra_hopper_botany_pot', 'minecraft:terracotta'])
+    e.shapeless('botanypotstiers:creative_terracotta_hopper_botany_pot', ['#botanypotstiers:creative_hopper_botany_pot', 'minecraft:terracotta'])
+    e.shapeless('botanypots:terracotta_botany_pot', ['#botanypots:basic_botany_pot', 'minecraft:terracotta'])
+    e.shapeless('botanypotstiers:elite_terracotta_botany_pot', ['#botanypotstiers:elite_botany_pot', 'minecraft:terracotta'])
+    e.shapeless('botanypotstiers:ultra_terracotta_botany_pot', ['#botanypotstiers:ultra_botany_pot', 'minecraft:terracotta'])
+    e.shapeless('botanypotstiers:creative_terracotta_botany_pot', ['#botanypotstiers:creative_botany_pot', 'minecraft:terracotta'])
 })
