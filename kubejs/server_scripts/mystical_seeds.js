@@ -183,8 +183,9 @@ onEvent('recipes', e => {
     seedCrafting('ragnamod_seven:insanium_seed', 'minecraft:nether_star', 'mysticalagradditions:insanium_essence', 'mysticalagriculture:nether_star_seeds', 300)
     seedCrafting('ragnamod_seven:insanium_seed', 'avaritia:infinity_catalyst', 'mysticalagradditions:insanium_essence', 'mysticalagriculture:infinity_seeds', 300)
     seedCrafting('ragnamod_seven:insanium_seed', 'draconicevolution:chaos_shard', 'mysticalagradditions:insanium_essence', 'mysticalagriculture:chaotic_seeds', 300)
-    seedCrafting('ragnamod_seven:insanium_seed', 'ragnamod_seven:antimatter_pellet_block', 'mysticalagradditions:insanium_essence', 'mysticalagriculture:antimatter_seeds', 300)
     seedCrafting('ragnamod_seven:insanium_seed', 'mythicbotany:alfsteel_block', 'mysticalagradditions:insanium_essence', 'mysticalagriculture:alfsteel_seeds', 300)
+
+    e.custom({ "type": "naturesaura:tree_ritual", "ingredients": [{ "item": 'ragnamod_seven:insanium_seed' }, { "item": 'ragnamod_seven:ftp' }, { "item": 'ragnamod_seven:antimatter_pellet_block' }, { "item": 'ragnamod_seven:antimatter_pellet_block' }, { "item": 'mysticalagradditions:insanium_essence' }, { "item": 'mysticalagradditions:insanium_essence' }, { "item": 'mysticalagradditions:insanium_essence' }, { "item": 'mysticalagradditions:insanium_essence' }], "sapling": { "item": "forbidden_arcanus:mysterywood_sapling" }, "output": { "item": 'mysticalagriculture:antimatter_seeds' }, "time": 300 })
 
     //Craft
     e.shaped('4x ftbic:rubber', ['AAA'], { A: 'mysticalagriculture:rubber_essence' })
