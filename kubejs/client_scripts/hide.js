@@ -477,6 +477,7 @@ onEvent('jei.remove.categories', e => {
     e.remove([
         'twilightforest:uncrafting',
         'avaritia:extreme_crafting',
-        'chickens:chicken_laying'
+        'chickens:chicken_laying',
+        'ragnamod_7:fusion_control_computer_alt'
     ])
 })

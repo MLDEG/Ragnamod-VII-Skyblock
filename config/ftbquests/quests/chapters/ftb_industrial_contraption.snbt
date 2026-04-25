@@ -2138,6 +2138,50 @@
 				random_bonus: 4
 			}]
 		}
+		{
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "ragnamod_7:fusion_control_computer"
+				}
+			}
+			x: 18.0d
+			y: -7.0d
+			shape: "gear"
+			description: [
+				"The Fusion Control Computer is a multiblock that will allow you to craft Vivid Opinium Cores more easily."
+				"{image:ftbquests:textures/quests/fusion_control_computer.png width:150 height:100 align:1}"
+				"Inspired by the machine of the same name from Tech Reborn."
+			]
+			dependencies: ["0CAB09512CD5B2A4"]
+			size: 2.0d
+			id: "38A58DCA7EB5F53B"
+			tasks: [
+				{
+					id: "7E2B0543F2417CC0"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "ragnamod_7:fusion_control_computer"
+						}
+					}
+				}
+				{
+					id: "7C2EC66CA4BDA212"
+					type: "item"
+					item: "ragnamod_seven:fusion_coil"
+					count: 764L
+				}
+			]
+			rewards: [{
+				id: "39EAB12EE02CC475"
+				type: "item"
+				item: "ragnamod_seven:vivid_opinium_core"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

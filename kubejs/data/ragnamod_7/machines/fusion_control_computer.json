@@ -1,0 +1,125 @@
+{
+  "name": "Fusion Control Computer",
+  "appearance": {
+    "block": "ragnamod_seven:machine/fusion_control_computer_idle_model",
+    "item": "ragnamod_seven:machine/fusion_control_computer_idle_model",
+    "ambient_sound": "",
+    "interaction_sound": "minecraft:netherite_block",
+    "light": 0,
+    "color": 16711680,
+    "hardness": 3.5,
+    "resistance": 3.5,
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "requires_tool": true,
+    "shape": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "running": {
+      "block": "ragnamod_seven:machine/fusion_control_computer_running_model",
+      "light": 10
+    },
+    "errored": {
+      "block": "ragnamod_seven:machine/fusion_control_computer_errored_model"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 1000000000,
+      "maxInput": 100000000,
+      "maxOutput": 100000000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "in_left",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "in_right",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "out",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "ragnamod_seven:textures/gui/fusion_control_computer_gui.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 191,
+      "y": 5
+    },
+    {
+      "type": "custommachinery:text",
+      "text": "Fusion Control Computer",
+      "x": 67,
+      "y": 5
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 47,
+      "y": 80
+    },
+    {
+      "type": "custommachinery:progress",
+      "emptytexture": "custommachinery:textures/gui/base_progress_empty.png",
+      "filledtexture": "custommachinery:textures/gui/base_progress_filled.png",
+      "x": 92,
+      "y": 34,
+      "direction": "right"
+    },
+    {
+      "type": "custommachinery:progress",
+      "emptytexture": "ragnamod_seven:textures/gui/base_progress_empty_left.png",
+      "filledtexture": "ragnamod_seven:textures/gui/base_progress_filled_left.png",
+      "x": 140,
+      "y": 34,
+      "direction": "left"
+    },
+    {
+      "type": "custommachinery:energy",
+      "emptytexture": "ragnamod_seven:textures/gui/base_energy_storage_empty_fcc.png",
+      "filledtexture": "ragnamod_seven:textures/gui/base_energy_storage_filled_fcc.png",
+      "x": 47,
+      "y": 8
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "in_left",
+      "x": 71,
+      "y": 33
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "in_right",
+      "x": 167,
+      "y": 33
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "out",
+      "x": 119,
+      "y": 33
+    }
+  ],
+  "jei": [],
+  "catalysts": [
+    "ragnamod_7:fusion_control_computer_alt"
+  ]
+}

@@ -2803,4 +2803,303 @@ onEvent('recipes', e => {
   //Agglomeration Splitter Machine
   e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:agglomeration_splitter"}'), ['ABA', 'BCD', 'ABA'], { A: 'ftbic:iridium_circuit', B: 'architects_palette:hadaline_lamp', C: 'xnet:controller', D: 'rftoolsutility:screen' })
 
+  //Fusion Coil
+  e.shaped('ragnamod_seven:fusion_coil', ['ABA', 'CDC', 'AEA'], { A: 'ftbic:iridium_circuit', B: 'ftbic:antimatter', C: 'mekanism:superheating_element', D: 'ftbic:advanced_machine_block', E: 'ftbic:iridium_neutron_reflector' })
+  //Fusion Control Computer
+  e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:fusion_control_computer"}'), ['ABA', 'CDC', 'ABA'], { A: 'ftbic:iridium_circuit', B: 'ragnamod_seven:vivid_opinium_core', C: 'ftbic:energy_crystal', D: 'ragnamod_seven:fusion_coil' })
+
+  e.shapeless(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:fusion_control_computer_alt"}'), ['ftbic:dark_spray_paint_can', Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:fusion_control_computer"}')]).replaceIngredient('ftbic:dark_spray_paint_can', 'ftbic:dark_spray_paint_can')
+  e.shapeless(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:fusion_control_computer"}'), ['ftbic:light_spray_paint_can', Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:fusion_control_computer_alt"}')]).replaceIngredient('ftbic:light_spray_paint_can', 'ftbic:light_spray_paint_can')
+
+  //Vivid Opinium Core
+  e.custom({
+    "type": "custommachinery:custom_machine",
+    "machine": "ragnamod_7:fusion_control_computer",
+    "time": 20,
+    "requirements": [
+      {
+        "type": "custommachinery:item",
+        "mode": "input",
+        "item": "ragnamod_seven:condensed_ingot",
+        "slot": "in_left",
+        "amount": 1
+      },
+      {
+        "type": "custommachinery:item",
+        "mode": "input",
+        "item": "malum:vivid_nitrate",
+        "slot": "in_right",
+        "amount": 1,
+      },
+      {
+        "type": "custommachinery:item",
+        "mode": "output",
+        "item": "ragnamod_seven:vivid_opinium_core",
+        "amount": 1
+      },
+      {
+        "type": "custommachinery:energy_per_tick",
+        "mode": "input",
+        "amount": 1000000
+      },
+      {
+        "type": "custommachinery:structure",
+        "keys": {
+          "a": "ragnamod_seven:fusion_coil"
+        },
+        "pattern": [
+          [
+            "              aaaaa              ",
+            "          aaaaaaaaaaaaa          ",
+            "        aaaaaaaaaaaaaaaaa        ",
+            "       aaaaa         aaaaa       ",
+            "      aaaa             aaaa      ",
+            "     aaa                 aaa     ",
+            "    aaa                   aaa    ",
+            "   aaa                     aaa   ",
+            "  aaa                       aaa  ",
+            "  aaa                       aaa  ",
+            " aaa                         aaa ",
+            " aaa                         aaa ",
+            " aa                           aa ",
+            " aa                           aa ",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            " aa                           aa ",
+            " aa                           aa ",
+            " aaa                         aaa ",
+            " aaa                         aaa ",
+            "  aaa                       aaa  ",
+            "  aaa                       aaa  ",
+            "   aaa                     aaa   ",
+            "    aaa                   aaa    ",
+            "     aaa                 aaa     ",
+            "      aaaa             aaaa      ",
+            "       aaaaa         aaaaa       ",
+            "        aaaaaaaaaaaaaaaaa        ",
+            "          aaaaaaaaaaaaa          ",
+            "              aaaaa              "
+          ],
+          [
+            "            aaaaaaaaa            ",
+            "          aaaaaaaaaaaaa          ",
+            "        aaaaaaaaaaaaaaaaa        ",
+            "      aaaaaaa       aaaaaaa      ",
+            "     aaaaa             aaaaa     ",
+            "    aaaaa               aaaaa    ",
+            "   aaaaa                 aaaaa   ",
+            "   aaaa                   aaaa   ",
+            "  aaaa                     aaaa  ",
+            "  aaa                       aaa  ",
+            " aaa                         aaa ",
+            " aaa                         aaa ",
+            "aaaa                         aaaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaa             m             aaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaaa                         aaaa",
+            " aaa                         aaa ",
+            " aaa                         aaa ",
+            "  aaa                       aaa  ",
+            "  aaaa                     aaaa  ",
+            "   aaaa                   aaaa   ",
+            "   aaaaa                 aaaaa   ",
+            "    aaaaa               aaaaa    ",
+            "     aaaaa             aaaaa     ",
+            "      aaaaaaa       aaaaaaa      ",
+            "        aaaaaaaaaaaaaaaaa        ",
+            "          aaaaaaaaaaaaa          ",
+            "            aaaaaaaaa            "
+          ],
+          [
+            "              aaaaa              ",
+            "          aaaaaaaaaaaaa          ",
+            "        aaaaaaaaaaaaaaaaa        ",
+            "       aaaaa         aaaaa       ",
+            "      aaaa             aaaa      ",
+            "     aaa                 aaa     ",
+            "    aaa                   aaa    ",
+            "   aaa                     aaa   ",
+            "  aaa                       aaa  ",
+            "  aaa                       aaa  ",
+            " aaa                         aaa ",
+            " aaa                         aaa ",
+            " aa                           aa ",
+            " aa                           aa ",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            " aa                           aa ",
+            " aa                           aa ",
+            " aaa                         aaa ",
+            " aaa                         aaa ",
+            "  aaa                       aaa  ",
+            "  aaa                       aaa  ",
+            "   aaa                     aaa   ",
+            "    aaa                   aaa    ",
+            "     aaa                 aaa     ",
+            "      aaaa             aaaa      ",
+            "       aaaaa         aaaaa       ",
+            "        aaaaaaaaaaaaaaaaa        ",
+            "          aaaaaaaaaaaaa          ",
+            "              aaaaa              "
+          ]
+        ]
+      }
+    ]
+  })
+  e.custom({
+    "type": "custommachinery:custom_machine",
+    "machine": "ragnamod_7:fusion_control_computer_alt",
+    "time": 20,
+    "requirements": [
+      {
+        "type": "custommachinery:item",
+        "mode": "input",
+        "item": "ragnamod_seven:condensed_ingot",
+        "slot": "in_left",
+        "amount": 1
+      },
+      {
+        "type": "custommachinery:item",
+        "mode": "input",
+        "item": "malum:vivid_nitrate",
+        "slot": "in_right",
+        "amount": 1,
+      },
+      {
+        "type": "custommachinery:item",
+        "mode": "output",
+        "item": "ragnamod_seven:vivid_opinium_core",
+        "amount": 1
+      },
+      {
+        "type": "custommachinery:energy_per_tick",
+        "mode": "input",
+        "amount": 1000000
+      },
+      {
+        "type": "custommachinery:structure",
+        "keys": {
+          "a": "ragnamod_seven:fusion_coil"
+        },
+        "pattern": [
+          [
+            "              aaaaa              ",
+            "          aaaaaaaaaaaaa          ",
+            "        aaaaaaaaaaaaaaaaa        ",
+            "       aaaaa         aaaaa       ",
+            "      aaaa             aaaa      ",
+            "     aaa                 aaa     ",
+            "    aaa                   aaa    ",
+            "   aaa                     aaa   ",
+            "  aaa                       aaa  ",
+            "  aaa                       aaa  ",
+            " aaa                         aaa ",
+            " aaa                         aaa ",
+            " aa                           aa ",
+            " aa                           aa ",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            " aa                           aa ",
+            " aa                           aa ",
+            " aaa                         aaa ",
+            " aaa                         aaa ",
+            "  aaa                       aaa  ",
+            "  aaa                       aaa  ",
+            "   aaa                     aaa   ",
+            "    aaa                   aaa    ",
+            "     aaa                 aaa     ",
+            "      aaaa             aaaa      ",
+            "       aaaaa         aaaaa       ",
+            "        aaaaaaaaaaaaaaaaa        ",
+            "          aaaaaaaaaaaaa          ",
+            "              aaaaa              "
+          ],
+          [
+            "            aaaaaaaaa            ",
+            "          aaaaaaaaaaaaa          ",
+            "        aaaaaaaaaaaaaaaaa        ",
+            "      aaaaaaa       aaaaaaa      ",
+            "     aaaaa             aaaaa     ",
+            "    aaaaa               aaaaa    ",
+            "   aaaaa                 aaaaa   ",
+            "   aaaa                   aaaa   ",
+            "  aaaa                     aaaa  ",
+            "  aaa                       aaa  ",
+            " aaa                         aaa ",
+            " aaa                         aaa ",
+            "aaaa                         aaaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaa             m             aaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaaa                         aaaa",
+            " aaa                         aaa ",
+            " aaa                         aaa ",
+            "  aaa                       aaa  ",
+            "  aaaa                     aaaa  ",
+            "   aaaa                   aaaa   ",
+            "   aaaaa                 aaaaa   ",
+            "    aaaaa               aaaaa    ",
+            "     aaaaa             aaaaa     ",
+            "      aaaaaaa       aaaaaaa      ",
+            "        aaaaaaaaaaaaaaaaa        ",
+            "          aaaaaaaaaaaaa          ",
+            "            aaaaaaaaa            "
+          ],
+          [
+            "              aaaaa              ",
+            "          aaaaaaaaaaaaa          ",
+            "        aaaaaaaaaaaaaaaaa        ",
+            "       aaaaa         aaaaa       ",
+            "      aaaa             aaaa      ",
+            "     aaa                 aaa     ",
+            "    aaa                   aaa    ",
+            "   aaa                     aaa   ",
+            "  aaa                       aaa  ",
+            "  aaa                       aaa  ",
+            " aaa                         aaa ",
+            " aaa                         aaa ",
+            " aa                           aa ",
+            " aa                           aa ",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            "aaa                           aaa",
+            " aa                           aa ",
+            " aa                           aa ",
+            " aaa                         aaa ",
+            " aaa                         aaa ",
+            "  aaa                       aaa  ",
+            "  aaa                       aaa  ",
+            "   aaa                     aaa   ",
+            "    aaa                   aaa    ",
+            "     aaa                 aaa     ",
+            "      aaaa             aaaa      ",
+            "       aaaaa         aaaaa       ",
+            "        aaaaaaaaaaaaaaaaa        ",
+            "          aaaaaaaaaaaaa          ",
+            "              aaaaa              "
+          ]
+        ]
+      }
+    ]
+  })
 })

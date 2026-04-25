@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "ragnamod_seven:block/fusion_coil_side",
+    "bottom": "ragnamod_seven:block/fusion_coil_heart",
+    "top": "ragnamod_seven:block/fusion_coil_heart"
+  }
+}

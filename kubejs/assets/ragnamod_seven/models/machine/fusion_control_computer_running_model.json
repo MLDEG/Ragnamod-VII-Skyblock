@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "ragnamod_seven:block/fusion_control_computer_front_white_running",
+    "side": "ftbic:block/electric/light/antimatter_constructor_side",
+    "top": "ftbic:block/electric/light/advanced_top",
+    "bottom" : "ftbic:block/electric/light/advanced_bottom"
+  }
+}
