@@ -935,7 +935,12 @@ onEvent('recipes', e => {
         'mysticalagriculture:essence/common/saltpeter',
         'create:crafting/tree_fertilizer',
         'mysticalagriculture:soulium_seed_base',
-        'mysticalagriculture:essence/common/platinum_ingot'
+        'mysticalagriculture:essence/common/platinum_ingot',
+        'mysticalagriculture:prudentium_block_combine',
+        'mysticalagriculture:imperium_block_combine',
+        'mysticalagriculture:supremium_block_combine',
+        'mysticalagriculture:tertium_block_combine',
+        'mysticalagradditions:insanium_block_combine'
     ]
     removeId.forEach(C => { r(C) })
 })
