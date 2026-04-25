@@ -1408,7 +1408,17 @@
 			tasks: [{
 				id: "3778B86E23B87659"
 				type: "item"
-				item: "undergarden:virulent_mix_bucket"
+				item: {
+					id: "woodenbucket:wooden_bucket"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Fluid: {
+							FluidName: "undergarden:virulent_mix_source"
+							Amount: 1000
+						}
+					}
+				}
 			}]
 			rewards: [{
 				id: "0E8F0318D9D891B8"
