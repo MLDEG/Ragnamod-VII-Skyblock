@@ -250,5 +250,7 @@ onEvent('recipes', e => {
     summonChicken('mysticalagriculture:imperium_block', 'mysticalagriculture:imperium_gemstone', 'imperium')
     summonChicken('mysticalagriculture:supremium_block', 'mysticalagriculture:supremium_gemstone', 'supremium')
     summonChicken('mysticalagradditions:insanium_block', 'mysticalagradditions:insanium_gemstone', 'insanium')
+    summonChicken('forbidden_arcanus:stellarite_piece', 'forbidden_arcanus:stellarite_block', 'stellarite')
+    summonChicken('ae2:sky_dust', 'ae2:sky_stone_block', 'sky_stone')
     e.smelting('minecraft:cooked_chicken', '#chickens:chickens')
 })

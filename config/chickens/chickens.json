@@ -2630,5 +2630,33 @@
     "spawn_type": "NONE",
     "parent_1": "",
     "parent_2": ""
+  },
+  "chickens:sky_stone_chicken": {
+    "name": "sky_stone_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "ae2:sky_dust"
+    },
+    "drop_item": {
+      "itemID": "ae2:sky_dust"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
+  "chickens:stellarite_chicken": {
+    "name": "stellarite_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "forbidden_arcanus:stellarite_piece"
+    },
+    "drop_item": {
+      "itemID": "forbidden_arcanus:stellarite_piece"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
   }
 }

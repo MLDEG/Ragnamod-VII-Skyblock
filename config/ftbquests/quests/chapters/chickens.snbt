@@ -6191,6 +6191,57 @@
 				item: "mysticalagradditions:insanium_block"
 			}]
 		}
+		{
+			x: -10.0d
+			y: -2.5d
+			shape: "square"
+			dependencies: ["4C886CE89FF0AF52"]
+			id: "29B8D82D7EFD3AE6"
+			tasks: [{
+				id: "7049EA43265DBA73"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:stellarite_chicken"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FB4B72D15737FE4"
+				type: "item"
+				item: "forbidden_arcanus:stellarite_piece"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.5d
+			dependencies: ["4C886CE89FF0AF52"]
+			id: "19CEB9C56DDB2C56"
+			tasks: [{
+				id: "626DAA54C52A32C2"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:sky_stone_chicken"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "64B4ED52A3B68C1F"
+				type: "item"
+				item: "ae2:sky_dust"
+				random_bonus: 31
+			}]
+		}
 	]
 	quest_links: [ ]
 }
