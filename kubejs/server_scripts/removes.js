@@ -940,7 +940,23 @@ onEvent('recipes', e => {
         'mysticalagriculture:imperium_block_combine',
         'mysticalagriculture:supremium_block_combine',
         'mysticalagriculture:tertium_block_combine',
-        'mysticalagradditions:insanium_block_combine'
+        'mysticalagradditions:insanium_block_combine',
+        'mysticalagriculture:essence/common/steel_ingot',
+        'mysticalagriculture:essence/common/iridium_ingot',
+        'mysticalagriculture:essence/common/zinc_ingot',
+        'mysticalagriculture:essence/common/nickel_ingot',
+        'mysticalagriculture:essence/common/constantan_ingot',
+        'mysticalagriculture:essence/common/bronze_ingot',
+        'mysticalagriculture:essence/common/electrum_ingot',
+        'mysticalagriculture:essence/common/uranium_ingot',
+        'mysticalagriculture:essence/common/aluminum_ingot',
+        'mysticalagriculture:essence/common/lead_ingot',
+        'mysticalagriculture:essence/thermal/enderium_ingot',
+        'mysticalagriculture:essence/common/sulfur',
+        'mysticalagriculture:essence/common/tin_ingot',
+        'mysticalagriculture:essence/common/silver_ingot',
+        'mysticalagriculture:essence/common/titanium_ingot',
+        'mysticalagriculture:essence/common/tungsten_ingot'
     ]
     removeId.forEach(C => { r(C) })
 })
