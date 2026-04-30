@@ -1,0 +1,12 @@
+{
+  "eu-to-rf": 4,
+  "mv-max": 128,
+  "hv-max": 512,
+  "ev-max": 2048,
+  "iv-max": 8192,
+  "lv-batbox-max": 40000,
+  "mv-batbox-max": 400000,
+  "hv-batbox-max": 4000000,
+  "ev-batbox-max": 40000000,
+  "config-version": 2
+}
