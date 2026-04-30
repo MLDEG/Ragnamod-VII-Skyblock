@@ -5924,6 +5924,7 @@
 						}
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "5B2FB24E658C6205"
@@ -5951,6 +5952,7 @@
 						}
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "12142F35A60A524E"
@@ -5978,6 +5980,7 @@
 						}
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "7F229BF31C258156"
@@ -6039,6 +6042,7 @@
 						}
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "1E09A204ACCA31AE"
@@ -6068,6 +6072,7 @@
 						}
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "63695F0A41A2040D"
@@ -6097,6 +6102,7 @@
 						}
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "17BDA4ECDF8ECDEB"
@@ -6126,6 +6132,7 @@
 						}
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "1D722F1D64A9B75B"
@@ -6155,6 +6162,7 @@
 						}
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "37916FA1F417BED9"
@@ -6184,6 +6192,7 @@
 						}
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "020E2F2102125D49"
@@ -6210,6 +6219,7 @@
 						}
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "1FB4B72D15737FE4"
@@ -6237,6 +6247,7 @@
 						}
 					}
 				}
+				weak_nbt_match: true
 			}]
 			rewards: [{
 				id: "64B4ED52A3B68C1F"

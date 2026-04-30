@@ -49,7 +49,7 @@
 		}
 		{
 			icon: "ae2:controller"
-			x: 6.0d
+			x: 7.0d
 			y: 2.0d
 			description: ["Unlock the AE2 page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -122,7 +122,7 @@
 		}
 		{
 			icon: "evilcraft:condensed_blood"
-			x: 8.0d
+			x: 9.0d
 			y: 0.0d
 			description: ["Unlock the EvilCraft page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -135,7 +135,7 @@
 		}
 		{
 			icon: "blue_skies:soul_fragment"
-			x: 0.0d
+			x: 1.0d
 			y: 2.0d
 			description: ["Unlock the Blue Skies page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -148,7 +148,7 @@
 		}
 		{
 			icon: "bloodmagic:altar"
-			x: 2.0d
+			x: 3.0d
 			y: 2.0d
 			description: ["Unlock the Blood Magic page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -174,7 +174,7 @@
 		}
 		{
 			icon: "alchemistry:combiner"
-			x: 6.0d
+			x: 7.0d
 			y: 4.0d
 			description: ["Unlock the Alchemistry page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -200,7 +200,7 @@
 		}
 		{
 			icon: "thermal:machine_frame"
-			x: 8.0d
+			x: 9.0d
 			y: 2.0d
 			description: ["Unlock the Thermal page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -213,7 +213,7 @@
 		}
 		{
 			icon: "spirit:crude_soul_crystal"
-			x: 3.0d
+			x: 4.0d
 			y: 2.0d
 			description: ["Unlock the Spirit page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -226,7 +226,7 @@
 		}
 		{
 			icon: "forbidden_arcanus:hephaestus_forge"
-			x: 4.0d
+			x: 5.0d
 			y: 2.0d
 			description: ["Unlock the Forbidden and Arcanus page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -248,8 +248,8 @@
 					page: 0
 				}
 			}
-			x: 9.0d
-			y: 0.0d
+			x: 0.0d
+			y: 2.0d
 			description: ["Unlock the Hexerei page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "17F1675D9744D1DE"
@@ -261,7 +261,7 @@
 		}
 		{
 			icon: "hostilenetworks:sim_chamber"
-			x: 5.0d
+			x: 6.0d
 			y: 4.0d
 			description: ["Unlock the Hostile Neural Networks page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -274,7 +274,7 @@
 		}
 		{
 			icon: "immersiveengineering:toolbox"
-			x: 5.0d
+			x: 6.0d
 			y: 2.0d
 			description: ["Unlock the Immersive Engineering page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -287,7 +287,7 @@
 		}
 		{
 			icon: "industrialforegoing:mob_imprisonment_tool"
-			x: 3.0d
+			x: 4.0d
 			y: 4.0d
 			description: ["Unlock the Industrial Foregoing page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -300,7 +300,7 @@
 		}
 		{
 			icon: "mekanism:steel_casing"
-			x: 4.0d
+			x: 5.0d
 			y: 4.0d
 			description: ["Unlock the Mekanism page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -326,7 +326,7 @@
 		}
 		{
 			icon: "avaritia:infinity_catalyst"
-			x: 8.0d
+			x: 9.0d
 			y: 4.0d
 			description: ["Unlock the Avaritia page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -339,7 +339,7 @@
 		}
 		{
 			icon: "ftbic:nuclear_reactor"
-			x: 0.0d
+			x: 1.0d
 			y: 4.0d
 			description: ["Unlock the FTB Idustrial Contraptions page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -352,7 +352,7 @@
 		}
 		{
 			icon: "rftoolsbase:machine_frame"
-			x: 2.0d
+			x: 3.0d
 			y: 4.0d
 			description: ["Unlock the RFTools and Xnet page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -365,8 +365,8 @@
 		}
 		{
 			icon: "powah:energizing_rod_nitro"
-			x: 9.0d
-			y: 2.0d
+			x: 0.0d
+			y: 4.0d
 			description: ["Unlock the Powah page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "46019F50846AAFD0"
@@ -378,7 +378,7 @@
 		}
 		{
 			icon: "pneumaticcraft:air_compressor"
-			x: 1.0d
+			x: 2.0d
 			y: 4.0d
 			description: ["Unlock the PneumaticCraft page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -391,7 +391,7 @@
 		}
 		{
 			icon: "occultism:ritual_dummy/custom_ritual"
-			x: 1.0d
+			x: 2.0d
 			y: 2.0d
 			description: ["Unlock the Occultism page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -430,7 +430,7 @@
 					}
 				}
 			}
-			x: 7.0d
+			x: 8.0d
 			y: 4.0d
 			description: ["Unlock the Draconic Evolution page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -475,7 +475,7 @@
 		{
 			title: "End of Draconic Evolution Quests"
 			icon: "thermal:lock"
-			x: 7.0d
+			x: 8.0d
 			y: 5.0d
 			shape: "diamond"
 			dependencies: [
@@ -505,7 +505,7 @@
 		{
 			title: "End of Applied Energistics 2 Quests"
 			icon: "thermal:lock"
-			x: 6.0d
+			x: 7.0d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -625,7 +625,7 @@
 		{
 			title: "End of EvilCraft Quests"
 			icon: "thermal:lock"
-			x: 8.0d
+			x: 9.0d
 			y: 1.0d
 			shape: "diamond"
 			dependencies: [
@@ -655,7 +655,7 @@
 		{
 			title: "End of Blue Skies Quests"
 			icon: "thermal:lock"
-			x: 0.0d
+			x: 1.0d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -685,7 +685,7 @@
 		{
 			title: "End of Blood Magic Quests"
 			icon: "thermal:lock"
-			x: 2.0d
+			x: 3.0d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -745,7 +745,7 @@
 		{
 			title: "End of Alchemistry Quests"
 			icon: "thermal:lock"
-			x: 6.0d
+			x: 7.0d
 			y: 5.0d
 			shape: "diamond"
 			dependencies: [
@@ -805,7 +805,7 @@
 		{
 			title: "End of Thermal Quests"
 			icon: "thermal:lock"
-			x: 8.0d
+			x: 9.0d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -835,7 +835,7 @@
 		{
 			title: "End of Spirit Quests"
 			icon: "thermal:lock"
-			x: 3.0d
+			x: 4.0d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -865,7 +865,7 @@
 		{
 			title: "End of Forbidden and Arcanus Quests"
 			icon: "thermal:lock"
-			x: 4.0d
+			x: 5.0d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -895,8 +895,8 @@
 		{
 			title: "End of Hexerei Quests"
 			icon: "thermal:lock"
-			x: 9.0d
-			y: 1.0d
+			x: 0.0d
+			y: 3.0d
 			shape: "diamond"
 			dependencies: [
 				"17F1675D9744D1DE"
@@ -925,7 +925,7 @@
 		{
 			title: "End of Hostile Neural Networks Quests"
 			icon: "thermal:lock"
-			x: 5.0d
+			x: 6.0d
 			y: 5.0d
 			shape: "diamond"
 			dependencies: [
@@ -955,7 +955,7 @@
 		{
 			title: "End of Immersive Engineering Quests"
 			icon: "thermal:lock"
-			x: 5.0d
+			x: 6.0d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -985,7 +985,7 @@
 		{
 			title: "End of Industrial Foregoing Quests"
 			icon: "thermal:lock"
-			x: 3.0d
+			x: 4.0d
 			y: 5.0d
 			shape: "diamond"
 			dependencies: [
@@ -1015,7 +1015,7 @@
 		{
 			title: "End of Mekanism Quests"
 			icon: "thermal:lock"
-			x: 4.0d
+			x: 5.0d
 			y: 5.0d
 			shape: "diamond"
 			dependencies: [
@@ -1075,7 +1075,7 @@
 		{
 			title: "End of Avaritia Quests"
 			icon: "thermal:lock"
-			x: 8.0d
+			x: 9.0d
 			y: 5.0d
 			shape: "diamond"
 			dependencies: [
@@ -1105,7 +1105,7 @@
 		{
 			title: "End of FTB Industrial Contraptions Quests"
 			icon: "thermal:lock"
-			x: 0.0d
+			x: 1.0d
 			y: 5.0d
 			shape: "diamond"
 			dependencies: [
@@ -1135,7 +1135,7 @@
 		{
 			title: "End of RFTools and Xnet Quests"
 			icon: "thermal:lock"
-			x: 2.0d
+			x: 3.0d
 			y: 5.0d
 			shape: "diamond"
 			dependencies: [
@@ -1165,8 +1165,8 @@
 		{
 			title: "End of Powah Quests"
 			icon: "thermal:lock"
-			x: 9.0d
-			y: 3.0d
+			x: 0.0d
+			y: 5.0d
 			shape: "diamond"
 			dependencies: [
 				"46019F50846AAFD0"
@@ -1195,7 +1195,7 @@
 		{
 			title: "End of PneumaticCraft Quests"
 			icon: "thermal:lock"
-			x: 1.0d
+			x: 2.0d
 			y: 5.0d
 			shape: "diamond"
 			dependencies: [
@@ -1225,7 +1225,7 @@
 		{
 			title: "End of Occultism Quests"
 			icon: "thermal:lock"
-			x: 1.0d
+			x: 2.0d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -1275,7 +1275,7 @@
 					}
 				}
 			}
-			x: 7.0d
+			x: 8.0d
 			y: 2.0d
 			description: ["Unlock the PSI page."]
 			dependencies: ["375F4C25F6B07F8C"]
@@ -1289,7 +1289,7 @@
 		{
 			title: "End of PSI Quests"
 			icon: "thermal:lock"
-			x: 7.0d
+			x: 8.0d
 			y: 3.0d
 			shape: "diamond"
 			dependencies: [
@@ -1318,8 +1318,8 @@
 		}
 		{
 			icon: "ragnamod_seven:sphere"
-			x: 9.0d
-			y: 4.0d
+			x: 10.0d
+			y: 2.0d
 			description: ["Unlock the End Game page."]
 			dependencies: ["375F4C25F6B07F8C"]
 			id: "5297052C3503826D"
@@ -1332,8 +1332,8 @@
 		{
 			title: "End of End Game Quests"
 			icon: "thermal:lock"
-			x: 9.0d
-			y: 5.0d
+			x: 10.0d
+			y: 3.0d
 			shape: "diamond"
 			dependencies: [
 				"5297052C3503826D"
@@ -1397,6 +1397,47 @@
 					tag: {
 						BlockEntityTag: {
 							Trophy: "trofers:mystical_agriculture"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Biomancy Quests"
+			icon: "biomancy:primordial_cradle"
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["375F4C25F6B07F8C"]
+			id: "19DF25352DA6DAA0"
+			tasks: [{
+				id: "3D1D3930295BE144"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "End of Biomancy Quests"
+			icon: "thermal:lock"
+			x: 8.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: [
+				"19DF25352DA6DAA0"
+				"6458260F2B9891D7"
+			]
+			id: "72E24113E417DAD7"
+			tasks: [{
+				id: "7EA8F81871B36C72"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3D32159C689665E1"
+				type: "item"
+				item: {
+					id: "trofers:large_pillar"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:biomancy"
 						}
 					}
 				}

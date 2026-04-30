@@ -252,5 +252,6 @@ onEvent('recipes', e => {
     summonChicken('mysticalagradditions:insanium_block', 'mysticalagradditions:insanium_gemstone', 'insanium')
     summonChicken('forbidden_arcanus:stellarite_piece', 'forbidden_arcanus:stellarite_block', 'stellarite')
     summonChicken('ae2:sky_dust', 'ae2:sky_stone_block', 'sky_stone')
+    summonChicken('miniutilities:blue_lapis_caelestis', 'miniutilities:blue_lapis_caelestis', 'zepronounours2mc')
     e.smelting('minecraft:cooked_chicken', '#chickens:chickens')
 })

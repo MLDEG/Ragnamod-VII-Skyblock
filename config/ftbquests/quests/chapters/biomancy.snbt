@@ -1,0 +1,322 @@
+{
+	id: "6458260F2B9891D7"
+	group: ""
+	order_index: 11
+	filename: "biomancy"
+	title: " Biomancy"
+	icon: "biomancy:primordial_cradle"
+	subtitle: ["Don't Feed The Patrick !"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["The Primordial Core is an item used to craft the Primordial Cradle."]
+			dependencies: ["19DF25352DA6DAA0"]
+			id: "3853C8447B0FD9A8"
+			tasks: [{
+				id: "48EC3EBE5D410213"
+				type: "item"
+				item: "biomancy:primordial_core"
+			}]
+			rewards: [{
+				id: "0E11DF2098EE62C2"
+				type: "item"
+				item: "minecraft:beef"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "Primordial Cradle"
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"The primordial Cradle is a kind of static monster that eats food, both fresh and rotten."
+				""
+				"When you fill it with food, you must then reward it with something to heal it, such as a healing potion or golden apples."
+				""
+				"This will cause it to perform an action based on the food it has eaten!"
+			]
+			dependencies: ["3853C8447B0FD9A8"]
+			size: 1.5d
+			id: "5E6487C914C75360"
+			tasks: [{
+				id: "6FB5C6998E9C15BB"
+				type: "item"
+				item: "biomancy:primordial_cradle"
+			}]
+			rewards: [{
+				id: "4D18528D313DF0F5"
+				type: "item"
+				item: "minecraft:golden_apple"
+				count: 4
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"If you feed the primordial cradle good food, it will spawn a Blob, and this Blob will drop Living Flesh."
+				"{image:ftbquests:textures/quests/biomancy_blob.png width:150 height:100 align:1}"
+			]
+			dependencies: ["5E6487C914C75360"]
+			id: "41B1457FE07E8271"
+			tasks: [{
+				id: "4A0B32C6A9913112"
+				type: "item"
+				item: "biomancy:living_flesh"
+			}]
+			rewards: [{
+				id: "7A4D1B690A132910"
+				type: "item"
+				item: "biomancy:living_flesh"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: [
+				"The Bio Forge allows you to craft all the blocks and other machines in the mod."
+				""
+				"The Bio-Forge needs nutrients to work, give it any type of food."
+			]
+			dependencies: [
+				"41B1457FE07E8271"
+				"51E9B259B3484876"
+			]
+			id: "4A2836F852159E56"
+			tasks: [{
+				id: "57C90C37C4C1FB09"
+				type: "item"
+				item: "biomancy:bio_forge"
+			}]
+			rewards: [{
+				id: "2BD061375CAAE6E4"
+				type: "item"
+				item: "biomancy:bio_forge"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			description: [
+				"You can obtain this loot from the following mobs:"
+				""
+				"Bat, &7Cat&f, Ocelot, &7Wolf&f, Fox, &7Polar Bear&f, Panda, &7Ender Dragon&f."
+			]
+			dependencies: ["414D45F6D7C122AE"]
+			id: "51E9B259B3484876"
+			tasks: [{
+				id: "092A4F60D48F8D0D"
+				type: "item"
+				item: "biomancy:mob_claw"
+			}]
+			rewards: [{
+				id: "6A2E8F81BC4CE6CE"
+				type: "item"
+				item: "biomancy:mob_claw"
+				count: 16
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			description: [
+				"You can obtain this loot from the following mobs:"
+				""
+				"Bat, &7Cat&f, Ocelot, &7Wolf&f, Fox, &7Polar Bear&f, Panda, &7Hoglin&f, Zoglin, &7Ender Dragon&f."
+			]
+			dependencies: ["414D45F6D7C122AE"]
+			id: "48EFC15E5679BE24"
+			tasks: [{
+				id: "378FB90306B237BC"
+				type: "item"
+				item: "biomancy:mob_fang"
+			}]
+			rewards: [{
+				id: "128823BBC7731B44"
+				type: "item"
+				item: "biomancy:mob_fang"
+				count: 16
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			description: [
+				"You can obtain this loot from the following mobs:"
+				""
+				"Axolotl, &7Bat&f, Cat, &7Chicken&f, Cod, &7Cow&f, Dolphin, &7Donkey&f, Elder Guardian, &7Enderman&f, Endermite, &7Evoker&f, Fox, &7Glow Squid&f, Goat, &7Guardian&f, Hoglin, &7Horse&f, Illusioner, &7Llama&f, Mule, &7Mooshroom&f, Ocelot, &7Panda&f, Parrot, &7Pig&f, Piglin, &7Piglin Brute&f, Pillager, &7Polar Bear&f, Rabbit, &7Ravager&f, Salmon, &7Sheep&f, Silverfish, &7Spider&f, Squid, &7Strider&f, Trader Llama, &7Tropical Fish&f, Turtle, &7Villager&f, Vindicator, &7Wandering Trader&f, Witch, &7Wolf"
+			]
+			dependencies: ["414D45F6D7C122AE"]
+			id: "5D7BF45C2F715E08"
+			tasks: [{
+				id: "16EB2BAC8DD8341E"
+				type: "item"
+				item: "biomancy:mob_gland"
+			}]
+			rewards: [{
+				id: "06AC8358046F520A"
+				type: "item"
+				item: "biomancy:mob_gland"
+				count: 16
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"The Decomposer, as its name suggests, will decompose certain blocks and items to give you other useful items for various crafts."
+				""
+				"The Decomposer needs nutrients to work, give it any type of food."
+			]
+			dependencies: [
+				"4A2836F852159E56"
+				"5D7BF45C2F715E08"
+				"48EFC15E5679BE24"
+			]
+			id: "4426A826F337C5FB"
+			tasks: [{
+				id: "706CDB9A4B3A1B62"
+				type: "item"
+				item: "biomancy:decomposer"
+			}]
+			rewards: [{
+				id: "5A52701B804BE135"
+				type: "item"
+				item: "biomancy:decomposer"
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "biomancy:despoil"
+					}]
+				}
+			}
+			x: 3.5d
+			y: -1.0d
+			description: [
+				"The Despoil enchantment allows you to drop more loot from certain mobs, it is important for collecting loot and crafting the rest of the mod's blocks."
+				""
+				"You can also buy his loot from a butcher."
+			]
+			dependencies: ["19DF25352DA6DAA0"]
+			id: "414D45F6D7C122AE"
+			tasks: [{
+				id: "710B059DEFFA5B84"
+				type: "checkmark"
+				title: "Despoil Enchantment"
+			}]
+			rewards: [{
+				id: "3336FF832DECB7EC"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "biomancy:despoil"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			description: [
+				"The Bio-Lab is used to create various compounds and serums used in the Bio-Injector."
+				""
+				"The Bio-Lab needs nutrients to work, give it any type of food."
+			]
+			dependencies: ["4A2836F852159E56"]
+			id: "1E1173A6F26BDE0A"
+			tasks: [{
+				id: "119DFDC0E1261DFB"
+				type: "item"
+				item: "biomancy:bio_lab"
+			}]
+			rewards: [{
+				id: "5AD51A884E80D362"
+				type: "item"
+				item: {
+					id: "biomancy:injector"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			description: ["The digester will digest food to give you Nutrient Paste."]
+			dependencies: ["4A2836F852159E56"]
+			id: "65A37D97E7F5D362"
+			tasks: [{
+				id: "23881CDF1CF64492"
+				type: "item"
+				item: "biomancy:digester"
+			}]
+			rewards: [{
+				id: "5421C1DFC6AEAAFE"
+				type: "item"
+				item: "biomancy:digester"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			description: ["Nutrient Paste allows you to power machines more efficiently but also gives you 5 Nutrients used in various crafts."]
+			dependencies: ["65A37D97E7F5D362"]
+			id: "54DEEA586328330E"
+			tasks: [{
+				id: "7DA452DE4F3E02F2"
+				type: "item"
+				item: "biomancy:nutrient_paste"
+			}]
+			rewards: [{
+				id: "189A217EB7A2C563"
+				type: "item"
+				item: "biomancy:nutrient_paste"
+				random_bonus: 7
+			}]
+		}
+		{
+			title: "WARNING"
+			icon: "architects_palette:hazard_sign"
+			x: 1.5d
+			y: 1.5d
+			shape: "octagon"
+			description: [
+				"Be careful what you feed your Primordial Cradle."
+				""
+				"If it starts to expand, it will continue until there's no more room."
+				"{image:ftbquests:textures/quests/biomancy_warning.png width:150 height:100 align:1}"
+				"It could engulf your base if you're not careful!"
+			]
+			dependencies: ["5E6487C914C75360"]
+			id: "3EBB853CFE951E71"
+			tasks: [{
+				id: "4EC8FBA331FCB9DB"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "06913A23E520866D"
+				type: "item"
+				item: "biomancy:malignant_flesh"
+				count: 64
+			}]
+		}
+	]
+	quest_links: [ ]
+}

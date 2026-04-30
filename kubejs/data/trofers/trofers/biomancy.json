@@ -1,0 +1,16 @@
+{
+  "name": {
+    "color": "#e78085",
+    "text": "Biomancy Trophy"
+  },
+  "display": {
+    "scale": 1.0
+  },
+  "entity": {
+    "type": "biomancy:flesh_blob"
+  },
+  "colors": {
+    "base": "#312c36",
+    "accent": "#e78085"
+  }
+}
