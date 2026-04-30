@@ -11,12 +11,12 @@ onEvent('tags.items', e => {
     e.remove('forge:ingots/electrum', ['immersiveengineering:ingot_electrum', 'createaddition:electrum_ingot'])
     e.remove('forge:ingots/constantan', 'immersiveengineering:ingot_constantan')
     e.remove('forge:ingots/bronze', ['ftbic:bronze_ingot', 'mekanism:ingot_bronze'])
-    e.remove('forge:ingots/nickel', ['chemlib:nickel_ingot', 'immersiveengineering:ingot_nickel'])
+    e.remove('forge:ingots/nickel', ['chemlib:nickel_ingot', 'immersiveengineering:ingot_nickel', 'exnihilosequentia:nickel_ingot'])
     e.remove('forge:ingots/aluminum', ['chemlib:aluminum_ingot', 'ftbic:aluminum_ingot', 'immersiveengineering:ingot_aluminum', 'exnihilosequentia:aluminum_ingot'])
-    e.remove('forge:ingots/uranium', ['chemlib:uranium_ingot', 'ftbic:uranium_ingot', 'immersiveengineering:ingot_uranium'])
-    e.remove('forge:ingots/tin', ['chemlib:tin_ingot', 'ftbic:tin_ingot', 'mekanism:ingot_tin'])
+    e.remove('forge:ingots/uranium', ['chemlib:uranium_ingot', 'ftbic:uranium_ingot', 'immersiveengineering:ingot_uranium', 'exnihilosequentia:uranium_ingot'])
+    e.remove('forge:ingots/tin', ['chemlib:tin_ingot', 'ftbic:tin_ingot', 'mekanism:ingot_tin', 'exnihilosequentia:tin_ingot'])
     e.remove('forge:ingots/lead', ['chemlib:lead_ingot', 'ftbic:lead_ingot', 'mekanism:ingot_lead', 'immersiveengineering:ingot_lead', 'exnihilosequentia:lead_ingot'])
-    e.remove('forge:ingots/silver', ['chemlib:silver_ingot', 'darkerdepths:silver_ingot', 'occultism:silver_ingot', 'immersiveengineering:ingot_silver'])
+    e.remove('forge:ingots/silver', ['chemlib:silver_ingot', 'darkerdepths:silver_ingot', 'occultism:silver_ingot', 'immersiveengineering:ingot_silver', 'exnihilosequentia:silver_ingot'])
 
     //Remove Nuggets
     e.remove('forge:nuggets/constantan', 'immersiveengineering:nugget_constantan')

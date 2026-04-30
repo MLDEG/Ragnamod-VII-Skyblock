@@ -58,16 +58,16 @@ onEvent('recipes', function (e) {
     /**********************Ingots*************************/
     ['#forge:ingots/steel', 'mekanism:ingot_steel', 'immersiveengineering:ingot_steel'].forEach(I => { replaceIO(I, 'beyond_earth:steel_ingot') });
     ['#forge:ingots/zinc', 'chemlib:zinc_ingot'].forEach(I => { replaceIO(I, 'create:zinc_ingot') });
-    ['#forge:ingots/silver', 'chemlib:silver_ingot', 'darkerdepths:silver_ingot', 'occultism:silver_ingot', 'immersiveengineering:ingot_silver'].forEach(I => { replaceIO(I, 'thermal:silver_ingot') });
+    ['#forge:ingots/silver', 'chemlib:silver_ingot', 'darkerdepths:silver_ingot', 'occultism:silver_ingot', 'immersiveengineering:ingot_silver', 'exnihilosequentia:silver_ingot'].forEach(I => { replaceIO(I, 'thermal:silver_ingot') });
     ['#forge:ingots/aluminum', 'chemlib:aluminum_ingot', 'ftbic:aluminum_ingot', 'immersiveengineering:ingot_aluminum', 'exnihilosequentia:aluminum_ingot'].forEach(I => { replaceIO(I, 'tinkers_reforged:aluminum_ingot') });
     ['#forge:ingots/bronze', 'ftbic:bronze_ingot', 'mekanism:ingot_bronze'].forEach(I => { replaceIO(I, 'thermal:bronze_ingot') });
     ['#forge:ingots/enderium', 'ftbic:enderium_ingot'].forEach(I => { replaceIO(I, 'thermal:enderium_ingot') });
     ['#forge:ingots/iridium', 'chemlib:iridium_ingot'].forEach(I => { replaceIO(I, 'ftbic:iridium_ingot') });
     ['#forge:ingots/lead', 'chemlib:lead_ingot', 'ftbic:lead_ingot', 'mekanism:ingot_lead', 'immersiveengineering:ingot_lead', 'exnihilosequentia:lead_ingot'].forEach(I => { replaceIO(I, 'thermal:lead_ingot') });
-    ['#forge:ingots/tin', 'chemlib:tin_ingot', 'ftbic:tin_ingot', 'mekanism:ingot_tin'].forEach(I => { replaceIO(I, 'thermal:tin_ingot') });
-    ['#forge:ingots/uranium', 'chemlib:uranium_ingot', 'ftbic:uranium_ingot', 'immersiveengineering:ingot_uranium'].forEach(I => { replaceIO(I, 'mekanism:ingot_uranium') });
+    ['#forge:ingots/tin', 'chemlib:tin_ingot', 'ftbic:tin_ingot', 'mekanism:ingot_tin', 'exnihilosequentia:tin_ingot'].forEach(I => { replaceIO(I, 'thermal:tin_ingot') });
+    ['#forge:ingots/uranium', 'chemlib:uranium_ingot', 'ftbic:uranium_ingot', 'immersiveengineering:ingot_uranium', 'exnihilosequentia:uranium_ingot'].forEach(I => { replaceIO(I, 'mekanism:ingot_uranium') });
     ['#forge:ingots/osmium', 'chemlib:osmium_ingot'].forEach(I => { replaceIO(I, 'mekanism:ingot_osmium') });
-    ['#forge:ingots/nickel', 'chemlib:nickel_ingot', 'immersiveengineering:ingot_nickel'].forEach(I => { replaceIO(I, 'thermal:nickel_ingot') });
+    ['#forge:ingots/nickel', 'chemlib:nickel_ingot', 'immersiveengineering:ingot_nickel', 'exnihilosequentia:nickel_ingot'].forEach(I => { replaceIO(I, 'thermal:nickel_ingot') });
     ['#forge:ingots/constantan', 'immersiveengineering:ingot_constantan'].forEach(I => { replaceIO(I, 'thermal:constantan_ingot') });
     ['#forge:ingots/electrum', 'immersiveengineering:ingot_electrum', 'createaddition:electrum_ingot'].forEach(I => { replaceIO(I, 'thermal:electrum_ingot') });
     ['#forge:ingots/cobalt', 'chemlib:cobalt_ingot'].forEach(I => { replaceIO(I, 'tconstruct:cobalt_ingot') });
