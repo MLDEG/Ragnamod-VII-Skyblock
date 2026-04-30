@@ -2001,6 +2001,20 @@
     "parent_1": "",
     "parent_2": ""
   },
+  "chickens:zepronounours2mc_chicken": {
+    "name": "zepronounours2mc_chicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "miniutilities:blue_lapis_caelestis"
+    },
+    "drop_item": {
+      "itemID": "miniutilities:blue_lapis_caelestis"
+    },
+    "spawn_type": "NONE",
+    "parent_1": "",
+    "parent_2": ""
+  },
   "chickens:diopside_chicken": {
     "name": "diopside_chicken",
     "is_enabled": true,
