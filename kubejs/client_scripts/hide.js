@@ -338,7 +338,6 @@ onEvent('jei.hide.items', e => {
         'ftbquests:missing_item',
         'pneumaticcraft:creative_upgrade',
         'modularrouters:creative_module',
-        'create:creative_crate',
         'ragnamod_seven:creative_augment_base',
         'ragnamod_seven:ae2',
         'chemlib:cobalt_nugget',
@@ -460,7 +459,8 @@ onEvent('jei.hide.items', e => {
         'mysticalagriculture:graphite_seeds',
         'mysticalagriculture:graphite_essence',
         'jamd:mine_portal_block',
-        'mysticalagriculture:soulium_seed_base'
+        'mysticalagriculture:soulium_seed_base',
+        'telepastries:lost_city_cake',
     ])
 })
 //Fluids

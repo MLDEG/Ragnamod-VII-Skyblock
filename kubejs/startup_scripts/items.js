@@ -150,7 +150,7 @@ onEvent('item.registry', e => {
         e.create('ragnamod_seven:' + name + '_cake_base_baked')
     }
     var nameofcake = [
-        'ender', 'earth', 'sky', 'blood', 'magma', 'nether', 'end', 'overworld', 'twilight', 'city', 'undergarden', 'mining'
+        'ender', 'earth', 'sky', 'blood', 'magma', 'nether', 'end', 'overworld', 'twilight', 'undergarden', 'mining'
     ]
     nameofcake.forEach(C => { cake(C) })
     e.create('ragnamod_seven:cake_mold').maxStackSize(1)
@@ -207,4 +207,8 @@ onEvent('item.registry', e => {
     e.create('ragnamod_seven:imperium_dust_speck').displayName('Imperium Dust Speck')
     e.create('ragnamod_seven:supremium_dust_speck').displayName('Supremium Dust Speck')
     e.create('ragnamod_seven:insanium_dust_speck').displayName('Insanium Dust Speck')
+    e.create('ragnamod_seven:upgrade_augment_5').displayName('Netherite Integral Component')
+    e.create('ragnamod_seven:upgrade_augment_6').displayName('Flux-Infuised Integral Component')
+    e.create('ragnamod_seven:upgrade_augment_7').displayName('Soulstained Steel Integral Component')
+    e.create('ragnamod_seven:soulstained_steel_gear').displayName('Soulstained Steel Gear')
 })
