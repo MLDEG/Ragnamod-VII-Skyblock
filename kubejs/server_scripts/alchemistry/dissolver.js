@@ -294,5 +294,7 @@ onEvent('recipes', e => {
   //coin
   e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "tag": "forge:coins/netherite" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:tungsten", "count": 12 }, { "item": "chemlib:carbon", "count": 12 }, { "item": "chemlib:gold", "count": 12 }] }] } })
 
+  //Draconium Compound
+  e.custom({ "type": "alchemistry:dissolver", "group": "alchemistry:dissolver", "input": { "ingredient": { "item": "chemlib:draconium_compound" }, "count": 1 }, "output": { "rolls": 1, "weighted": false, "groups": [{ "probability": 100.0, "results": [{ "item": "chemlib:radon", "count": 24 }, { "item": "chemlib:xenon", "count": 8 }, { "item": "chemlib:oganesson", "count": 16 }, { "item": "chemlib:lutetium", "count": 32 }] }] } })
 
 })
