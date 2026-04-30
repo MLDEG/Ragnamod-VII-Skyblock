@@ -1656,6 +1656,114 @@
 				random_bonus: 3
 			}]
 		}
+		{
+			x: 4.5d
+			y: 2.5d
+			shape: "square"
+			description: ["Improves base attributes, scale factor : 5x."]
+			dependencies: ["315EDA52EF8AE39B"]
+			id: "27F74B193F2FEE7A"
+			tasks: [{
+				id: "58819EAFC98879B9"
+				type: "item"
+				item: {
+					id: "ragnamod_seven:upgrade_augment_5"
+					Count: 1b
+					tag: {
+						AugmentData: {
+							BaseMod: 5.0f
+							Type: "Upgrade"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C570A5572D295BB"
+				type: "item"
+				item: {
+					id: "ragnamod_seven:upgrade_augment_5"
+					Count: 1b
+					tag: {
+						AugmentData: {
+							BaseMod: 5.0f
+							Type: "Upgrade"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			shape: "square"
+			description: ["Improves base attributes, scale factor : 6x."]
+			dependencies: ["27F74B193F2FEE7A"]
+			id: "0C5B8636D4316178"
+			tasks: [{
+				id: "0AF5A5A08DC67BD9"
+				type: "item"
+				item: {
+					id: "ragnamod_seven:upgrade_augment_6"
+					Count: 1b
+					tag: {
+						AugmentData: {
+							BaseMod: 6.0f
+							Type: "Upgrade"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "14B8F0DF6925973C"
+				type: "item"
+				item: {
+					id: "ragnamod_seven:upgrade_augment_6"
+					Count: 1b
+					tag: {
+						AugmentData: {
+							BaseMod: 6.0f
+							Type: "Upgrade"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.5d
+			shape: "square"
+			description: ["Improves base attributes, scale factor : 7x."]
+			dependencies: ["0C5B8636D4316178"]
+			id: "02E42958CDC56846"
+			tasks: [{
+				id: "5415CCBBF6FEBE0A"
+				type: "item"
+				item: {
+					id: "ragnamod_seven:upgrade_augment_7"
+					Count: 1b
+					tag: {
+						AugmentData: {
+							BaseMod: 7.0f
+							Type: "Upgrade"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "346CCFA8689BAEA1"
+				type: "item"
+				item: {
+					id: "ragnamod_seven:upgrade_augment_7"
+					Count: 1b
+					tag: {
+						AugmentData: {
+							BaseMod: 7.0f
+							Type: "Upgrade"
+						}
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

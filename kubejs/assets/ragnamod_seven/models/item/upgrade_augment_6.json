@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ragnamod_seven:item/upgrade_augment_6",
+    "layer1": "thermal:item/augments/upgrade_augment_3_lights",
+    "layer2": "thermal:item/augments/upgrade_augment_anim"
+  }
+}

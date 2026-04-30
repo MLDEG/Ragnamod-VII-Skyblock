@@ -15,7 +15,7 @@ onEvent('tags.items', e => {
     e.remove('forge:ingots/aluminum', ['chemlib:aluminum_ingot', 'ftbic:aluminum_ingot', 'immersiveengineering:ingot_aluminum', 'exnihilosequentia:aluminum_ingot'])
     e.remove('forge:ingots/uranium', ['chemlib:uranium_ingot', 'ftbic:uranium_ingot', 'immersiveengineering:ingot_uranium'])
     e.remove('forge:ingots/tin', ['chemlib:tin_ingot', 'ftbic:tin_ingot', 'mekanism:ingot_tin'])
-    e.remove('forge:ingots/lead', ['chemlib:lead_ingot', 'ftbic:lead_ingot', 'mekanism:ingot_lead', 'immersiveengineering:ingot_lead'])
+    e.remove('forge:ingots/lead', ['chemlib:lead_ingot', 'ftbic:lead_ingot', 'mekanism:ingot_lead', 'immersiveengineering:ingot_lead', 'exnihilosequentia:lead_ingot'])
     e.remove('forge:ingots/silver', ['chemlib:silver_ingot', 'darkerdepths:silver_ingot', 'occultism:silver_ingot', 'immersiveengineering:ingot_silver'])
 
     //Remove Nuggets
