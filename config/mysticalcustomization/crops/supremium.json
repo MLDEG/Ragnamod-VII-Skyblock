@@ -1,0 +1,13 @@
+{
+  "name": "Supremium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "minecraft:air"
+  },
+  "textures": {
+    "flower": "mysticalagriculture:block/supremium_crop",
+    "essence": "mysticalagriculture:item/essence_flame",
+    "seeds": "mysticalagriculture:item/supremium_seeds"
+  }
+}

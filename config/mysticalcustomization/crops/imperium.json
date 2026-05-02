@@ -1,0 +1,13 @@
+{
+  "name": "Imperium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:4",
+  "ingredient": {
+    "item": "minecraft:air"
+  },
+  "textures": {
+    "flower": "mysticalagriculture:block/imperium_crop",
+    "essence": "mysticalagriculture:item/essence_flame",
+    "seeds": "mysticalagriculture:item/imperium_seeds"
+  }
+}

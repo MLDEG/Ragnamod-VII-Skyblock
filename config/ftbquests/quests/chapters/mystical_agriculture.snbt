@@ -1824,6 +1824,120 @@
 				item: "immersiveengineering:cloche"
 			}]
 		}
+		{
+			x: 3.5d
+			y: -1.5d
+			shape: "diamond"
+			description: ["This seed will provide you with Inferium."]
+			dependencies: ["4CD94542B170DD2F"]
+			id: "5D10B912D2752CCC"
+			tasks: [{
+				id: "4AAC154A81918D55"
+				type: "item"
+				item: "mysticalagriculture:inferium_seeds"
+			}]
+			rewards: [{
+				id: "46ED93C1714C141D"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			shape: "diamond"
+			description: ["This seed will provide you with Prudentium."]
+			dependencies: ["53CD19E347AA0BC1"]
+			id: "0D41AA561B922FA5"
+			tasks: [{
+				id: "6F9341135B59EB72"
+				type: "item"
+				item: "mysticalagriculture:prudentium_seeds"
+			}]
+			rewards: [{
+				id: "132C278B583FAA32"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.5d
+			shape: "diamond"
+			description: ["This seed will provide you with Tertium."]
+			dependencies: ["4CDD244B5D018E24"]
+			id: "3F70593D8F9BCA52"
+			tasks: [{
+				id: "7A963A73F597E648"
+				type: "item"
+				item: "mysticalagriculture:tertium_seeds"
+			}]
+			rewards: [{
+				id: "74B7CE5BE8184F22"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.5d
+			shape: "diamond"
+			description: ["This seed will provide you with Imperium."]
+			dependencies: ["6AC0163660B14985"]
+			id: "7E6D82D6E7C91E5B"
+			tasks: [{
+				id: "4ACAB8374270D09E"
+				type: "item"
+				item: "mysticalagriculture:imperium_seeds"
+			}]
+			rewards: [{
+				id: "17B6F972AEEF288B"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 13.5d
+			y: -1.5d
+			shape: "diamond"
+			description: ["This seed will provide you with Supremium."]
+			dependencies: ["6696D69A9B98A733"]
+			id: "60319654B2C93CBF"
+			tasks: [{
+				id: "5A0B4F1B74544960"
+				type: "item"
+				item: "mysticalagriculture:supremium_seeds"
+			}]
+			rewards: [{
+				id: "4857088017DCF71C"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 16.0d
+			y: -1.5d
+			shape: "diamond"
+			description: ["This seed will provide you with Insanium."]
+			dependencies: ["3B15356AD2253D9C"]
+			id: "6722EA5AF816AD7A"
+			tasks: [{
+				id: "1A208370121AE309"
+				type: "item"
+				item: "mysticalagriculture:insanium_seeds"
+			}]
+			rewards: [{
+				id: "0E91276A6F798392"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+				random_bonus: 7
+			}]
+		}
 	]
 	quest_links: [ ]
 }

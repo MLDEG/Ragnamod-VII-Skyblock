@@ -270,7 +270,7 @@ onEvent('recipes', e => {
     //GardenCloche
     e.custom({ "type": "immersiveengineering:fertilizer", "growthModifier": 20, "input": { "item": "botania:life_essence" } })
     function mysticalCloche(name, soil) { e.custom({ "type": "immersiveengineering:cloche", "results": [{ "item": "mysticalagriculture:" + name + "_essence", "count": 2 }], "input": { "item": "mysticalagriculture:" + name + "_seeds" }, "soil": { "item": soil }, "time": 200, "render": { "type": "crop", "block": "mysticalagriculture:" + name + "_crop" } }) }
-
+    e.custom({ "type": "immersiveengineering:cloche", "results": [{ "item": "mysticalagradditions:insanium_essence", "count": 2 }], "input": { "item": "mysticalagriculture:insanium_seeds" }, "soil": { "item": 'mysticalagradditions:insanium_farmland' }, "time": 200, "render": { "type": "crop", "block": "mysticalagriculture:insanium_crop" } })
     mysticalCloche("air", 'mysticalagriculture:inferium_farmland')
     mysticalCloche("fire", 'mysticalagriculture:inferium_farmland')
     mysticalCloche("water", 'mysticalagriculture:inferium_farmland')
@@ -281,6 +281,7 @@ onEvent('recipes', e => {
     mysticalCloche("wood", 'mysticalagriculture:inferium_farmland')
     mysticalCloche("ice", 'mysticalagriculture:inferium_farmland')
     mysticalCloche("deepslate", 'mysticalagriculture:inferium_farmland')
+    mysticalCloche("prudentium", 'mysticalagriculture:prudentium_farmland')
     mysticalCloche("chicken", 'mysticalagriculture:prudentium_farmland')
     mysticalCloche("pig", 'mysticalagriculture:prudentium_farmland')
     mysticalCloche("amethyst", 'mysticalagriculture:prudentium_farmland')
@@ -305,6 +306,7 @@ onEvent('recipes', e => {
     mysticalCloche("squid", 'mysticalagriculture:prudentium_farmland')
     mysticalCloche("sheep", 'mysticalagriculture:prudentium_farmland')
     mysticalCloche("cow", 'mysticalagriculture:prudentium_farmland')
+    mysticalCloche("tertium", 'mysticalagriculture:tertium_farmland')
     mysticalCloche("skeleton", 'mysticalagriculture:tertium_farmland')
     mysticalCloche("zombie", 'mysticalagriculture:tertium_farmland')
     mysticalCloche("prismarine", 'mysticalagriculture:tertium_farmland')
@@ -374,6 +376,7 @@ onEvent('recipes', e => {
     mysticalCloche("wavy", 'mysticalagriculture:tertium_farmland')
     mysticalCloche("ventium", 'mysticalagriculture:tertium_farmland')
     mysticalCloche("source_gem", 'mysticalagriculture:tertium_farmland')
+    mysticalCloche("imperium", 'mysticalagriculture:imperium_farmland')
     mysticalCloche("nickel", 'mysticalagriculture:imperium_farmland')
     mysticalCloche("steel", 'mysticalagriculture:imperium_farmland')
     mysticalCloche("enderman", 'mysticalagriculture:imperium_farmland')
@@ -416,6 +419,7 @@ onEvent('recipes', e => {
     mysticalCloche("soul_infused", 'mysticalagriculture:imperium_farmland')
     mysticalCloche("shellite", 'mysticalagriculture:imperium_farmland')
     mysticalCloche("rune", 'mysticalagriculture:imperium_farmland')
+    mysticalCloche("supremium", 'mysticalagriculture:supremium_farmland')
     mysticalCloche("hepatizon", 'mysticalagriculture:supremium_farmland')
     mysticalCloche("queens_slime", 'mysticalagriculture:supremium_farmland')
     mysticalCloche("manyullyn", 'mysticalagriculture:supremium_farmland')
@@ -480,5 +484,12 @@ onEvent('recipes', e => {
     name.forEach(C => { speckCrafting(C) })
     e.shapeless('9x ragnamod_seven:insanium_dust_speck', 'mysticalagradditions:insanium_essence')
     e.shapeless('mysticalagradditions:insanium_essence', '9x ragnamod_seven:insanium_dust_speck')
+
+    //Seeds of Essences
+    e.shaped('mysticalagriculture:prudentium_seeds', ['AAA', 'ABA', 'AAA'], { A: 'mysticalagriculture:prudentium_essence', B: 'mysticalagriculture:inferium_seeds' })
+    e.shaped('mysticalagriculture:tertium_seeds', ['AAA', 'ABA', 'AAA'], { A: 'mysticalagriculture:tertium_essence', B: 'mysticalagriculture:prudentium_seeds' })
+    e.shaped('mysticalagriculture:imperium_seeds', ['AAA', 'ABA', 'AAA'], { A: 'mysticalagriculture:imperium_essence', B: 'mysticalagriculture:tertium_seeds' })
+    e.shaped('mysticalagriculture:supremium_seeds', ['AAA', 'ABA', 'AAA'], { A: 'mysticalagriculture:supremium_essence', B: 'mysticalagriculture:imperium_seeds' })
+    e.shaped('mysticalagriculture:insanium_seeds', ['AAA', 'ABA', 'AAA'], { A: 'mysticalagradditions:insanium_essence', B: 'mysticalagriculture:supremium_seeds' })
 
 })

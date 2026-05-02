@@ -1,0 +1,13 @@
+{
+  "name": "Prudentium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": {
+    "item": "minecraft:air"
+  },
+  "textures": {
+    "flower": "mysticalagriculture:block/prudentium_crop",
+    "essence": "mysticalagriculture:item/essence_flame",
+    "seeds": "mysticalagriculture:item/prudentium_seeds"
+  }
+}

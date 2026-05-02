@@ -1,0 +1,13 @@
+{
+  "name": "Insanium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalcustomization:6",
+  "ingredient": {
+    "item": "minecraft:air"
+  },
+  "textures": {
+    "flower": "mysticalagriculture:block/insanium_crop",
+    "essence": "mysticalagriculture:item/essence_flame",
+    "seeds": "mysticalagriculture:item/insanium_seeds"
+  }
+}

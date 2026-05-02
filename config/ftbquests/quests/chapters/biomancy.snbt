@@ -11,7 +11,7 @@
 	quests: [
 		{
 			x: 0.0d
-			y: 0.0d
+			y: -0.5d
 			description: ["The Primordial Core is an item used to craft the Primordial Cradle."]
 			dependencies: ["19DF25352DA6DAA0"]
 			id: "3853C8447B0FD9A8"
@@ -56,7 +56,7 @@
 		}
 		{
 			x: 3.0d
-			y: 0.0d
+			y: 0.5d
 			description: [
 				"If you feed the primordial cradle good food, it will spawn a Blob, and this Blob will drop Living Flesh."
 				"{image:ftbquests:textures/quests/biomancy_blob.png width:150 height:100 align:1}"
@@ -99,7 +99,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 4.0d
 			y: -1.0d
 			description: [
 				"You can obtain this loot from the following mobs:"
@@ -144,7 +144,7 @@
 		}
 		{
 			x: 6.5d
-			y: -1.0d
+			y: -1.5d
 			description: [
 				"You can obtain this loot from the following mobs:"
 				""
@@ -165,8 +165,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 0.0d
+			x: 6.5d
+			y: 0.5d
 			description: [
 				"The Decomposer, as its name suggests, will decompose certain blocks and items to give you other useful items for various crafts."
 				""
@@ -200,8 +200,8 @@
 					}]
 				}
 			}
-			x: 3.5d
-			y: -1.0d
+			x: 4.5d
+			y: -2.0d
 			description: [
 				"The Despoil enchantment allows you to drop more loot from certain mobs, it is important for collecting loot and crafting the rest of the mod's blocks."
 				""
@@ -257,7 +257,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 4.0d
 			y: 1.5d
 			description: ["The digester will digest food to give you Nutrient Paste."]
 			dependencies: ["4A2836F852159E56"]
@@ -274,8 +274,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.5d
+			x: 5.0d
+			y: 2.0d
 			description: ["Nutrient Paste allows you to power machines more efficiently but also gives you 5 Nutrients used in various crafts."]
 			dependencies: ["65A37D97E7F5D362"]
 			id: "54DEEA586328330E"
@@ -294,8 +294,8 @@
 		{
 			title: "WARNING"
 			icon: "architects_palette:hazard_sign"
-			x: 1.5d
-			y: 1.5d
+			x: 2.0d
+			y: -1.5d
 			shape: "octagon"
 			description: [
 				"Be careful what you feed your Primordial Cradle."
