@@ -193,4 +193,26 @@ onEvent('recipes', e => {
             { "type": "place", "block": "air", "contextual": { "type": "chance", "chance": 0.05 } }, { "type": "damage_item" }
         ]
     })
+
+    //Blue Journal
+    e.custom(
+        {
+            "type": "lychee:item_inside",
+            "item_in": {
+                "item": 'minecraft:book'
+            },
+            "block_in": {
+                "blocks": ["exnihilosequentia:witch_water"],
+                "state": {
+                    "level": 0
+                }
+            },
+            "post": [
+                {
+                    "type": "drop_item",
+                    "item": "blue_skies:blue_journal"
+                }
+            ]
+        }
+    )
 })
