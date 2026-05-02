@@ -89,7 +89,7 @@ onEvent('recipes', e => {
   speedAddon('ragnamod_seven:speed_addon_3', 'ftbic:mixed_metal_blend', 'minecraft:glass_pane', 'ragnamod_seven:iridium_alloy_gear', 'minecraft:sugar', 'industrialforegoing:meat', 'ragnamod_seven:speed_addon_4', '5.0f')
 
   speedAddon('ragnamod_seven:speed_addon_4', 'powah:crystal_nitro', 'minecraft:glass_pane', 'ragnamod_seven:antimatter_gear', 'minecraft:sugar', 'industrialforegoing:ether_gas', 'ragnamod_seven:speed_addon_5', '6.0f')
-  function processingAddon(in1, in2, in3, in4, in5, in6, fluid, out, speed) {
+  function processingAddon(in1, in2, in3, in4, in5, in6, fluid, out, processing) {
     e.custom({
       "input": [
         { "item": in2 },
@@ -103,7 +103,7 @@ onEvent('recipes', e => {
       ],
       "inputFluid": '{FluidName:"' + fluid + '",Amount:1000}',
       "processingTime": 200,
-      "output": { "item": out, "count": 1, "nbt": "{TitaniumAugment:{Speed:" + speed + "}}" },
+      "output": { "item": out, "count": 1, "nbt": "{TitaniumAugment:{Processing:" + processing + "}}" },
       "type": "industrialforegoing:dissolution_chamber"
     })
   }
