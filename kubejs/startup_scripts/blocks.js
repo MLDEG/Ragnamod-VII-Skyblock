@@ -16,7 +16,7 @@ onEvent('block.registry', e => {
     e.create('ragnamod_seven:noisy_neutronium').displayName('Noisy Neutronium').material('stone').hardness(5.0).tagBlock('minecraft:mineable/pickaxe')
     e.create('ragnamod_seven:chemical_draconium_block').displayName('Chemical Draconium Block').material('stone').hardness(5.0).tagBlock('minecraft:mineable/pickaxe')
     e.create('miniutilities:stable_block').displayName('Stable Block').material('stone').hardness(5.0).tagBlock('minecraft:mineable/pickaxe')
-    e.create('ragnamod_seven:singularity_silent').displayName('Singularity silent').material('portal').hardness(5.0).tagBlock('minecraft:mineable/pickaxe').notSolid().renderType('cutout').defaultTranslucent().redstoneConductor(false).waterlogged()
+    e.create('ragnamod_seven:singularity_silent').displayName('Singularity silent').material('portal').hardness(5.0).tagBlock('minecraft:mineable/pickaxe').notSolid().renderType('cutout').defaultTranslucent().redstoneConductor(false).waterlogged().box(0, 0, 0, 16, 8, 16, true)
     e.create('ragnamod_seven:ae2').displayName('Controller Online').material('stone')
     e.create('ragnamod_seven:psi_stabilizer').displayName('PSI Stabilizer').material('stone').hardness(5.0).tagBlock('minecraft:mineable/pickaxe').notSolid().renderType('cutout').defaultTranslucent().redstoneConductor(false).waterlogged().box(0, 0, 0, 16, 4, 16, true)
     e.create('ragnamod_seven:castle_block').displayName('Castle Block').material('stone').hardness(5.0).tagBlock('minecraft:mineable/pickaxe')
