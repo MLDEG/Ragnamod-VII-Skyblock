@@ -177,6 +177,8 @@ onEvent('recipes', function (e) {
     crusherMeka('thermal:niter', 'thermal:niter_dust', 1);
     crusherMeka('thermal:apatite', 'thermal:apatite_dust', 1);
     crusherMeka('thermal:cinnabar', 'thermal:cinnabar_dust', 1);
+    crusherMekaTag('evilcraft:dark_ores', 'evilcraft:dark_gem', 1);
+    crusherMekaTag('forge:ores/dimensional_shard', 'rftoolsbase:dimensionalshard', 1);
     crusherMekaTag('forge:gems/amethyst', 'thermal_extra:amethyst_dust', 1);
     crusherOccu('minecraft:basalt', 'infernalexp:basalt_cobbled', 1, true);
     crusherOccu('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed', 1, true);
@@ -228,6 +230,8 @@ onEvent('recipes', function (e) {
     crusherOccuTag('forge:gems/diamond', 'thermal:diamond_dust', 1, true);
     crusherOccuTag('forge:gems/emerald', 'thermal:emerald_dust', 1, true);
     crusherOccuTag('forge:ores/niter', 'thermal:niter_dust', 2, false);
+    crusherOccuTag('evilcraft:dark_ores', 'evilcraft:dark_gem', 1, false);
+    crusherOccuTag('forge:ores/dimensional_shard', 'rftoolsbase:dimensionalshard', 1, false);
     crusherThermal('minecraft:basalt', 'infernalexp:basalt_cobbled', 1);
     crusherThermal('occultism:iesnium_ingot', 'occultism:iesnium_dust', 1);
     crusherThermal('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed', 1);
@@ -270,6 +274,8 @@ onEvent('recipes', function (e) {
     crusherThermal('create:zinc_ingot', 'chemlib:zinc_dust', 1);
     crusherThermal('mekanism:ingot_uranium', 'mekanism:dust_uranium', 1);
     crusherThermalTag('forge:gems/certus_quartz', 'ae2:certus_quartz_dust', 1);
+    crusherThermalTag('evilcraft:dark_ores', 'evilcraft:dark_gem', 1);
+    crusherThermalTag('forge:ores/dimensional_shard', 'rftoolsbase:dimensionalshard', 1);
     crusherFTB('minecraft:basalt', 1, 'infernalexp:basalt_cobbled', 1);
     crusherFTB('occultism:iesnium_ingot', 1, 'occultism:iesnium_dust', 1);
     crusherFTB('evilcraft:dark_gem', 1, 'evilcraft:dark_gem_crushed', 1);
@@ -324,6 +330,8 @@ onEvent('recipes', function (e) {
     crusherFTBTag('forge:gems/emerald', 1, 'thermal:emerald_dust', 1);
     crusherFTBTag('forge:gems/certus_quartz', 1, 'ae2:certus_quartz_dust', 1);
     crusherFTBTag('forge:gems/amethyst', 1, 'thermal_extra:amethyst_dust', 1);
+    crusherFTBTag('evilcraft:dark_ores', 1, 'evilcraft:dark_gem', 1);
+    crusherFTBTag('forge:ores/dimensional_shard', 1, 'rftoolsbase:dimensionalshard', 1);
     crusherCreate('minecraft:basalt', 'infernalexp:basalt_cobbled');
     crusherCreate('occultism:iesnium_ingot', 'occultism:iesnium_dust');
     crusherCreate('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed');
@@ -384,6 +392,8 @@ onEvent('recipes', function (e) {
     crusherCreate('minecraft:quartz', 'thermal:quartz_dust');
     crusherCreateTag('forge:gems/emerald', 'thermal:emerald_dust');
     crusherCreateTag('forge:gems/amethyst', 'thermal_extra:amethyst_dust');
+    crusherCreateTag('evilcraft:dark_ores', 'evilcraft:dark_gem');
+    crusherCreateTag('forge:ores/dimensional_shard', 'rftoolsbase:dimensionalshard');
     crusherIE('minecraft:basalt', 'infernalexp:basalt_cobbled');
     crusherIE('occultism:iesnium_ingot', 'occultism:iesnium_dust');
     crusherIE('evilcraft:dark_gem', 'evilcraft:dark_gem_crushed');
@@ -434,6 +444,8 @@ onEvent('recipes', function (e) {
     crusherIETag('forge:gems/emerald', 'thermal:emerald_dust');
     crusherIETag('forge:gems/certus_quartz', 'ae2:certus_quartz_dust');
     crusherIETag('forge:gems/amethyst', 'thermal_extra:amethyst_dust');
+    crusherIETag('evilcraft:dark_ores', 'evilcraft:dark_gem');
+    crusherIETag('forge:ores/dimensional_shard', 'rftoolsbase:dimensionalshard');
     // crusherIdynamics(input, output)
     /**********************Rodes*************************/
     ['#forge:rods/gold', 'immersiveposts:stick_gold', 'createaddition:gold_rod'].forEach(I => { replaceIO(I, 'ftbic:gold_rod') });
