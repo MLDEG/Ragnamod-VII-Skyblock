@@ -359,7 +359,7 @@ onEvent('recipes', e => {
     "ritual_type": "occultism:craft",
     "activation_item": { "item": "occultism:book_of_binding_bound_marid" },
     "pentacle_id": "occultism:craft_marid",
-    "duration": 240,
+    "duration": 10,
     "ritual_dummy": { "item": "occultism:ritual_dummy/craft_stabilizer_tier4" },
     "ingredients": [
       { "item": "occultism:storage_stabilizer_tier4" },
