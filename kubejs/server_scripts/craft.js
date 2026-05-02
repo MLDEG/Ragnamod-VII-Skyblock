@@ -644,4 +644,6 @@ onEvent('recipes', e => {
   e.shapeless('croptopia:tuna_sandwich', ['minecraft:bread', 'croptopia:butter', 'croptopia:tuna'])
   //Elytra
   e.shaped('minecraft:elytra', ['ABA', 'C C', 'C C'], { A: 'forbidden_arcanus:bat_wing', B: 'rootsclassic:charged_runic_focus', C: 'forbidden_arcanus:silver_dragon_scale' })
+  //Honeycomb
+  e.shapeless('4x minecraft:honeycomb', 'minecraft:honeycomb_block')
 })
