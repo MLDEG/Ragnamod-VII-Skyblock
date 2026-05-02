@@ -5145,6 +5145,30 @@
 				random_bonus: 15
 			}]
 		}
+		{
+			x: -1.0d
+			y: 7.5d
+			shape: "square"
+			description: [
+				"To obtain Unobtainium you need to send Netherite into a portal that leads to the Nether."
+				""
+				"So, for those who didn't understand, create a portal like a Wormhole or Tempad to open a passage leading to the Nether, that's enough to craft the item."
+				""
+				"Just drop the Netherite into that portal."
+			]
+			dependencies: ["016FA1DF5180A678"]
+			id: "45E28F48B3156326"
+			tasks: [{
+				id: "2BDA53C9611EF592"
+				type: "item"
+				item: "architects_palette:unobtanium"
+			}]
+			rewards: [{
+				id: "3E2E71B4D722B4DA"
+				type: "item"
+				item: "architects_palette:unobtanium"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
