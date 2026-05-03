@@ -1,0 +1,5 @@
+
+[golden_lasso]
+	#Entity types that the Golden Lasso cannot capture or release. Use registry IDs like "minecraft:player".
+	blacklist = ["minecraft:player"]
+
