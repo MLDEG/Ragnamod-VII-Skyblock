@@ -5146,8 +5146,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 7.5d
+			x: 1.5d
+			y: -4.5d
 			shape: "square"
 			description: [
 				"To obtain Unobtainium you need to send Netherite into a portal that leads to the Nether."
@@ -5167,6 +5167,39 @@
 				id: "3E2E71B4D722B4DA"
 				type: "item"
 				item: "architects_palette:unobtanium"
+			}]
+		}
+		{
+			title: "Cable Facades"
+			icon: "cable_facades:facade"
+			x: -3.5d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"Cable Facade is a mod that allows you to hide almost all the cables in the game."
+				"For example, Pipez can be hidden now !"
+				""
+				"The wrench allows you to see your facades transparently, making it easier to find your way around your cables mess."
+			]
+			dependencies: ["577D6202E19B2599"]
+			id: "59E054A150A5428B"
+			tasks: [
+				{
+					id: "56B2EEC15AB6FAC1"
+					type: "item"
+					item: "cable_facades:facade"
+				}
+				{
+					id: "3E1703B6040B914D"
+					type: "item"
+					item: "cable_facades:facade_wrench"
+				}
+			]
+			rewards: [{
+				id: "318AA393F01428CA"
+				type: "item"
+				item: "cable_facades:directional_facade"
+				count: 64
 			}]
 		}
 	]
