@@ -2182,6 +2182,31 @@
 				item: "ragnamod_seven:vivid_opinium_core"
 			}]
 		}
+		{
+			x: 9.5d
+			y: -3.0d
+			shape: "square"
+			description: [
+				"If you don't like managing energy with the FTBIC mod, the FE Transformer will allow you to use RF to run your machines."
+				""
+				"To use it, charge it with RF and then attach it to a transformer of your choice."
+				"From there, you will be able to extract energy from the transformer to charge your machines."
+				""
+				"{image:ftbquests:textures/quests/fe_transformer.png width:150 height:100 align:1}"
+			]
+			dependencies: ["15EF4B0143D7581E"]
+			id: "3A276361F01F552A"
+			tasks: [{
+				id: "529CDC6E64D25412"
+				type: "item"
+				item: "fe_transformer:fe_transformer"
+			}]
+			rewards: [{
+				id: "1E8F3621F510C3C2"
+				type: "item"
+				item: "fe_transformer:fe_transformer"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
