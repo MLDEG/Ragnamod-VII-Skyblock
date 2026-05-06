@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "ragnamod_seven:block/fission_chamber_controller_standby",
+    "side": "ragnamod_seven:block/advanced_reactor_casing_block",
+    "top": "ragnamod_seven:block/advanced_reactor_casing_block",
+    "bottom" : "ragnamod_seven:block/advanced_reactor_casing_block"
+  }
+}

@@ -57,4 +57,27 @@ onEvent('recipes', e => {
       "item": "mekanism:reprocessed_fissile_fragment"
     }
   })
+
+  //Advanced Reactor Glass
+  e.custom({
+    "type": "alchemistry:combiner",
+    "group": "alchemistry:combiner",
+    "input": [
+      {
+        "ingredient": {
+          "item": "chemlib:iron_oxide"
+        },
+        "count": 1
+      },
+      {
+        "ingredient": {
+          "item": "chemlib:silicon_dioxide"
+        },
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "ragnamod_seven:advanced_reactor_glass"
+    }
+  })
 })

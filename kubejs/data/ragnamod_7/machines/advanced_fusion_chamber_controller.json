@@ -1,8 +1,8 @@
 {
-  "name": "Fusion Control Computer",
+  "name": "Advanced Fusion Chamber Controller",
   "appearance": {
-    "block": "ragnamod_seven:machine/fusion_control_computer_idle_model",
-    "item": "ragnamod_seven:machine/fusion_control_computer_idle_model",
+    "block": "ragnamod_seven:machine/advanced_fusion_chamber_controller_idle_model",
+    "item": "ragnamod_seven:machine/advanced_fusion_chamber_controller_idle_model",
     "ambient_sound": "",
     "interaction_sound": "minecraft:netherite_block",
     "light": 0,
@@ -23,11 +23,11 @@
       ]
     ],
     "running": {
-      "block": "ragnamod_seven:machine/fusion_control_computer_running_model",
+      "block": "ragnamod_seven:machine/advanced_fusion_chamber_controller_running_model",
       "light": 10
     },
     "errored": {
-      "block": "ragnamod_seven:machine/fusion_control_computer_errored_model"
+      "block": "ragnamod_seven:machine/advanced_fusion_chamber_controller_errored_model"
     }
   },
   "components": [
@@ -39,12 +39,12 @@
     },
     {
       "type": "custommachinery:item",
-      "id": "in_left",
+      "id": "in_1",
       "mode": "input"
     },
     {
       "type": "custommachinery:item",
-      "id": "in_right",
+      "id": "in_2",
       "mode": "input"
     },
     {
@@ -56,7 +56,7 @@
   "gui": [
     {
       "type": "custommachinery:texture",
-      "texture": "ragnamod_seven:textures/gui/fusion_control_computer_gui.png",
+      "texture": "ragnamod_seven:textures/gui/advanced_machine_alchemistry_gui.png",
       "x": 0,
       "y": 0
     },
@@ -66,31 +66,17 @@
       "y": 5
     },
     {
-      "type": "custommachinery:text",
-      "text": "Fusion Control Computer",
-      "x": 67,
-      "y": 5
-    },
-    {
       "type": "custommachinery:player_inventory",
       "x": 47,
       "y": 83
     },
     {
       "type": "custommachinery:progress",
-      "emptytexture": "custommachinery:textures/gui/base_progress_empty.png",
-      "filledtexture": "custommachinery:textures/gui/base_progress_filled.png",
-      "x": 92,
-      "y": 34,
+      "emptytexture": "ragnamod_seven:textures/gui/progress_empty_machine_alchemistry.png",
+      "filledtexture": "ragnamod_seven:textures/gui/progress_filled_machine_alchemistry.png",
+      "x": 114,
+      "y": 37,
       "direction": "right"
-    },
-    {
-      "type": "custommachinery:progress",
-      "emptytexture": "ragnamod_seven:textures/gui/base_progress_empty_left.png",
-      "filledtexture": "ragnamod_seven:textures/gui/base_progress_filled_left.png",
-      "x": 140,
-      "y": 34,
-      "direction": "left"
     },
     {
       "type": "custommachinery:energy",
@@ -101,25 +87,23 @@
     },
     {
       "type": "custommachinery:slot",
-      "id": "in_left",
-      "x": 71,
-      "y": 33
+      "id": "in_1",
+      "x": 83,
+      "y": 19
     },
     {
       "type": "custommachinery:slot",
-      "id": "in_right",
-      "x": 167,
-      "y": 33
+      "id": "in_2",
+      "x": 83,
+      "y": 47
     },
     {
       "type": "custommachinery:slot",
       "id": "out",
-      "x": 119,
+      "x": 155,
       "y": 33
     }
   ],
   "jei": [],
-  "catalysts": [
-    "ragnamod_7:fusion_control_computer_alt"
-  ]
+  "catalysts": []
 }

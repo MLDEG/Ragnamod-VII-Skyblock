@@ -1,0 +1,8 @@
+{
+   "loader": "fusion:model",
+   "type": "connecting",
+   "parent": "block/cube_all",
+   "textures": {
+      "all": "ragnamod_seven:block/advanced_reactor_casing"
+   }
+}

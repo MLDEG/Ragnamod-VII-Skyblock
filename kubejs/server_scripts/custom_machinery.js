@@ -3102,4 +3102,249 @@ onEvent('recipes', e => {
       }
     ]
   })
+
+  //Advanced Fusion
+  var elements = [null,
+    'hydrogen', 'helium', 'lithium', 'beryllium', 'boron', 'carbon', 'nitrogen', 'oxygen', 'fluorine', 'neon',
+    'sodium', 'magnesium', 'aluminum', 'silicon', 'phosphorus', 'sulfur', 'chlorine', 'argon', 'potassium', 'calcium',
+    'scandium', 'titanium', 'vanadium', 'chromium', 'manganese', 'iron', 'cobalt', 'nickel', 'copper', 'zinc',
+    'gallium', 'germanium', 'arsenic', 'selenium', 'bromine', 'krypton', 'rubidium', 'strontium', 'yttrium', 'zirconium',
+    'niobium', 'molybdenum', 'technetium', 'ruthenium', 'rhodium', 'palladium', 'silver', 'cadmium', 'indium', 'tin',
+    'antimony', 'tellurium', 'iodine', 'xenon', 'cesium', 'barium', 'lanthanum', 'cerium', 'praseodymium', 'neodymium',
+    'promethium', 'samarium', 'europium', 'gadolinium', 'terbium', 'dysprosium', 'holmium', 'erbium', 'thulium', 'ytterbium',
+    'lutetium', 'hafnium', 'tantalum', 'tungsten', 'rhenium', 'osmium', 'iridium', 'platinum', 'gold', 'mercury',
+    'thallium', 'lead', 'bismuth', 'polonium', 'astatine', 'radon', 'francium', 'radium', 'actinium', 'thorium',
+    'protactinium', 'uranium', 'neptunium', 'plutonium', 'americium', 'curium', 'berkelium', 'californium', 'einsteinium', 'fermium',
+    'mendelevium', 'nobelium', 'lawrencium', 'rutherfordium', 'dubnium', 'seaborgium', 'bohrium', 'hassium', 'meitnerium', 'darmstadtium',
+    'roentgenium', 'copernicium', 'nihonium', 'flerovium', 'moscovium', 'livermorium', 'tennessine', 'oganesson'
+  ], i = 1, j = 1, l = elements.length;
+
+  for (; i < l - 1; i++)
+    for (let j = 1; j < l - i; j++)
+      e.custom({
+        "type": "custommachinery:custom_machine",
+        "machine": "ragnamod_7:advanced_fusion_chamber_controller",
+        "time": 4,
+        "error": false,
+        "requirements": [
+          {
+            "type": "custommachinery:energy",
+            "mode": "input",
+            "amount": 10000
+          },
+          {
+            "type": "custommachinery:item",
+            "mode": "input",
+            "item": 'chemlib:' + elements[i],
+            "amount": 1
+          },
+          {
+            "type": "custommachinery:item",
+            "mode": "input",
+            "item": 'chemlib:' + elements[j],
+            "amount": 1
+          },
+          {
+            "type": "custommachinery:item",
+            "mode": "output",
+            "item": 'chemlib:' + elements[i + j],
+            "amount": 1
+          },
+          {
+            "type": "custommachinery:structure",
+            "keys": {
+              "a": "ragnamod_seven:advanced_reactor_casing",
+              "b": "ragnamod_seven:advanced_reactor_glass",
+              "c": "alchemistry:fusion_core"
+            },
+            "pattern": [
+              ["aaaaa", "aaaaa", "aaaaa", "aaaaa", "aamaa"],
+              ["abbba", "b   b", "b c b", "b   b", "abbba"],
+              ["abbba", "b   b", "b c b", "b   b", "abbba"],
+              ["abbba", "b   b", "b c b", "b   b", "abbba"],
+              ["aaaaa", "aaaaa", "aaaaa", "aaaaa", "aaaaa"]
+            ]
+          }
+
+        ]
+      });
+
+  //Advanced Fission
+  function fission(input, output1, output2) {
+    e.custom({
+      "type": "custommachinery:custom_machine",
+      "machine": "ragnamod_7:advanced_fission_chamber_controller",
+      "time": 4,
+      "error": false,
+      "requirements": [
+        {
+          "type": "custommachinery:energy",
+          "mode": "input",
+          "amount": 10000
+        },
+        {
+          "type": "custommachinery:item",
+          "mode": "input",
+          "item": 'chemlib:' + input,
+          "amount": 1
+        },
+        {
+          "type": "custommachinery:item",
+          "mode": "output",
+          "item": 'chemlib:' + output1,
+          "amount": 1
+        },
+        {
+          "type": "custommachinery:item",
+          "mode": "output",
+          "item": 'chemlib:' + output2,
+          "amount": 1
+        },
+        {
+          "type": "custommachinery:structure",
+          "keys": {
+            "a": "ragnamod_seven:advanced_reactor_casing",
+            "b": "ragnamod_seven:advanced_reactor_glass",
+            "c": "alchemistry:fission_core"
+          },
+          "pattern": [
+            ["aaaaa", "aaaaa", "aaaaa", "aaaaa", "aamaa"],
+            ["abbba", "b   b", "b c b", "b   b", "abbba"],
+            ["abbba", "b   b", "b c b", "b   b", "abbba"],
+            ["abbba", "b   b", "b c b", "b   b", "abbba"],
+            ["aaaaa", "aaaaa", "aaaaa", "aaaaa", "aaaaa"]
+          ]
+        }
+
+      ]
+    });
+  }
+  fission('actinium', 'rhodium', 'ruthenium')
+  fission('aluminum', 'nitrogen', 'carbon')
+  fission('americium', 'cadmium', 'silver')
+  fission('antimony', 'iron', 'manganese')
+  fission('argon', 'fluorine', 'fluorine')
+  fission('arsenic', 'chlorine', 'sulfur')
+  fission('astatine', 'technetium', 'molybdenum')
+  fission('barium', 'nickel', 'nickel')
+  fission('berkelium', 'indium', 'cadmium')
+  fission('beryllium', 'helium', 'helium')
+  fission('bismuth', 'molybdenum', 'niobium')
+  fission('bohrium', 'xenon', 'iodine')
+  fission('boron', 'lithium', 'helium')
+  fission('bromine', 'argon', 'chlorine')
+  fission('cadmium', 'chromium', 'chromium')
+  fission('calcium', 'neon', 'neon')
+  fission('californium', 'indium', 'indium')
+  fission('carbon', 'lithium', 'lithium')
+  fission('cerium', 'copper', 'copper')
+  fission('cesium', 'nickel', 'cobalt')
+  fission('chlorine', 'fluorine', 'oxygen')
+  fission('chromium', 'magnesium', 'magnesium')
+  fission('cobalt', 'silicon', 'aluminum')
+  fission('copernicium', 'barium', 'barium')
+  fission('copper', 'phosphorus', 'silicon')
+  fission('curium', 'cadmium', 'cadmium')
+  fission('darmstadtium', 'cesium', 'cesium')
+  fission('dubnium', 'iodine', 'tellurium')
+  fission('dysprosium', 'arsenic', 'arsenic')
+  fission('einsteinium', 'tin', 'indium')
+  fission('erbium', 'selenium', 'selenium')
+  fission('europium', 'germanium', 'gallium')
+  fission('fermium', 'tin', 'tin')
+  fission('flerovium', 'lanthanum', 'lanthanum')
+  fission('fluorine', 'boron', 'beryllium')
+  fission('francium', 'ruthenium', 'technetium')
+  fission('gadolinium', 'germanium', 'germanium')
+  fission('gallium', 'sulfur', 'phosphorus')
+  fission('germanium', 'sulfur', 'sulfur')
+  fission('gold', 'zirconium', 'yttrium')
+  fission('hafnium', 'krypton', 'krypton')
+  fission('hassium', 'xenon', 'xenon')
+  fission('helium', 'hydrogen', 'hydrogen')
+  fission('holmium', 'selenium', 'arsenic')
+  fission('indium', 'manganese', 'chromium')
+  fission('iodine', 'cobalt', 'iron')
+  fission('iridium', 'yttrium', 'strontium')
+  fission('iron', 'aluminum', 'aluminum')
+  fission('krypton', 'argon', 'argon')
+  fission('lanthanum', 'copper', 'nickel')
+  fission('lawrencium', 'tellurium', 'antimony')
+  fission('lead', 'niobium', 'niobium')
+  fission('lithium', 'helium', 'hydrogen')
+  fission('livermorium', 'cerium', 'cerium')
+  fission('lutetium', 'krypton', 'bromine')
+  fission('magnesium', 'carbon', 'carbon')
+  fission('manganese', 'aluminum', 'magnesium')
+  fission('meitnerium', 'cesium', 'xenon')
+  fission('mendelevium', 'antimony', 'tin')
+  fission('mercury', 'zirconium', 'zirconium')
+  fission('molybdenum', 'scandium', 'scandium')
+  fission('moscovium', 'cerium', 'lanthanum')
+  fission('neodymium', 'zinc', 'zinc')
+  fission('neon', 'boron', 'boron')
+  fission('neptunium', 'silver', 'palladium')
+  fission('nickel', 'silicon', 'silicon')
+  fission('nihonium', 'lanthanum', 'barium')
+  fission('niobium', 'scandium', 'calcium')
+  fission('nitrogen', 'beryllium', 'lithium')
+  fission('nobelium', 'antimony', 'antimony')
+  fission('oganesson', 'praseodymium', 'praseodymium')
+  fission('osmium', 'strontium', 'strontium')
+  fission('oxygen', 'beryllium', 'beryllium')
+  fission('palladium', 'vanadium', 'vanadium')
+  fission('phosphorus', 'oxygen', 'nitrogen')
+  fission('platinum', 'yttrium', 'yttrium')
+  fission('plutonium', 'silver', 'silver')
+  fission('polonium', 'molybdenum', 'molybdenum')
+  fission('potassium', 'neon', 'fluorine')
+  fission('praseodymium', 'zinc', 'copper')
+  fission('promethium', 'gallium', 'zinc')
+  fission('protactinium', 'palladium', 'rhodium')
+  fission('radium', 'ruthenium', 'ruthenium')
+  fission('radon', 'technetium', 'technetium')
+  fission('rhenium', 'strontium', 'rubidium')
+  fission('rhodium', 'vanadium', 'titanium')
+  fission('roentgenium', 'barium', 'cesium')
+  fission('rubidium', 'potassium', 'argon')
+  fission('ruthenium', 'titanium', 'titanium')
+  fission('rutherfordium', 'tellurium', 'tellurium')
+  fission('samarium', 'gallium', 'gallium')
+  fission('scandium', 'sodium', 'neon')
+  fission('seaborgium', 'iodine', 'iodine')
+  fission('selenium', 'chlorine', 'chlorine')
+  fission('silicon', 'nitrogen', 'nitrogen')
+  fission('silver', 'chromium', 'vanadium')
+  fission('sodium', 'carbon', 'boron')
+  fission('strontium', 'potassium', 'potassium')
+  fission('sulfur', 'oxygen', 'oxygen')
+  fission('tantalum', 'rubidium', 'krypton')
+  fission('technetium', 'titanium', 'scandium')
+  fission('tellurium', 'iron', 'iron')
+  fission('tennessine', 'praseodymium', 'cerium')
+  fission('terbium', 'arsenic', 'germanium')
+  fission('thallium', 'niobium', 'zirconium')
+  fission('thorium', 'rhodium', 'rhodium')
+  fission('thulium', 'bromine', 'selenium')
+  fission('tin', 'manganese', 'manganese')
+  fission('titanium', 'sodium', 'sodium')
+  fission('tungsten', 'rubidium', 'rubidium')
+  fission('uranium', 'palladium', 'palladium')
+  fission('vanadium', 'magnesium', 'sodium')
+  fission('xenon', 'cobalt', 'cobalt')
+  fission('ytterbium', 'bromine', 'bromine')
+  fission('yttrium', 'calcium', 'potassium')
+  fission('zinc', 'phosphorus', 'phosphorus')
+  fission('zirconium', 'calcium', 'calcium')
+
+
+  //Advanced Fission Chamber Controller
+  e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:advanced_fission_chamber_controller"}'),
+    ['ABA', 'BCB', 'ABA'],
+    { A: 'ragnamod_seven:advanced_reactor_glass', B: 'ragnamod_seven:advanced_reactor_casing', C: 'alchemistry:fission_chamber_controller' })
+  //Advanced Fusion Chamber Controller
+  e.shaped(Item.of('custommachinery:custom_machine_item', '{machine:"ragnamod_7:advanced_fusion_chamber_controller"}'),
+    ['ABA', 'BCB', 'ABA'],
+    { A: 'ragnamod_seven:advanced_reactor_glass', B: 'ragnamod_seven:advanced_reactor_casing', C: 'alchemistry:fusion_chamber_controller' })
+
 })

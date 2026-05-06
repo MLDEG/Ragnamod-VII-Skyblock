@@ -8401,6 +8401,118 @@
 				random_bonus: 3
 			}]
 		}
+		{
+			title: "Advanced Fusion Multiblock"
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "ragnamod_7:advanced_fusion_chamber_controller"
+				}
+			}
+			x: -6.0d
+			y: 0.0d
+			shape: "gear"
+			description: [
+				"The Advanced Fusion Multiblock works exactly the same way as its classic version, except that this one crafts in 4 ticks!"
+				"{image:ftbquests:textures/quests/alchemistry_advanced_fusion.png width:150 height:100 align:1}"
+			]
+			dependencies: ["49D3E191FDBAB0E2"]
+			size: 2.0d
+			id: "28272417331B1FF0"
+			tasks: [
+				{
+					id: "0BCE654A712A9BC2"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "ragnamod_7:advanced_fusion_chamber_controller"
+						}
+					}
+				}
+				{
+					id: "627BD7A0507B91F3"
+					type: "item"
+					item: "alchemistry:fusion_core"
+					count: 3L
+				}
+				{
+					id: "29916D1059357D38"
+					type: "item"
+					item: "ragnamod_seven:advanced_reactor_casing"
+				}
+				{
+					id: "3FC8426F96E3E198"
+					type: "item"
+					item: "ragnamod_seven:advanced_reactor_glass"
+				}
+			]
+			rewards: [{
+				id: "7224FAA46C6C2332"
+				type: "item"
+				item: "ragnamod_seven:advanced_reactor_casing"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "Advanced Fission Multiblock"
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "ragnamod_7:advanced_fission_chamber_controller"
+				}
+			}
+			x: 3.0d
+			y: 0.0d
+			shape: "gear"
+			description: [
+				"The Advanced Fission Multiblock works exactly the same way as its classic version, except that this one crafts in 4 ticks!"
+				"{image:ftbquests:textures/quests/alchemistry_advanced_fission.png width:150 height:100 align:1}"
+			]
+			dependencies: ["75286F7DEE67DEB1"]
+			size: 2.0d
+			id: "08C48BDCEEDA12F1"
+			tasks: [
+				{
+					id: "4B633919C12BFA9F"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "ragnamod_7:advanced_fission_chamber_controller"
+						}
+					}
+				}
+				{
+					id: "468D2C08E36CC391"
+					type: "item"
+					item: "alchemistry:fission_core"
+					count: 3L
+				}
+				{
+					id: "1E65B5B64807857B"
+					type: "item"
+					item: "ragnamod_seven:advanced_reactor_casing"
+				}
+				{
+					id: "50420494EABD4CC9"
+					type: "item"
+					item: "ragnamod_seven:advanced_reactor_glass"
+				}
+			]
+			rewards: [{
+				id: "32B0183731575937"
+				type: "item"
+				item: "ragnamod_seven:advanced_reactor_casing"
+				count: 8
+				random_bonus: 8
+			}]
+		}
 	]
 	quest_links: [ ]
 }
