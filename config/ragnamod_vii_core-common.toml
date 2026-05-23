@@ -3,3 +3,13 @@
 	#Entity types that the Golden Lasso cannot capture or release. Use registry IDs like "minecraft:player".
 	blacklist = ["minecraft:player"]
 
+[pipez_backoff]
+	#Enable exponential backoff for Pipez item/fluid/energy pipes that fail to transfer. Massively reduces tick cost on idle networks with Infinity upgrades.
+	enabled = true
+	#Initial backoff delay in ticks after the first failed transfer attempt.
+	#Range: 1 ~ 1200
+	baseBackoffTicks = 2
+	#Maximum backoff delay in ticks. The delay doubles after each failure up to this cap.
+	#Range: 1 ~ 1200
+	maxBackoffTicks = 32
+
