@@ -3117,10 +3117,10 @@ onEvent('recipes', e => {
     'protactinium', 'uranium', 'neptunium', 'plutonium', 'americium', 'curium', 'berkelium', 'californium', 'einsteinium', 'fermium',
     'mendelevium', 'nobelium', 'lawrencium', 'rutherfordium', 'dubnium', 'seaborgium', 'bohrium', 'hassium', 'meitnerium', 'darmstadtium',
     'roentgenium', 'copernicium', 'nihonium', 'flerovium', 'moscovium', 'livermorium', 'tennessine', 'oganesson'
-  ], i = 1, j = 1, l = elements.length;
+  ], l = elements.length;
 
-  for (; i < l - 1; i++)
-    for (let j = 1; j < l - i; j++)
+  for (let i = 1; i < l - 1; i++)
+    for (let j = i; j < l - i; j++)
       e.custom({
         "type": "custommachinery:custom_machine",
         "machine": "ragnamod_7:advanced_fusion_chamber_controller",
@@ -3136,13 +3136,15 @@ onEvent('recipes', e => {
             "type": "custommachinery:item",
             "mode": "input",
             "item": 'chemlib:' + elements[i],
-            "amount": 1
+            "amount": 1,
+            "slot": "in_1"
           },
           {
             "type": "custommachinery:item",
             "mode": "input",
             "item": 'chemlib:' + elements[j],
-            "amount": 1
+            "amount": 1,
+            "slot": "in_2"
           },
           {
             "type": "custommachinery:item",
@@ -3167,7 +3169,7 @@ onEvent('recipes', e => {
           }
 
         ]
-      });
+      }).id(`ragnamod_seven:advanced_fusion_of_${i}_and_${j}_in_${i + j}`);;
 
   //Advanced Fission
   function fission(input, output1, output2) {
