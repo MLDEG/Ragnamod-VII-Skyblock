@@ -24,4 +24,10 @@ onEvent('item.registry.tool_tiers', event => {
     tier.enchantmentValue = 20
     tier.repairIngredient = 'kubejs:horsmen_ingot'
   })
+
+  onEvent('item.modification', e => {
+    e.modify('miniutilities:golden_lasso', item => {
+      item.maxStackSize = 1
+    })
+  })
 })
