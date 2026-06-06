@@ -646,6 +646,9 @@ onEvent('recipes', e => {
   e.shaped('minecraft:elytra', ['ABA', 'C C', 'C C'], { A: 'forbidden_arcanus:bat_wing', B: 'rootsclassic:charged_runic_focus', C: 'forbidden_arcanus:silver_dragon_scale' })
   //Honeycomb
   e.shapeless('4x minecraft:honeycomb', 'minecraft:honeycomb_block')
+  //Compressed Soul Steel Block
+  e.shapeless('9x spirit:soul_steel_block', 'ragnamod_seven:compressed_soul_steel_block')
+  e.shapeless('ragnamod_seven:compressed_soul_steel_block', '9x spirit:soul_steel_block')
   //Advanced Reactor Casing
   e.shaped('ragnamod_seven:advanced_reactor_casing', ['ABA', 'BCB', 'ABA'], { A: 'chemlib:rhenium_ingot', B: 'cataclysm:witherite_ingot', C: 'alchemistry:reactor_casing' })
 })

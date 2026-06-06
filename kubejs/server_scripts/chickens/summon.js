@@ -253,5 +253,6 @@ onEvent('recipes', e => {
     summonChicken('forbidden_arcanus:stellarite_piece', 'forbidden_arcanus:stellarite_block', 'stellarite')
     summonChicken('ae2:sky_dust', 'ae2:sky_stone_block', 'sky_stone')
     summonChicken('miniutilities:blue_lapis_caelestis', 'miniutilities:blue_lapis_caelestis', 'zepronounours2mc')
+    summonChicken('ragnamod_seven:compressed_soul_steel_block', 'ragnamod_seven:compressed_soul_steel_block', 'juju80233')
     e.smelting('minecraft:cooked_chicken', '#chickens:chickens')
 })
