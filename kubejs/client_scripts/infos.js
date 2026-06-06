@@ -15,4 +15,5 @@ onEvent('jei.information', e => {
     e.add('farmersdelight:stuffed_pumpkin', ['You need to place the Stuffed Pumpkin in the world and then right-click on it with a bowl.'])
     e.add('endersdelight:stuffed_shulker_bowl', ['You need to place the Stuffed Shulker in the world and then right-click on it with a bowl.'])
     e.add('mysticalagriculture:prosperity_shard', ['Craft first with Malum then use Create to duplicate it.'])
+    e.add('avaritia:extreme_crafting_table', ['This Avaritia table is not used for crafting, use the Custom Machinery table instead.', 'If this table is in the pack, it\'s only to facilitate encoding crafting recipe with PackagedAuto (with the "+" button).'])
 })

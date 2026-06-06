@@ -94,4 +94,9 @@ onEvent('item.tooltip', tooltip => {
 		text.add(1, Text.of('§5§oOne of a kind'))
 		text.add(2, Text.of('§4Don\'t break me :('))
 	})
+	//Avaritia Extreme Crafting Table
+	tooltip.addAdvanced('avaritia:extreme_crafting_table', (item, advanced, text) => {
+		text.add(1, Text.of('§cThis table is depleted'))
+		text.add(2, Text.of('§3Use the one from Custom Machinery'))
+	})
 })
