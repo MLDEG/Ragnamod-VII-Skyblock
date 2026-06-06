@@ -2129,7 +2129,7 @@
 			y: 6.75d
 			shape: "octagon"
 			description: [
-				"Here is the procedure to follow to obtain the Shub Niggurath Faliliar."
+				"Here is the procedure to follow to obtain the Shub Niggurath Familiar."
 				"{image:ftbquests:textures/quests/shub_niggurath.png width:150 height:100 align:1}"
 				"You must first summon the Chimera Familiar."
 				""
