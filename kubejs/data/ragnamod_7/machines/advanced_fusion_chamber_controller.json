@@ -40,14 +40,12 @@
     {
       "type": "custommachinery:item",
       "id": "in_1",
-      "mode": "input",
-      "capacity": 1
+      "mode": "input"
     },
     {
       "type": "custommachinery:item",
       "id": "in_2",
-      "mode": "input",
-      "capacity": 1
+      "mode": "input"
     },
     {
       "type": "custommachinery:item",
