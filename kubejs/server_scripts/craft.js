@@ -651,4 +651,8 @@ onEvent('recipes', e => {
   e.shapeless('ragnamod_seven:compressed_soul_steel_block', '9x spirit:soul_steel_block')
   //Advanced Reactor Casing
   e.shaped('ragnamod_seven:advanced_reactor_casing', ['ABA', 'BCB', 'ABA'], { A: 'chemlib:rhenium_ingot', B: 'cataclysm:witherite_ingot', C: 'alchemistry:reactor_casing' })
+  //Green Rune
+  e.shaped('quark:green_rune', ['AAA', 'ABA', 'AAA'], { A: 'quark:green_corundum', B: '#balm:stones' })
+  //Ash
+  e.smoking('supplementaries:ash', '#minecraft:planks')
 })

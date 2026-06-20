@@ -957,7 +957,8 @@ onEvent('recipes', e => {
         'mysticalagriculture:essence/common/silver_ingot',
         'mysticalagriculture:essence/common/titanium_ingot',
         'mysticalagriculture:essence/common/tungsten_ingot',
-        'create:crafting/kinetics/wrench'
+        'create:crafting/kinetics/wrench',
+        'quark:tools/crafting/runes/lime_rune_from_corundum'
     ]
     removeId.forEach(C => { r(C) })
 })

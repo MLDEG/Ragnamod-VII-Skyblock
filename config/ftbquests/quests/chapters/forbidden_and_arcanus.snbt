@@ -223,7 +223,16 @@
 			x: 7.5d
 			y: -1.0d
 			shape: "square"
-			description: ["Collect a Soul from a soul sand using the Soul Extractor."]
+			description: [
+				"Collect a Soul from a soul sand using the Soul Extractor."
+				""
+				"You can automate soul production using create."
+				"Follow the example below."
+				"{image:ftbquests:textures/quests/souls_production.png width:150 height:100 align:1}"
+				"One Deployer, one Sticky Mechanical Piston, two Piston Extension Poles, and one Sequenced Gearshift with the configurations given below."
+				"{image:ftbquests:textures/quests/souls_production2.png width:150 height:100 align:1}"
+				"For the rest, make sure to automate placing the soul sand, breaking the soulless sand and collecting the souls with an item collector."
+			]
 			dependencies: [
 				"00000000000005FC"
 				"49566F6C3DE4A0A0"
