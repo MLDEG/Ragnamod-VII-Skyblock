@@ -1230,7 +1230,7 @@
 		{
 			x: 20.0d
 			y: -1.0d
-			description: ["The Forgotten Nuigget is dropped by powerful guardians in the Undergarden labyrinths."]
+			description: ["The Forgotten Nugget is dropped by powerful guardians in the Undergarden labyrinths."]
 			dependencies: ["5343C67CDE16FF10"]
 			id: "762AFA20FF94248D"
 			tasks: [{
